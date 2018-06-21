@@ -348,6 +348,34 @@
 #' @note 36-202 Lab 5 Data.
 "hospital"
 
+#' Houses
+#' @name Houses
+#' @docType data
+#' @description Based on recent data, a variety of variables on regional houses
+#' are available.
+#' @format A dataframe with 30 rows and 6 columns.
+#' \describe{
+#'   \item{\code{Price}}{The most recent list price of the home in thousands of
+#'   U.S. dollars.}
+#'   \item{\code{Area}}{The area of the home in hundreds of square feet.}
+#'   \item{\code{Location}}{The general neighborhood of the home: \itemize{
+#'     \item{\code{suburbs}}
+#'     \item{\code{city}}
+#'     \item{\code{exurb}}{Neither a suburb not a city.}
+#'     }
+#'   }
+#'   \item{\code{dum.loc1}}{One of two dummy variables for coding location.}
+#'   \item{\code{dum.loc2}}{The second dummy variable for coding location.}
+#' }
+#' @usage data("houses")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note Description and most variable text from Gordon Weinberg.
+#' @note Changed variables names to a single, uppercase word.
+#' @note 36-202 Data.
+#' @note Obtained from the Spring 2016 edition of 36-202.
+"houses"
+
 #' Mammals
 #' @name Mammals
 #' @docType data
