@@ -1,7 +1,6 @@
 Package: R202
 Title: Necessary Packages and Data for 36-202 at Carnegie Mellon University
 Version: 0.1.0
-Maintainer: Frank Kovacs <fkovacs@andrew.cmu.edu>
 Authors@R: c(person(given="Frank", family="Kovacs", 
   role=c("aut", "cre"), email="fkovacs@stat.cmu.edu"))
 Maintainer: Frank Kovacs <fkovacs@andrew.cmu.edu>
@@ -20,7 +19,10 @@ Imports:
   gridExtra,
   nlme,
   multcomp,
-  ggplot2
+  ggplot2,
+  rjson,
+  magrittr,
+  readr
 Depends: R (>= 3.2.0), 
 License: GPL-2
 Encoding: UTF-8
