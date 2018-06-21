@@ -119,6 +119,26 @@
 #' @note 36-202 Homework Data.
 "detergent"
 
+#' New York City Housing
+#' @name nyc
+#' @docType data
+#' @description Data from  the New York City Housing and Vacancy Survey to understand housing conditions.
+#' @format A dataframe with 339 rows and 3 columns.
+#' \describe{
+#'   \item{\code{Income}}{Total household income in USD.}
+#'   \item{\code{Gender}}{Respondent's self-reported gender identity: \itemize{
+#'     \item{\code{1}}{Female}
+#'     \item{\code{2}}{Male}
+#'     }}
+#'   \item{\code{Gender}}{Respondent's categorical self-assesment of health status. Higher values indicate a more healthy individual.}
+#' }
+#' @usage data("nyc")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note Project 2 data.
+"nyc"
+
+
 #' Offer
 #' @name Offer
 #' @docType data
