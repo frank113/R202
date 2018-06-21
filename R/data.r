@@ -14,6 +14,21 @@
 #' @note Initially used in 36-200.
 "Airlines"
 
+#' Bikes
+#' @name Bikes
+#' @docType data
+#' @description A dataset information about bicycle rentals for days in the years 2011 and 2012.
+#' @format A dataframe with 951 rows and 3 columns.
+#' \describe{
+#' 	 \item{\code{Day}}{The day of the week of the day.}
+#' 	 \item{\code{Weather}}{The type of weather on that day. Coded with respect to the following values: 1 = clear, few clouds, partly cloudy, 2 = mist & cloudy, mist & broken clouds, mist & few clouds, mist, 3 = light snow, light rain & Thunderstorm & scattered clouds, light rain & scattered clouds, 4 = heavy rain & ice pellets & thunderstorm & mist, snow & fog}
+#' 	 \item{\code{Casual}}{The number of casual bike users}
+#' }
+#' @usage data("bikes")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+"Bikes"
+
 #' Depression
 #' @name Depression
 #' @docType data
