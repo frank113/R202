@@ -57,3 +57,39 @@
 #' @usage data("detergent")
 #' @note 36-202 Homework Data.
 "Detergent"
+
+#' Offer
+#' @name Offer
+#' @docType data
+#' @description Data from a consumer advocacy organization concerning the amount of
+#' money offered by dealerships for used cars as a function of the seller's age and
+#' gender.
+#' @author Gordon Weinberg \email{gordonw@stat.cmu.edu}
+#' @format A dataframe with 36 rows and 3 columns.
+#' \describe{
+#'   \item{\code{Offer}}{Amount offered in hundreds of dollars.}
+#'   \item{\code{Age}}{The age category of the seller: \itemize{
+#'     \item{\code{1}}{Young}
+#'     \item{\code{2}}{Middle-Aged}
+#'     \item{\code{3}}{Elderly}
+#'     }}
+#'   \item{\code{Gender}}{\itemize{
+#'     \item{\code{M}}{Male}
+#'     \item{\code{F}}{Female}
+#'     }}
+#' }
+#' @usage data("Offer")
+#' @note 36-202 Lab Data.
+"Offer"
+
+
+
+
+
+
+
+
+
+
+
+
