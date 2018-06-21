@@ -380,6 +380,34 @@
 #' @note 36-202 Lab Data.
 "offer"
 
+#' Restaurant Data
+#' @name Restaurant
+#' @docType data
+#' @description Restaurants in the U.S. are a nearly 799 billion dollar 
+#'     industry according to the National Restaurant Association. As 
+#'     part of understanding customer needs, opinions are important for 
+#'     restaurants to measure and predict.
+#' @format A dataframe with 40 rows and 3 columns.
+#' \describe{
+#'   \item{\code{Rating}}{Dining experience on a five-point scale. Coded as follows: \itemize{
+#'       \item{\code{1}}{Terrible}
+#'       \item{\code{2}}{Below average}
+#'       \item{\code{3}}{Satisfactory}
+#'       \item{\code{4}}{Above average}
+#'       \item{\code{5}}{Excellent}
+#'     }}
+#'   \item{\code{GroupSize}}{The size of the group dining together.}
+#'   \item{\code{Wine}}{Whether or not the group ordered wine. Oen of: \itemize{
+#'       \item{\code{1}}{Yes}
+#'       \item{\code{2}}{No}
+#'    }}
+#' }
+#' @usage data("restaurant")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note 36-202 Lab 12 Data.
+"restaurant"
+
 #' Social Media
 #' @name social
 #' @docType data
