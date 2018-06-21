@@ -22,7 +22,8 @@ Imports:
   ggplot2,
   rjson,
   magrittr,
-  readr
+  readr,
+  car
 Depends: R (>= 3.2.0), 
 License: GPL-2
 Encoding: UTF-8

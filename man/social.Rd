@@ -26,7 +26,7 @@
 data("social")
 }
 \description{
-Data from \textit{Predicting the Popularity of Online News}.
+Data from Predicting the Popularity of Online News.
 }
 \note{
 The documentation does not auto-update. If one changes the base file,

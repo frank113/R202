@@ -180,7 +180,7 @@
 #'   \item{\code{Brand}}{The brand of detergent: \itemize{
 #'     \item{\code{generic}}
 #'     \item{\code{Woolite}}
-#'     \item{\codase{Tide}}
+#'     \item{\code{Tide}}
 #'     \item{\code{eco}}
 #'     \item{\code{Cheer}}
 #'     }
@@ -200,6 +200,22 @@
 #'   this documentation will no longer remain accurate.
 #' @note 36-202 Homework Data.
 "detergent"
+
+#' Flu
+#' @name Flu
+#' @docType data
+#' @title Flu shot prevelance by age.
+#' @format A dataframe with 50 rows and 2 columns.
+#' \describe{
+#'   \item{\code{Age}}{Age in years of participant.}
+#'   \item{\code{flu_shot}}{Bool. Did the participant get the flu shot?}
+#'   }
+#' @usage data("flu")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note \code{flu_shot} is not a factor.
+#' @note 36-202 Lab 10 Data.
+"flu"
 
 #' Hospital Satisfaction
 #' @name Hospital
@@ -332,7 +348,7 @@
 #' Social Media
 #' @name social
 #' @docType data
-#' @description Data from \textit{Predicting the Popularity of Online News}. 
+#' @description Data from Predicting the Popularity of Online News. 
 #' @format A dataframe with 500 rows and 3 columns.
 #' \describe{
 #'   \item{\code{shares}}{The number of shares in a social network.}

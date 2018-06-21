@@ -10,7 +10,7 @@
   \item{\code{Brand}}{The brand of detergent: \itemize{
     \item{\code{generic}}
     \item{\code{Woolite}}
-    \item{\codase{Tide}}
+    \item{\code{Tide}}
     \item{\code{eco}}
     \item{\code{Cheer}}
     }
