@@ -1,3 +1,25 @@
+#' Depression
+#' @name Depression
+#' @docType data
+#' @aliases depression
+#' @title Depression after an earthquake.
+#' @author Gordon Weinberg \email{gordonw@stat.cmu.edu}
+#' @format A dataframe with 125 rows and 3 columns.
+#' \describe{
+#'   \item{\code{Dep.Score}}{The student's depression score (higher -> more depressed)}
+#'   \item{\code{Week}}{Weeks relative to the earthquake. \itemize{
+#'     \item{-2}{Two weeks prior to the earthquake.}
+#'     \item{1}{One week after the earthquake.}
+#'     \item{4}{Four weeks after the earthquake.}
+#'     \item{7}{Seven weeks after the earthquake.}
+#'     \item{10}{Ten weeks after the earthquake.}
+#'     }}
+#'   \item{\code{Subject}}{Subject Number.}
+#' }
+#' @usage data("depression")
+#' @note 36-202 Lab Data.
+"Depression"
+
 #' Detergent
 #' @name Detergent
 #' @docType data
@@ -32,6 +54,6 @@
 #'     }
 #'   }
 #' }
-#' @usage data("Detergent")
+#' @usage data("detergent")
 #' @note 36-202 Homework Data.
 "Detergent"

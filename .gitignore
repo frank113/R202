@@ -10,3 +10,6 @@ R202.Rproj
 
 # Editor files
 .vscode/
+
+# Data generation
+R/dataLoading.r
