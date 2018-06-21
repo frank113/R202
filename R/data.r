@@ -201,6 +201,41 @@
 #' @note 36-202 Homework Data.
 "detergent"
 
+#' Disease Data
+#' @name Disease
+#' @docType data
+#' @description In a health study to investigate an epidemic outbreak of a 
+#'     disease that is spread by mosquitoes, individuals are randomly sampled 
+#'     within two sectors in a city to determine if the person had recently 
+#'     contracted the disease under study. This was ascertained by the 
+#'     interviewer, who asked pertinent questions to assess whether certain 
+#'     specific symptoms associated with the disease were present during the 
+#'     specified period.
+#' @format A dataframe with 196 rows and 4 columns.
+#' \describe{
+#'   \item{\code{disease_status}}{Indicator of whether the disease is present. 
+#'       Coded as: \itemize{
+#'         \item{\code{1}}{Disease is present}
+#'         \item{\code{2}}{Disease is absent}
+#'      }
+#'   }
+#'   \item{\code{age}}{Age in years.}
+#'   \item{\code{ses}}{Socio-economic status of household. One of: \itemize{
+#'      \item{\code{upper}}
+#'      \item{\code{middle}}
+#'      \item{\code{lower}}
+#'   }}
+#'   \item{\code{sector}}{The sector within the city. One of: \itemize{
+#'      \item{\code{sector1}}
+#'      \item{\code{sector2}}
+#'   }}
+#' }
+#' @usage data("disease")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note 36-202 Lab 11 Data.
+"disease"
+
 #' Flu
 #' @name Flu
 #' @docType data
