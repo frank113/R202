@@ -1,3 +1,19 @@
+#' Airlines
+#' @name Airlines
+#' @docType data
+#' @description A dataset containing federally tracked data for flights. See TO-DO: INSERT INFO FUNCTION
+#' @format A dataframe with 500 rows and 3 columns.
+#' \describe{
+#'	 \item{\code{DayofWeek}}{Day of the week (1 = Monday; 7 = Sunday)}
+#'	 \item{\code{ArrDelay}}{Arrival delay in minutes (negative means an early arrival)}
+#'	 \item{\code{LateAircraft}}{Was there a delay due to a late aircraft? 1 = Yes 0 = No}
+#' }
+#' @usage data("airlines")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note Initially used in 36-200.
+"Airlines"
+
 #' Depression
 #' @name Depression
 #' @docType data
