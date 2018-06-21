@@ -142,6 +142,29 @@
 #' @note 36-202 Homework Data.
 "detergent"
 
+#' Hospital Satisfaction
+#' @name Hospital
+#' @docType data
+#' @aliases satisfaction
+#' @title Patient Satisfaction with Hospitals.
+#' @format A dataframe with 23 rows and 5 columns.
+#' \describe{
+#'   \item{\code{Satisfaction}}{Measured on a satisfaction
+#'   index with larger values representing higher satisfaction.}
+#'   \item{\code{Age}}{Age in years of each patient.}
+#'   \item{\code{Severity}}{The severity of illness measured by an index.}
+#'   \item{\code{Anxiety}}{The anxiety level of a patient done on a scale.}
+#'   \item{\code{Gender}}{\itemize{
+#'     \item{0}{Male}
+#'     \item{1}{Female}}
+#'     }
+#' }
+#' @usage data("hospital")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note 36-202 Lab 5 Data.
+"hospital"
+
 #' Mammals
 #' @name Mammals
 #' @docType data
