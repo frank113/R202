@@ -12,4 +12,5 @@ R202.Rproj
 .vscode/
 
 # Data generation
-R/dataLoading.r
+*.xlsx
+*.json
