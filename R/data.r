@@ -119,7 +119,7 @@
 #' @author Gordon Weinberg \email{gordonw@stat.cmu.edu}
 #' @format A dataframe with 125 rows and 3 columns.
 #' \describe{
-#'   \item{\code{Dep.Score}}{The student's depression score (higher -> more depressed)}
+#'   \item{\code{Dep_Score}}{The student's depression score (higher -> more depressed)}
 #'   \item{\code{Week}}{Weeks relative to the earthquake. \itemize{
 #'     \item{-2}{Two weeks prior to the earthquake.}
 #'     \item{1}{One week after the earthquake.}
