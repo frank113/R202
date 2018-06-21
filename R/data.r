@@ -216,6 +216,26 @@
 #' @note 36-202 Lab Data.
 "mammals"
 
+#' Mum
+#' @name Mum
+#' @docType data
+#' @title Mum and Undesirable Messages
+#' @format A dataframe with 40 rows and 3 columns.
+#' \describe{
+#'   \item{\code{Time}}{Latency Feedback in seconds.}
+#'   \item{\code{Visibility}}{Boolean. Whether is it visible or not. One of: \itemize{
+#'     \item{\code{Visibl}}{Visible}
+#'     \item{\code{NotVis}}{Not Visible}
+#'     }}
+#'   \item{\code{TestResult}}{Boolean. Whether the test was a success or not. One of \itemize{
+#'     \item{\code{Success}}{Success}
+#'     \item{\code{Failure}}{Failure}
+#'   }}
+#'   }
+#' @usage data("mum")
+#' @note 36-202 Lab 7 Data.
+"mum"
+
 #' New York City Housing
 #' @name nyc
 #' @docType data
