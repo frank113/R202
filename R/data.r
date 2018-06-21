@@ -138,6 +138,28 @@
 #' @note Project 2 data.
 "nyc"
 
+#' Nutrition Data
+#' @name nutrition
+#' @docType data
+#' @description Data from the United States Department of Agriculture's Natoinal
+#'     Nutrient Database for Standard Reference. The data given was collected during a one-week interval in 2017.
+#' @format A dataframe with 340 rows and 3 columns.
+#' \describe{
+#'   \item{\code{Shrt_Desc}}{The name of the food.}
+#'   \item{\code{Energy}}{Food energy in kcal per 100 grams.}
+#'   \item{\code{Water}}{Water in grams per 100 grams of food. Itemized as follows: \itemize{
+#'     \item{\code{1}}{Between 0 and <25 grams}
+#'     \item{\code{2}}{Between 25 and <50 grams}
+#'     \item{\code{3}}{Between 50 and <75 grams}
+#'     \item{\code{4}}{Between 75 and <100 grams}
+#'     }}
+#'   \item{\code{Choles}}{Cholesterol values. Classified as \code{0} if 0mg / 100g, \code{1} otherwise.}
+#' }
+#' @usage data("nutrition")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note Project 2 data.
+"nutrition"
 
 #' Offer
 #' @name Offer
@@ -145,7 +167,6 @@
 #' @description Data from a consumer advocacy organization concerning the amount of
 #' money offered by dealerships for used cars as a function of the seller's age and
 #' gender.
-#' @author Gordon Weinberg \email{gordonw@stat.cmu.edu}
 #' @format A dataframe with 36 rows and 3 columns.
 #' \describe{
 #'   \item{\code{Offer}}{Amount offered in hundreds of dollars.}
@@ -165,6 +186,33 @@
 #' @note 36-202 Lab Data.
 "offer"
 
+#' Social Media
+#' @name social
+#' @docType data
+#' @description Data from \textit{Predicting the Popularity of Online News}. 
+#' @format A dataframe with 500 rows and 3 columns.
+#' \describe{
+#'   \item{\code{shares}}{The number of shares in a social network.}
+#'   \item{\code{videos}}{The number of videos in the article. Categories: \itemize{
+#'     \item{\code{0}}{0}
+#'     \item{\code{1}}{1}
+#'     \item{\code{2}}{>=2}
+#'     }}
+#'   \item{\code{channel}}{The type of channel. One of: \itemize{
+#'     \item{\code{Business}}{}
+#'     \item{\code{Entertainment}}{}
+#'     \item{\code{Lifestyle}}{}
+#'     \item{\code{Other}}{}
+#'     \item{\code{SocialMedia}}{}
+#'     \item{\code{Tech}}{}
+#'     \item{\code{World}}{}
+#'     }}
+#' }
+#' @usage data("social")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note Project 2 data.
+"social"
 
 
 
