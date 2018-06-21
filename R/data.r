@@ -31,6 +31,25 @@
 #' @note Project 2 data.
 "bikes"
 
+#' Colvard
+#' @name Colvard
+#' @docType data
+#' @title Test Scores for New Employees.
+#' @author Gordon Weinberg \email{gordonw@stat.cmu.edu}
+#' @format A dataframe with 120 rows and 5 columns.
+#' \describe{
+#'   \item{\code{Rating}}{The performance rating of the employee after one year at the company.}
+#'   \item{\code{TotalScore}}{The total score on the post-training test at the time of hire.}
+#'   \item{\code{SubScore1}}{Sub score of the test's first section. This measures knowledge gained in training.}
+#'   \item{\code{SubScore2}}{Sub score of the test's second section. This measures general knowledge.}
+#'   \item{\code{SubScore3}}{Sub score of the test's third section. This measures an employee's personality.}
+#'   }
+#' @usage data("colvard")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note 36-202 Lab 3 Data.
+"colvard"
+
 #' Court Cases
 #' @name Courts
 #' @docType data
