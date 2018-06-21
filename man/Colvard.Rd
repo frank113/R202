@@ -25,7 +25,4 @@ The documentation does not auto-update. If one changes the base file,
 
 36-202 Lab 3 Data.
 }
-\author{
-Gordon Weinberg \email{gordonw@stat.cmu.edu}
-}
 \keyword{datasets}

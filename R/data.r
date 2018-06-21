@@ -35,7 +35,6 @@
 #' @name Colvard
 #' @docType data
 #' @title Test Scores for New Employees.
-#' @author Gordon Weinberg \email{gordonw@stat.cmu.edu}
 #' @format A dataframe with 120 rows and 5 columns.
 #' \describe{
 #'   \item{\code{Rating}}{The performance rating of the employee after one year at the company.}
@@ -278,7 +277,21 @@
 #' @note Obtained from the Fall 2015 edition of 36-201.
 "swim"
 
-
+#' Temperature Load
+#' @name Temp
+#' @docType data
+#' @aliases temp
+#' @title Power Load by High Temperature
+#' @format A dataframe with 25 rows and 2 columns.
+#' \describe{
+#'   \item{\code{temp}}{The daily high temperature recorded for the company.}
+#'   \item{\code{load}}{The corresponding daily peak power load.}
+#'   }
+#' @usage data("temp")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note 36-202 Lab 3 Data.
+"temp"
 
 
 
