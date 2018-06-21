@@ -69,6 +69,32 @@
 #' @note Project 2 data.
 "bikes"
 
+#' Calculator Testing
+#' @name Calculator
+#' @docType data
+#' @aliases calculator, problem
+#' @title Problem scores when using a new calculator for an assesment
+#'    given to six engineers at a large company. One assesment (two tests) were
+#'    given to each employee with the old calculator and new calculators.
+#' @format A dataframe with 24 rows and 4 columns.
+#' \describe{
+#'   \item{\code{times}}{The time taken to complete the problem.}
+#'   \item{\code{problem}}{The type of problem being tested. One of: \itemize{
+#'     \item{\code{statistical}}{A statistical question.}
+#'     \item{\code{engineering}}{An eningeering question.}
+#'     }}
+#'   \item{\code{model}}{The model of calculator used during the assesment. One of: \itemize{
+#'     \item{\code{new}}{Indicates use of the newer calculator model.}
+#'     \item{\code{early}}{Indicates use of the older calculator model. }
+#'     }}
+#'   \item{\code{person}}{The person taking the assesment.}
+#' }
+#' @usage data("calculators")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note 36-202 Lab 8 Data.
+"calculators"
+
 #' Colvard
 #' @name Colvard
 #' @docType data
