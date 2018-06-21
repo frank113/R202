@@ -19,4 +19,5 @@ airlines <- airlines %>%
 
 # Save it
 
+readr::write_csv(airlines, "data-raw/airlines.csv")
 devtools::use_data(airlines, overwrite = TRUE)

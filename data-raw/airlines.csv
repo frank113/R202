@@ -1,0 +1,501 @@
+ArrDelay,DayOfWeek,LateAircraft
+25,Tues,Late
+114,Fri,Late
+40,Thurs,Not Late
+58,Fri,Late
+62,Sat,Late
+18,Mon,Not Late
+27,Sun,Late
+51,Thurs,Late
+22,Fri,Not Late
+17,Sat,Not Late
+55,Mon,Late
+21,Thurs,Not Late
+113,Sun,Not Late
+19,Fri,Not Late
+15,Fri,Late
+31,Tues,Late
+24,Mon,Not Late
+35,Mon,Late
+32,Mon,Not Late
+42,Tues,Not Late
+22,Sat,Late
+34,Fri,Not Late
+73,Wed,Late
+32,Sun,Late
+39,Wed,Late
+19,Tues,Not Late
+18,Sun,Late
+48,Wed,Late
+74,Sun,Late
+78,Thurs,Not Late
+30,Sun,Late
+110,Sun,Not Late
+35,Tues,Late
+26,Fri,Late
+17,Mon,Late
+15,Tues,Not Late
+24,Tues,Not Late
+75,Thurs,Late
+123,Wed,Late
+241,Sun,Not Late
+19,Tues,Not Late
+25,Fri,Not Late
+29,Sun,Late
+76,Mon,Late
+19,Tues,Late
+75,Mon,Not Late
+47,Tues,Late
+16,Sat,Late
+22,Wed,Late
+30,Wed,Late
+135,Fri,Late
+15,Fri,Late
+49,Wed,Late
+20,Thurs,Late
+24,Thurs,Late
+18,Mon,Not Late
+69,Mon,Not Late
+278,Fri,Not Late
+46,Mon,Not Late
+17,Wed,Late
+26,Mon,Late
+52,Mon,Not Late
+42,Tues,Late
+62,Sun,Late
+41,Wed,Not Late
+107,Sun,Not Late
+24,Thurs,Not Late
+28,Wed,Late
+100,Wed,Not Late
+24,Sat,Late
+24,Fri,Not Late
+36,Sat,Not Late
+24,Tues,Late
+20,Mon,Not Late
+15,Sun,Not Late
+63,Wed,Not Late
+16,Fri,Not Late
+15,Thurs,Not Late
+50,Fri,Late
+246,Sat,Not Late
+22,Mon,Late
+47,Mon,Late
+38,Thurs,Not Late
+32,Wed,Late
+19,Wed,Late
+178,Tues,Late
+67,Wed,Not Late
+106,Mon,Not Late
+32,Fri,Late
+64,Sat,Not Late
+27,Wed,Not Late
+51,Sun,Not Late
+31,Fri,Not Late
+41,Mon,Not Late
+54,Fri,Late
+18,Mon,Not Late
+48,Fri,Not Late
+69,Thurs,Late
+99,Sat,Late
+68,Fri,Late
+38,Mon,Late
+19,Sat,Not Late
+19,Sat,Not Late
+43,Wed,Not Late
+27,Sun,Not Late
+38,Mon,Not Late
+22,Sun,Not Late
+74,Sat,Late
+46,Wed,Late
+29,Tues,Not Late
+34,Fri,Late
+85,Tues,Not Late
+48,Fri,Not Late
+22,Mon,Late
+21,Fri,Not Late
+105,Mon,Not Late
+30,Mon,Late
+74,Fri,Not Late
+16,Thurs,Not Late
+21,Fri,Late
+20,Sun,Late
+43,Sat,Not Late
+45,Mon,Late
+15,Sat,Not Late
+20,Wed,Not Late
+73,Fri,Not Late
+28,Wed,Not Late
+33,Thurs,Late
+106,Fri,Not Late
+25,Fri,Not Late
+21,Sat,Not Late
+53,Thurs,Late
+173,Sun,Late
+21,Sun,Not Late
+47,Sat,Late
+33,Wed,Not Late
+15,Fri,Not Late
+89,Wed,Late
+45,Wed,Late
+63,Wed,Not Late
+82,Sun,Not Late
+19,Tues,Not Late
+97,Sat,Not Late
+70,Thurs,Late
+16,Fri,Not Late
+182,Tues,Not Late
+64,Fri,Late
+42,Sat,Not Late
+30,Thurs,Late
+65,Sun,Not Late
+29,Thurs,Not Late
+41,Mon,Not Late
+25,Wed,Late
+108,Sun,Late
+74,Tues,Late
+291,Mon,Late
+100,Thurs,Not Late
+15,Thurs,Not Late
+17,Thurs,Late
+68,Sat,Not Late
+37,Thurs,Not Late
+16,Thurs,Late
+88,Mon,Late
+24,Sat,Not Late
+22,Thurs,Late
+34,Sat,Not Late
+24,Thurs,Not Late
+19,Tues,Not Late
+22,Thurs,Not Late
+43,Wed,Not Late
+42,Wed,Not Late
+29,Wed,Not Late
+67,Mon,Not Late
+15,Sat,Not Late
+24,Mon,Late
+70,Mon,Late
+16,Sun,Late
+26,Tues,Late
+84,Fri,Late
+19,Tues,Not Late
+38,Tues,Late
+95,Tues,Not Late
+26,Sun,Not Late
+25,Fri,Not Late
+35,Thurs,Late
+41,Sun,Not Late
+18,Sat,Late
+22,Sat,Not Late
+53,Wed,Not Late
+22,Fri,Not Late
+15,Wed,Not Late
+15,Fri,Not Late
+113,Tues,Late
+53,Wed,Not Late
+67,Thurs,Late
+79,Mon,Late
+40,Tues,Not Late
+62,Mon,Late
+60,Fri,Late
+135,Wed,Not Late
+104,Sat,Late
+62,Fri,Not Late
+62,Fri,Not Late
+47,Fri,Not Late
+64,Sat,Late
+15,Mon,Not Late
+229,Thurs,Late
+18,Thurs,Late
+43,Sun,Not Late
+58,Fri,Late
+72,Thurs,Not Late
+18,Fri,Not Late
+31,Mon,Not Late
+48,Mon,Not Late
+17,Sat,Not Late
+52,Wed,Late
+141,Fri,Not Late
+100,Tues,Not Late
+20,Fri,Not Late
+109,Mon,Late
+42,Wed,Not Late
+113,Fri,Late
+233,Tues,Late
+52,Mon,Late
+133,Wed,Late
+22,Sat,Not Late
+15,Tues,Late
+18,Thurs,Late
+31,Wed,Not Late
+84,Sun,Not Late
+70,Wed,Late
+167,Sat,Late
+17,Fri,Not Late
+39,Sat,Not Late
+138,Mon,Late
+36,Fri,Late
+27,Mon,Not Late
+25,Mon,Not Late
+44,Fri,Late
+113,Thurs,Not Late
+16,Sun,Late
+33,Sat,Not Late
+89,Sat,Not Late
+21,Mon,Late
+21,Sat,Not Late
+156,Fri,Late
+16,Tues,Late
+35,Tues,Not Late
+21,Wed,Not Late
+24,Tues,Not Late
+26,Fri,Late
+176,Sat,Not Late
+47,Wed,Not Late
+24,Mon,Late
+68,Wed,Late
+127,Sat,Not Late
+18,Mon,Not Late
+89,Tues,Not Late
+248,Tues,Late
+45,Fri,Late
+34,Tues,Late
+30,Sat,Late
+40,Sat,Late
+69,Fri,Not Late
+169,Wed,Late
+107,Thurs,Late
+16,Fri,Late
+29,Fri,Late
+69,Fri,Not Late
+23,Sat,Not Late
+41,Tues,Late
+24,Fri,Late
+37,Tues,Not Late
+16,Mon,Not Late
+75,Mon,Late
+57,Mon,Not Late
+127,Sat,Late
+61,Fri,Not Late
+42,Thurs,Not Late
+36,Wed,Late
+68,Thurs,Late
+40,Sun,Late
+193,Fri,Late
+52,Tues,Late
+21,Tues,Late
+95,Thurs,Late
+94,Thurs,Not Late
+49,Mon,Not Late
+19,Tues,Late
+15,Sun,Late
+90,Tues,Not Late
+119,Sun,Late
+148,Fri,Late
+31,Sun,Late
+20,Mon,Late
+37,Thurs,Not Late
+23,Sat,Late
+52,Fri,Late
+77,Sun,Not Late
+52,Tues,Not Late
+28,Tues,Not Late
+147,Thurs,Not Late
+18,Sat,Not Late
+38,Wed,Late
+23,Sat,Late
+20,Sat,Not Late
+19,Fri,Late
+21,Sun,Not Late
+36,Sun,Late
+50,Fri,Not Late
+58,Fri,Late
+34,Fri,Late
+16,Fri,Not Late
+19,Wed,Late
+26,Fri,Late
+31,Thurs,Not Late
+59,Sat,Not Late
+78,Fri,Late
+93,Mon,Late
+143,Sun,Not Late
+70,Thurs,Late
+47,Sun,Not Late
+73,Sat,Not Late
+33,Wed,Late
+170,Thurs,Late
+50,Mon,Late
+29,Sat,Late
+319,Sat,Late
+132,Tues,Late
+189,Fri,Not Late
+20,Fri,Late
+126,Fri,Late
+45,Wed,Not Late
+41,Sat,Not Late
+22,Fri,Late
+64,Sat,Late
+23,Fri,Late
+23,Mon,Not Late
+40,Thurs,Not Late
+22,Thurs,Not Late
+20,Fri,Not Late
+70,Sun,Not Late
+231,Fri,Late
+55,Thurs,Not Late
+19,Fri,Late
+161,Tues,Not Late
+29,Tues,Not Late
+128,Wed,Not Late
+101,Sun,Late
+19,Sat,Not Late
+38,Sun,Not Late
+20,Fri,Late
+35,Wed,Late
+229,Wed,Late
+21,Thurs,Not Late
+57,Wed,Not Late
+28,Sun,Not Late
+19,Wed,Not Late
+168,Thurs,Not Late
+28,Mon,Not Late
+117,Wed,Late
+45,Sun,Not Late
+188,Fri,Not Late
+114,Mon,Late
+24,Thurs,Not Late
+38,Sun,Late
+27,Fri,Late
+19,Mon,Not Late
+129,Wed,Late
+27,Fri,Late
+60,Tues,Late
+47,Sun,Late
+28,Thurs,Not Late
+29,Mon,Not Late
+41,Mon,Not Late
+21,Thurs,Not Late
+81,Sun,Not Late
+170,Thurs,Late
+36,Thurs,Not Late
+16,Mon,Not Late
+79,Wed,Late
+74,Thurs,Late
+35,Thurs,Not Late
+16,Wed,Not Late
+54,Tues,Late
+20,Sat,Not Late
+81,Tues,Late
+46,Wed,Late
+101,Tues,Not Late
+50,Sat,Not Late
+32,Sat,Not Late
+28,Fri,Late
+35,Sat,Late
+29,Tues,Late
+40,Sun,Not Late
+81,Mon,Not Late
+29,Wed,Late
+24,Fri,Late
+95,Tues,Late
+50,Thurs,Late
+113,Sun,Late
+68,Tues,Late
+200,Sun,Late
+64,Mon,Late
+73,Sat,Not Late
+22,Thurs,Not Late
+64,Sun,Late
+76,Tues,Not Late
+36,Wed,Not Late
+41,Tues,Late
+59,Tues,Not Late
+46,Sun,Late
+41,Tues,Not Late
+15,Wed,Not Late
+79,Mon,Late
+47,Thurs,Late
+25,Thurs,Late
+22,Sun,Not Late
+37,Sat,Not Late
+25,Thurs,Not Late
+23,Fri,Late
+31,Mon,Late
+21,Mon,Late
+20,Tues,Late
+30,Sun,Late
+36,Mon,Late
+50,Tues,Not Late
+17,Sun,Not Late
+15,Tues,Not Late
+57,Wed,Late
+51,Mon,Late
+198,Thurs,Late
+28,Tues,Late
+20,Sat,Not Late
+170,Tues,Not Late
+57,Thurs,Late
+40,Fri,Not Late
+18,Sat,Late
+19,Wed,Late
+25,Sun,Late
+84,Fri,Late
+17,Wed,Not Late
+218,Tues,Late
+55,Fri,Not Late
+44,Fri,Not Late
+37,Thurs,Not Late
+36,Fri,Not Late
+25,Fri,Late
+32,Fri,Not Late
+36,Fri,Late
+35,Wed,Not Late
+26,Thurs,Not Late
+35,Tues,Late
+33,Sun,Not Late
+52,Sun,Late
+143,Mon,Not Late
+216,Fri,Late
+37,Tues,Late
+18,Sun,Late
+38,Tues,Late
+27,Mon,Late
+36,Fri,Late
+15,Sun,Late
+20,Mon,Late
+32,Wed,Late
+28,Thurs,Late
+68,Mon,Late
+18,Thurs,Not Late
+23,Thurs,Not Late
+17,Sat,Not Late
+19,Thurs,Not Late
+18,Tues,Not Late
+247,Fri,Late
+24,Thurs,Late
+24,Sat,Late
+40,Wed,Not Late
+147,Mon,Late
+25,Fri,Not Late
+66,Tues,Late
+99,Thurs,Not Late
+18,Mon,Late
+91,Wed,Not Late
+34,Wed,Not Late
+26,Wed,Not Late
+29,Sun,Not Late
+35,Fri,Not Late
+53,Mon,Not Late
+19,Thurs,Not Late
+44,Fri,Not Late
+67,Sun,Not Late
+17,Sat,Not Late
+24,Mon,Late
+158,Mon,Not Late
+25,Sat,Not Late
+56,Wed,Not Late
+24,Tues,Late
+63,Tues,Late
+24,Sun,Not Late
+62,Sat,Late
+35,Mon,Late
