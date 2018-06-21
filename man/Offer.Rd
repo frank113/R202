@@ -19,7 +19,7 @@
     }}
 }}
 \usage{
-data("Offer")
+data("offer")
 }
 \description{
 Data from a consumer advocacy organization concerning the amount of

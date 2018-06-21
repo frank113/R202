@@ -119,6 +119,24 @@
 #' @note 36-202 Homework Data.
 "detergent"
 
+#' Mammals
+#' @name Mammals
+#' @docType data
+#' @aliases MammalSleep
+#' @title Sleep, Gestation and Danger of Mammals
+#' @format A dataset containing 51 rows and 6 columns.
+#' \describe{
+#'   \item{\code{Animal}}{Animal Name}
+#'   \item{\code{Sleep}}{Hours of sleep in a day.}
+#'   \item{\code{BodyWt}}{Weight in kg.}
+#'   \item{\code{LifeSpan}}{Maximum life span in years.}
+#'   \item{\code{Gestation}}{The gestation period of the animal.}
+#'   \item{\code{Danger}}{The danger rating of an animal on a scale from 1-5.}
+#'   }
+#' @usage data("mammals")
+#' @note 36-202 Lab Data.
+"mammals"
+
 #' New York City Housing
 #' @name nyc
 #' @docType data
@@ -180,7 +198,7 @@
 #'     \item{\code{F}}{Female}
 #'     }}
 #' }
-#' @usage data("Offer")
+#' @usage data("offer")
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note 36-202 Lab Data.
@@ -214,7 +232,32 @@
 #' @note Project 2 data.
 "social"
 
-
+#' Swimmers
+#' @name Swimmers
+#' @docType data
+#' @description You often hear that a negative outlook can be self-defeating. To
+#' test whether this is really true, psychology researchers conducted a study in
+#' 1990 on a group of 33 swim-team members at the University of California at
+#' Berkeley. 16 of them are cataloged in this data set. 
+#' @source Author Seligman, M.E.P., Nolen-Hoeksema, S., Thornton, N. and Thornton, C.M. (1990)
+#' Explanatory style as a mechanism of disappointing athletic performance.
+#' \emph{Psychological Science}, \bold{1}, 143--146,
+#' \url{http://www.uvm.edu/~dhowell/StatPages/Swimming/Swimming.html}
+#' @format A dataframe with 16 rows and 2 columns.
+#' \describe{
+#'   \item{\code{Pessimism}}{The pessimism score of each swimmer. A high score
+#'   indicates a more pessimistic mindset.}
+#'   \item{\code{Ratio}}{The ratio of swimming times for each trial -- trial1/trial2.
+#'   An \code{Ratio} value > 1 indicates that a swimmer performed better on the second
+#'   trial and vice-versa.}
+#' }
+#' @usage data("swim")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note 36-201 Homework 2 Data.
+#' @note 36-202 Lab 2 Data.
+#' @note Obtained from the Fall 2015 edition of 36-201.
+"swim"
 
 
 

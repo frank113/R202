@@ -11,6 +11,6 @@ R202.Rproj
 # Editor files
 .vscode/
 
-# Data generation
+# Data raw files
 *.xlsx
 *.json
