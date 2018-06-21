@@ -15,6 +15,39 @@
 #' @note Project 2 data.
 "airlines"
 
+#' Algebra
+#' @name Algebra
+#' @aliases math
+#' @docType data
+#' @title Retention of algebra among adults.
+#' @details See what this does
+#' @description I Wonder what a description does?
+#' @format A dataframe with 125 rows and 5 columns.
+#' \describe{
+#'   \item{\code{Score}}{Subject's score on algebra test of 100.}
+#'   \item{\code{Condition}}{Group of years since last algebra instruction: \describe{
+#'     \item{1}{0-4 Years}
+#'     \item{2}{5-10 Years}
+#'     \item{3}{11-20 Years}
+#'     \item{4}{21-30 Years}
+#'     \item{5}{31+ Years}
+#'     }}
+#'   \item{\code{Years}}{The exact number of years since last instruction.}
+#'   \item{\code{Grade}}{Recalled grade in high-school algebra: \enumerate{
+#'     \item{D or Lower}
+#'     \item{C}
+#'     \item{B}
+#'     \item{A}
+#'     }}
+#'   \item{\code{ConditionLabels}}{A re-labeling and factoring of the \code{Condition} variable.}
+#' }
+#' @usage data("algebra")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note 36-202 Lab 6 Data.
+#' @note The \code{ConditionLabels} variable was added after the fact.
+"algebra"
+
 #' Bikes
 #' @name Bikes
 #' @docType data
