@@ -279,6 +279,21 @@
 #' @note 36-202 Lab 11 Data.
 "disease"
 
+#' Facebook Grey Matter
+#' @name Facebook_Grey
+#' @docType data
+#' @title Gray Brain Matter and Facebook Friends
+#' @format A dataframe with 40 rows and 2 columns.
+#' \describe{
+#'   \item{\code{GMdensity}}{Number of Facebook friends.}
+#'   \item{\code{FBfriends}}{Measure of grey matter density in brain regions of interest. Normalized to z scores.}
+#' }
+#' @usage data("facebook_grey")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note 36-202 Homework Data.
+"facebook_grey"
+
 #' Flights
 #' @name Flights
 #' @docType data
