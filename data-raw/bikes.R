@@ -17,4 +17,4 @@ bikes <- bikes %>% mutate(Day = factor(Day,
 # Save it
 
 readr::write_csv(bikes, "data-raw/bikes.csv")
-devtools::use_data(airlines, overwrite = TRUE)
+devtools::use_data(bikes, overwrite = TRUE)

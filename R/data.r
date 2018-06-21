@@ -12,7 +12,8 @@
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note Initially used in 36-200.
-"Airlines"
+#' @note Project 2 data.
+"airlines"
 
 #' Bikes
 #' @name Bikes
@@ -27,7 +28,32 @@
 #' @usage data("bikes")
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
-"Bikes"
+#' @note Project 2 data.
+"bikes"
+
+#' Court Cases
+#' @name Courts
+#' @docType data
+#' @aliases court
+#' @title Civil rights case statistics
+#' @format A dataframe with 150 rows and 3 columns.
+#' \describe{
+#'   \item{\code{TOTDAM}}{Total amount of damages awarded to plaintiff in USD.}
+#'   \item{\code{BODINJ}}{A binary variable indicating whether a bodily injury was part of the claim.}
+#'   \item{\code{Year}}{Year the lawsuit was filed. Categorized as follows: \itemize{
+#'     \item{1}{Pre-1997}
+#'     \item{2}{1997}
+#'     \item{3}{1998}
+#'     \item{4}{1999}
+#'     \item{5}{2000}
+#'     \item{6}{2001}
+#'     }}
+#' }
+#' @usage data("courts")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
+#' @note Project 2 data.
+"courts"
 
 #' Depression
 #' @name Depression
@@ -48,8 +74,10 @@
 #'   \item{\code{Subject}}{Subject Number.}
 #' }
 #' @usage data("depression")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
 #' @note 36-202 Lab Data.
-"Depression"
+"depression"
 
 #' Detergent
 #' @name Detergent
@@ -86,8 +114,10 @@
 #'   }
 #' }
 #' @usage data("detergent")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
 #' @note 36-202 Homework Data.
-"Detergent"
+"detergent"
 
 #' Offer
 #' @name Offer
@@ -110,8 +140,10 @@
 #'     }}
 #' }
 #' @usage data("Offer")
+#' @note  The documentation does not auto-update. If one changes the base file,
+#'   this documentation will no longer remain accurate.
 #' @note 36-202 Lab Data.
-"Offer"
+"offer"
 
 
 
