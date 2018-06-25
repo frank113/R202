@@ -99,6 +99,7 @@
 #'   \item{\code{person}}{The person taking the assesment.}
 #' }
 #' @usage data("calculators")
+#' @references Could not find reference. 
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note 36-202 Lab 8 Data.
