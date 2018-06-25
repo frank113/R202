@@ -118,6 +118,8 @@
 #'   \item{\code{SubScore3}}{Sub score of the test's third section. This measures an employee's personality.}
 #'   }
 #' @usage data("colvard")
+#' @references "This story appeared as a chapter 12 case study in a business and marketing
+#'     text by Wadsworth publishing."
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note 36-202 Lab 3 Data.

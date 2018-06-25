@@ -25,4 +25,8 @@ The documentation does not auto-update. If one changes the base file,
 
 36-202 Lab 3 Data.
 }
+\references{
+"This story appeared as a chapter 12 case study in a business and marketing
+    text by Wadsworth publishing."
+}
 \keyword{datasets}
