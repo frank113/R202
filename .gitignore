@@ -7,14 +7,12 @@ R202.Rproj
 
 # Mac Files
 .DS_Store
-
 # Editor files
 .vscode/
-
 # Data raw files
 *.xlsx
 *.json
-
 # Builds
 *.tar.gz
 *.tgz
+inst/doc

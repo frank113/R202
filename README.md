@@ -68,4 +68,5 @@ I would like to thank the following individuals:
 + Professor Rebecca Nugent
 + Professor Gordon Weinberg
 
+I would also like to cite Kayla Frisoli, the author of many existing vignettes.
 
