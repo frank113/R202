@@ -164,6 +164,7 @@
 #' 	 }}
 #' }
 #' @usage data("countries")
+#' @references Citation not available
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note 36-202 Homework 1 Data.
