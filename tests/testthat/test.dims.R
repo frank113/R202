@@ -161,7 +161,7 @@ test_that("Nutrition has 340 rows and 4 columns", {
 })
 
 # Offer
-test_that("Offer # data has 36 rows and 3 columns", {
+test_that("Offer data has 36 rows and 3 columns", {
   # data("offer")
   expect_equal(nrow(offer), 36)
   expect_equal(ncol(offer), 3)
@@ -169,7 +169,7 @@ test_that("Offer # data has 36 rows and 3 columns", {
 })
 
 # Restaurant
-test_that("Restaurant # data has 40 rows and 3 columns", {
+test_that("Restaurant data has 40 rows and 3 columns", {
   # data("restaurant")
   expect_equal(nrow(restaurant), 40)
   expect_equal(ncol(restaurant), 3)
@@ -177,7 +177,7 @@ test_that("Restaurant # data has 40 rows and 3 columns", {
 })
 
 # Social
-test_that("Social Media # data has 500 rows and 3 columns", {
+test_that("Social Media data has 500 rows and 3 columns", {
   # data("social")
   expect_equal(nrow(social), 500)
   expect_equal(ncol(social), 3)
@@ -185,7 +185,7 @@ test_that("Social Media # data has 500 rows and 3 columns", {
 })
 
 # Swimmers
-test_that("Swimmers # data has 16 rows and 2 columns", {
+test_that("Swimmers data has 16 rows and 2 columns", {
   # data("swim")
   expect_equal(nrow(swim), 16)
   expect_equal(ncol(swim), 2)
