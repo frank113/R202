@@ -44,4 +44,8 @@ The documentation does not auto-update. If one changes the base file,
 
 The \code{ConditionLabels} variable was added after the fact.
 }
+\references{
+Bahrick and Hall. Lifetime Maintenance of High-School Mathematics Content. 
+    Journal of Experimental Psychology: General. Volume 113, Pages 1-24. 1991.
+}
 \keyword{datasets}

@@ -45,6 +45,8 @@
 #'   \item{\code{ConditionLabels}}{A re-labeling and factoring of the \code{Condition} variable.}
 #' }
 #' @usage data("algebra")
+#' @references Bahrick and Hall. Lifetime Maintenance of High-School Mathematics Content. 
+#'     Journal of Experimental Psychology: General. Volume 113, Pages 1-24. 1991. 
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note 36-202 Lab 6 Data.
