@@ -476,7 +476,7 @@
 #' @docType data
 #' @description Data from the United States Department of Agriculture's Natoinal
 #'     Nutrient Database for Standard Reference. The data given was collected during a one-week interval in 2017.
-#' @format A dataframe with 340 rows and 3 columns.
+#' @format A dataframe with 340 rows and 4 columns.
 #' \describe{
 #'   \item{\code{Shrt_Desc}}{The name of the food.}
 #'   \item{\code{Energy}}{Food energy in kcal per 100 grams.}
@@ -487,6 +487,7 @@
 #'     \item{\code{4}}{Between 75 and <100 grams}
 #'     }}
 #'   \item{\code{Choles}}{Cholesterol values. Classified as \code{0} if 0mg / 100g, \code{1} otherwise.}
+#'   \item{\code{Shrt_Desc}}{A short description of the item.}
 #' }
 #' @usage data("nutrition")
 #' @note  The documentation does not auto-update. If one changes the base file,
@@ -617,10 +618,4 @@
 #'   this documentation will no longer remain accurate.
 #' @note 36-202 Lab 3 Data.
 "temp"
-
-
-
-
-
-
 
