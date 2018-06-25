@@ -29,4 +29,7 @@ The documentation does not auto-update. If one changes the base file,
 "This story appeared as a chapter 12 case study in a business and marketing
     text by Wadsworth publishing."
 }
+\author{
+Gordon Weinberg. \email{gordonw@stat.cmu.edu}
+}
 \keyword{datasets}

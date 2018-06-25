@@ -109,6 +109,7 @@
 #' @name Colvard
 #' @docType data
 #' @title Test Scores for New Employees.
+#' @author Gordon Weinberg. \email{gordonw@stat.cmu.edu}
 #' @format A dataframe with 120 rows and 5 columns.
 #' \describe{
 #'   \item{\code{Rating}}{The performance rating of the employee after one year at the company.}
