@@ -69,6 +69,10 @@
 #' 	 \item{\code{Casual}}{The number of casual bike users}
 #' }
 #' @usage data("bikes")
+#' @references Fanaee-T, Hadi and Gamma, J "Event Labeling Combining Ensemble Detectors 
+#'     and background knowledge", Progress in Articial Intelligence (2013);
+#'     \link{https://capitalbikeshare.com/system-data}  Data Filtered by Philipp Burchhardt, 
+#'     Kayla Frisoli and Frank Kovacs.
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note Project 2 data.
