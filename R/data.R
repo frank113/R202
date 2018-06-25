@@ -1,5 +1,5 @@
-#' Airlines
-#' @name Airlines
+#' @name airlines
+#' @title Airline Delay Data
 #' @docType data
 #' @description A dataset containing federally tracked data for flights. See TO-DO: INSERT INFO FUNCTION
 #' @format A dataframe with 500 rows and 3 columns.
@@ -18,8 +18,7 @@
 #' @note Project 2 data.
 "airlines"
 
-#' Algebra
-#' @name Algebra
+#' @name algebra
 #' @aliases math
 #' @docType data
 #' @title Retention of algebra among adults.
@@ -53,8 +52,8 @@
 #' @note The \code{ConditionLabels} variable was added after the fact.
 "algebra"
 
-#' Bikes
-#' @name Bikes
+#' @name bikes
+#' @title Bike Sharing Data
 #' @docType data
 #' @description A dataset information about bicycle rentals for days in the years 2011 and 2012.
 #' @format A dataframe with 951 rows and 3 columns.
@@ -78,10 +77,8 @@
 #' @note Project 2 data.
 "bikes"
 
-#' Calculator Testing
-#' @name Calculator
+#' @name calculator
 #' @docType data
-#' @aliases calculator, problem
 #' @title Problem scores when using a new calculator for an assesment
 #'    given to six engineers at a large company. One assesment (two tests) were
 #'    given to each employee with the old calculator and new calculators.
@@ -105,8 +102,7 @@
 #' @note 36-202 Lab 8 Data.
 "calculators"
 
-#' Colvard
-#' @name Colvard
+#' @name colvard
 #' @docType data
 #' @title Test Scores for New Employees.
 #' @author Gordon Weinberg. \email{gordonw@stat.cmu.edu}
@@ -126,10 +122,8 @@
 #' @note 36-202 Lab 3 Data.
 "colvard"
 
-#' Countries
-#' @name Countries
+#' @name countries
 #' @docType data
-#' @aliases country
 #' @title Countries of the World
 #' @format A dataframe with 215 rows and 25 columns.
 #' \describe{
@@ -170,10 +164,8 @@
 #' @note 36-202 Homework 1 Data.
 "countries"
 
-#' Court Cases
-#' @name Courts
+#' @name courts
 #' @docType data
-#' @aliases court
 #' @title Civil rights case statistics
 #' @format A dataframe with 150 rows and 3 columns.
 #' \describe{
@@ -194,10 +186,8 @@
 #' @note Project 2 data.
 "courts"
 
-#' Depression
-#' @name Depression
+#' @name depression
 #' @docType data
-#' @aliases depression
 #' @title Depression after an earthquake.
 #' @format A dataframe with 125 rows and 3 columns.
 #' \describe{
@@ -220,8 +210,8 @@
 #' @note 36-202 Lab Data.
 "depression"
 
-#' Detergent
-#' @name Detergent
+#' @name detergent
+#' @title Laundry Detergent Analysis
 #' @docType data
 #' @description Laundry detergent manufacturers often make advertising
 #' claims that their product gets clothes the ‘whitest and brightest.’
@@ -260,9 +250,9 @@
 #' @note 36-202 Homework Data.
 "detergent"
 
-#' Disease Data
-#' @name Disease
+#' @name disease
 #' @docType data
+#' @title Disease Data
 #' @description In a health study to investigate an epidemic outbreak of a 
 #'     disease that is spread by mosquitoes, individuals are randomly sampled 
 #'     within two sectors in a city to determine if the person had recently 
@@ -295,8 +285,8 @@
 #' @note 36-202 Lab 11 Data.
 "disease"
 
-#' Ethics
-#' @name Ethics
+#' @name ethics
+#' @title Ethics Tutorial Analysis
 #' @docType data
 #' @description In the wake of corporate scandals, a researcher wanted to
 #' compare two types of business ethics tutorial (Tutorial ‘A’ and Tutorial ‘B’).
@@ -333,8 +323,7 @@
 #' @note Obtained from the Spring 2016 edition of 36-202.
 "ethics"
 
-#' Facebook Grey Matter
-#' @name Facebook_Grey
+#' @name facebook_Grey
 #' @docType data
 #' @title Gray Brain Matter and Facebook Friends
 #' @format A dataframe with 40 rows and 2 columns.
@@ -348,8 +337,7 @@
 #' @note 36-202 Homework Data.
 "facebook_grey"
 
-#' Flights
-#' @name Flights
+#' @name flights
 #' @docType data
 #' @title Random sample of flight times of United Airlines Flight 433.
 #' @format A dataframe with 31 rows and 1 column.
@@ -363,8 +351,7 @@
 #' @note 36-202 Homework Data.
 "flights"
 
-#' Flu
-#' @name Flu
+#' @name flu
 #' @docType data
 #' @title Flu shot prevelance by age.
 #' @format A dataframe with 50 rows and 2 columns.
@@ -379,10 +366,8 @@
 #' @note 36-202 Lab 10 Data.
 "flu"
 
-#' Hospital Satisfaction
-#' @name Hospital
+#' @name hospital
 #' @docType data
-#' @aliases satisfaction
 #' @title Patient Satisfaction with Hospitals.
 #' @format A dataframe with 23 rows and 5 columns.
 #' \describe{
@@ -402,8 +387,8 @@
 #' @note 36-202 Lab 5 Data.
 "hospital"
 
-#' Houses
-#' @name Houses
+#' @name houses
+#' @title Housing Data
 #' @docType data
 #' @description Based on recent data, a variety of variables on regional houses
 #' are available.
@@ -430,8 +415,7 @@
 #' @note Obtained from the Spring 2016 edition of 36-202.
 "houses"
 
-#' Mammals
-#' @name Mammals
+#' @name mammals
 #' @docType data
 #' @aliases MammalSleep
 #' @title Sleep, Gestation and Danger of Mammals
@@ -448,8 +432,7 @@
 #' @note 36-202 Lab Data.
 "mammals"
 
-#' Mum
-#' @name Mum
+#' @name mum
 #' @docType data
 #' @title Mum and Undesirable Messages
 #' @format A dataframe with 40 rows and 3 columns.
@@ -468,7 +451,7 @@
 #' @note 36-202 Lab 7 Data.
 "mum"
 
-#' New York City Housing
+#' @title New York City Housing
 #' @name nyc
 #' @docType data
 #' @description Data from  the New York City Housing and Vacancy Survey to understand housing conditions.
@@ -487,7 +470,7 @@
 #' @note Project 2 data.
 "nyc"
 
-#' Nutrition Data
+#' @title Nutrition Data
 #' @name nutrition
 #' @docType data
 #' @description Data from the United States Department of Agriculture's Natoinal
@@ -512,7 +495,7 @@
 "nutrition"
 
 #' Offer
-#' @name Offer
+#' @name offer
 #' @docType data
 #' @description Data from a consumer advocacy organization concerning the amount of
 #' money offered by dealerships for used cars as a function of the seller's age and
@@ -536,8 +519,8 @@
 #' @note 36-202 Lab Data.
 "offer"
 
-#' Restaurant Data
-#' @name Restaurant
+#' @title Restaurant Data
+#' @name restaurant
 #' @docType data
 #' @description Restaurants in the U.S. are a nearly 799 billion dollar 
 #'     industry according to the National Restaurant Association. As 
@@ -564,7 +547,7 @@
 #' @note 36-202 Lab 12 Data.
 "restaurant"
 
-#' Social Media
+#' @title Social Media
 #' @name social
 #' @docType data
 #' @description Data from Predicting the Popularity of Online News. 
@@ -592,8 +575,8 @@
 #' @note Project 2 data.
 "social"
 
-#' Swimmers
-#' @name Swimmers
+#' @title Swimmer Confidence
+#' @name swim
 #' @docType data
 #' @description You often hear that a negative outlook can be self-defeating. To
 #' test whether this is really true, psychology researchers conducted a study in
@@ -619,10 +602,8 @@
 #' @note Obtained from the Fall 2015 edition of 36-201.
 "swim"
 
-#' Temperature Load
-#' @name Temp
+#' @name temp
 #' @docType data
-#' @aliases temp
 #' @title Power Load by High Temperature
 #' @format A dataframe with 25 rows and 2 columns.
 #' \describe{
