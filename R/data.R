@@ -68,6 +68,10 @@
 #' 	 \item{\code{Casual}}{The number of casual bike users}
 #' }
 #' @usage data("bikes")
+#' @references Fanaee-T, Hadi and Gamma, J "Event Labeling Combining Ensemble Detectors 
+#'     and background knowledge", Progress in Articial Intelligence (2013);
+#'     \link{https://capitalbikeshare.com/system-data}  Data Filtered by Philipp Burchhardt, 
+#'     Kayla Frisoli and Frank Kovacs.
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note Project 2 data.
@@ -92,6 +96,7 @@
 #'   \item{\code{person}}{The person taking the assesment.}
 #' }
 #' @usage data("calculators")
+#' @references Could not find reference. 
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note 36-202 Lab 8 Data.
@@ -100,6 +105,7 @@
 #' @name colvard
 #' @docType data
 #' @title Test Scores for New Employees.
+#' @author Gordon Weinberg. \email{gordonw@stat.cmu.edu}
 #' @format A dataframe with 120 rows and 5 columns.
 #' \describe{
 #'   \item{\code{Rating}}{The performance rating of the employee after one year at the company.}
@@ -109,6 +115,8 @@
 #'   \item{\code{SubScore3}}{Sub score of the test's third section. This measures an employee's personality.}
 #'   }
 #' @usage data("colvard")
+#' @references "This story appeared as a chapter 12 case study in a business and marketing
+#'     text by Wadsworth publishing."
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note 36-202 Lab 3 Data.
@@ -150,6 +158,7 @@
 #' 	 }}
 #' }
 #' @usage data("countries")
+#' @references Citation not available
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note 36-202 Homework 1 Data.
@@ -180,7 +189,6 @@
 #' @name depression
 #' @docType data
 #' @title Depression after an earthquake.
-#' @author Gordon Weinberg \email{gordonw@stat.cmu.edu}
 #' @format A dataframe with 125 rows and 3 columns.
 #' \describe{
 #'   \item{\code{Dep_Score}}{The student's depression score (higher -> more depressed)}
@@ -194,6 +202,9 @@
 #'   \item{\code{Subject}}{Subject Number.}
 #' }
 #' @usage data("depression")
+#' @references "A Prospective Study of Depression and Post-traumatic stress symptoms 
+#'     after a natural disaster: 1989 Loma Prieta Earthquake." J Pers Soc Psychol 1991, 
+#'     Jul;61(1):115-21. 
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note 36-202 Lab Data.
