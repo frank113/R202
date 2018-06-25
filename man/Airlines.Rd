@@ -25,4 +25,9 @@ Initially used in 36-200.
 
 Project 2 data.
 }
+\references{
+United States Bureau of Transportation Statistics, 
+    On-Time Performance. [Data Set]. Data Filtered by Philipp Burchhardt, 
+    Kayla Frisoli and Frank Kovacs. Retrieved from \link{https://transtats.bts.gov/Fields.asp?Table_ID=236}
+}
 \keyword{datasets}
