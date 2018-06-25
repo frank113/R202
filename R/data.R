@@ -194,7 +194,6 @@
 #' @docType data
 #' @aliases depression
 #' @title Depression after an earthquake.
-#' @author Gordon Weinberg \email{gordonw@stat.cmu.edu}
 #' @format A dataframe with 125 rows and 3 columns.
 #' \describe{
 #'   \item{\code{Dep_Score}}{The student's depression score (higher -> more depressed)}
@@ -208,6 +207,9 @@
 #'   \item{\code{Subject}}{Subject Number.}
 #' }
 #' @usage data("depression")
+#' @references "A Prospective Study of Depression and Post-traumatic stress symptoms 
+#'     after a natural disaster: 1989 Loma Prieta Earthquake." J Pers Soc Psychol 1991, 
+#'     Jul;61(1):115-21. 
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note 36-202 Lab Data.

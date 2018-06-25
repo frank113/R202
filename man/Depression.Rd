@@ -29,7 +29,9 @@ The documentation does not auto-update. If one changes the base file,
 
 36-202 Lab Data.
 }
-\author{
-Gordon Weinberg \email{gordonw@stat.cmu.edu}
+\references{
+"A Prospective Study of Depression and Post-traumatic stress symptoms 
+    after a natural disaster: 1989 Loma Prieta Earthquake." J Pers Soc Psychol 1991, 
+    Jul;61(1):115-21.
 }
 \keyword{datasets}
