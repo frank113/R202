@@ -63,7 +63,7 @@ To suggest a change, please open a pull request.
 
 # Acknowledgements
 
-I owuld like to thank the following individuals:
+I would like to thank the following individuals:
 
 + Professor Rebecca Nugent
 + Professor Gordon Weinberg
