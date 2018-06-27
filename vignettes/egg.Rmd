@@ -122,7 +122,7 @@ capture.plot <- ggplot(data = pokemon,
 
 ## Including Images
 
-R vignettes have the ability to include multiple categories of images. 
+R vignettes have the ability to images. 
 
 ### Including online images.
 
