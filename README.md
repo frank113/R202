@@ -19,7 +19,7 @@ To successfully use the R202 package, one must install the following R libraries
 
 To install the package, run the following code in an R terminal:
 
-`devtools::install_github("frank113/R202")`
+`devtools::install_github("frank113/R202", build_vignettes = TRUE)`
 
 You may also clone into the development version by running the following code in a bash terminal:
 
