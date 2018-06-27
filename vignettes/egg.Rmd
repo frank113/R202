@@ -51,7 +51,7 @@ vignette.theme <- theme(rect = element_rect(fill = "white",
 
 ## Easter Egg
 
-Professor Nugent had empowered the author of this vignette to create a fully-featured vignette on "any topic you wish". While I am also creating a serious vignette about package installation, I have also created this vignette to both illustrate the functionality and power of vignettes while imposing my love of TV befitting of "People" Magazine on the audience. 
+Professor Nugent has empowered the author of this vignette to create a fully-featured vignette on "any topic you wish". While I am also creating a serious vignette about package installation, I have also created this vignette to both illustrate the functionality and power of vignettes while imposing my love of TV befitting of "People" Magazine on the audience. 
 
 If this vignette is not shown in a meeting, I hope that it will serve as an Easter Egg for future developers. 
 
