@@ -1,0 +1,158 @@
+---
+title: "Easter Egg"
+author: "Francis R. Kovacs"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Easter Egg}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+library(R202)
+library(ggplot2)
+library(dplyr)
+
+load("../R/sysdata.rda")
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.align = "center",
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 7,
+  height = 6
+)
+
+axis.size <- 20
+font <- "Times"
+
+vignette.theme <- theme(rect = element_rect(fill = "white", 
+                                            colour = "black", size = 0.5), 
+                        text = element_text(face = "plain", colour = "black", 
+                                            size = 11, hjust = 0.5, 
+                                            vjust = 0.5, angle = 0, 
+                                            lineheight = 0), 
+                        axis.title.x = element_text(size = axis.size, vjust = 1, 
+                                             family = font), 
+                        axis.title.y = element_text(size = axis.size, angle = 90, 
+                                                    vjust = 1), 
+                        axis.text.x = element_text(size = 15, vjust = 1), 
+                        axis.text.y = element_text(size = 15, hjust = 1), 
+                        axis.ticks = element_line(size = 0, colour = "grey20"), 
+                        plot.title = element_text(family = font, face = "bold", 
+                                                  size = 25, hjust = 0.5, 
+                                                  vjust = 1))
+```
+
+# R202
+
+## Easter Egg
+
+Professor Nugent had empowered the author of this vignette to create a fully-featured vignette on "any topic you wish". While I am also creating a serious vignette about package installation, I have also created this vignette to both illustrate the functionality and power of vignettes while imposing my love of TV befitting of "People" Magazine on the audience. 
+
+If this vignette is not shown in a meeting, I hope that it will serve as an Easter Egg for future developers. 
+
+XOXO and Mudgelove forever. 
+-Frank Kovacs. 
+
+## Pokemon
+
+The Pokemon series is considered a staple of the childhood experience in the humble opinion of this author. A three dimensional third-person adventure game, the primary mechanism of the game centers on the training, collection and battling of small animal-like creatures dubbed **Pokemon**. Pokemon are either acquired through live capture in the wild based on a systme of random encounters and trading with other players. The open-ended nature of Pokemon acquisition has often been cited as a source of enjoyment for many players. 
+
+Multi-player and online competition has enabled the series to far outpace its humble beginnings. In allowing for online battles, the sense of competition and strategy continues at the highest levels. The impetus for this paragaph comes rom the author's previous experience in Pokemon tournaments. 
+
+## The Data
+
+The data summarized below comes from [Kaggle](https://www.kaggle.com/rounakbanik/pokemon). Containing `r nrow(pokemon)` rows and `r ncol(pokemon)` columns, the data set contains every pokemon released in the handheld series. This block of text displays the ability to use headings, links and embedded R code. The dimensions of the `pokemon` dataset are generated with in-line R code. 
+
+## Some Graphs
+
+While somewhat mundane in the context of typically-used `Rmd` files, the ability to include graphics specifically those created with the `ggplot2` pacakge is a new feature and one that the author plans to exploit extensively in his development of the package. 
+
+To further develop our point, we will demonstrate the ability to show code that is being executed. The code below demonstrated the ability to modify the data set to provide an outlet to plot the data.
+
+```{r transform capture rate, echo=TRUE}
+# Handle Minior meteor captur rate
+minior.index <- which(pokemon$capture_rate == "30 (Meteorite)255 (Core)")
+pokemon$capture_rate[[minior.index]] = "30"
+
+# Make strings into number
+pokemon$capture_rate <- as.numeric(pokemon$capture_rate)
+```
+
+Below we see a graph illustrating the distribution of capture rate -- the rate at which the Pokemon is caught in the wild. 
+
+
+We will now produce the graphical summary.
+
+```{r}
+capture.plot <- ggplot(data = pokemon, 
+                       aes(x = capture_rate)) + 
+  geom_histogram(alpha=0.86,
+           size=1,
+           pad=FALSE, 
+           bins = 31) + 
+  xlab("Capture Rate") + 
+  ylab("Count") + 
+  ggtitle("Distribution of Capture Rate") + 
+  vignette.theme
+capture.plot
+```
+
+We can see that most Pokemon have a capture rate around 45, meaning that the average catch percentage is `r 100 * round(45 / 255, digits = 4)`%.
+
+The theme code used to display the graph is seen below:
+
+```{r eval=FALSE}
+capture.plot <- ggplot(data = pokemon, 
+                       aes(x = capture_rate)) + 
+  geom_histogram(alpha=0.86,
+           size=1,
+           pad=FALSE, 
+           bins = 31) + 
+  xlab("Capture Rate") + 
+  ylab("Count") + 
+  ggtitle("Distribution of Capture Rate") + 
+  vignette.theme
+```
+
+
+## Including Images
+
+R vignettes have the ability to images. 
+
+### Including online images.
+
+![Mudge House, the home of the author](mudge_imate.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
