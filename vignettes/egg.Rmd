@@ -106,7 +106,7 @@ We can see that most Pokemon have a capture rate around 45, meaning that the ave
 
 The theme code used to display the graph is seen below:
 
-```{r eval=FALSE}
+```{r eval=FALSE, echo=TRUE}
 capture.plot <- ggplot(data = pokemon, 
                        aes(x = capture_rate)) + 
   geom_histogram(alpha=0.86,
