@@ -19,4 +19,8 @@
 *.tgz
 inst/doc
 
+# Python files not needed
+*.pyc
+test.py
+
 installation.Rmd
