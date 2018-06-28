@@ -32,6 +32,8 @@ vv <- function(vignetteName) {
     vignette(vignetteName, package = "R202")
   )
   
+  # this is a comment that is a placeholder
+  
   if ( class( vign.var ) != "vignette" ) {
     stop(paste("Invalid vignette name:", vignetteName))
   }
