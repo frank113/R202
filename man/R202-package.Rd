@@ -9,7 +9,7 @@
 This package provides all necessary pacakges and data for 36-202.
 }
 \author{
-\strong{Maintainer}: Frank Kovacs \email{fkovacs@stat.cmu.edu}
+\strong{Maintainer}: Frank Kovacs \email{fkovacs@andrew.cmu.edu}
 
 }
 \keyword{internal}

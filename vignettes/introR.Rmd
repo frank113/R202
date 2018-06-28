@@ -46,8 +46,6 @@ vignette.theme <- theme(rect = element_rect(fill = "white",
                                                   vjust = 1))
 ```
 
-# R202
-
 ## Introduction to R Studio
 
 ### The R Programming Langauge

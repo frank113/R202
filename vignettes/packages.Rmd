@@ -45,8 +45,6 @@ vignette.theme <- theme(rect = element_rect(fill = "white",
                                                   vjust = 1))
 ```
 
-# R202
-
 ## Packages
 
 The functionality of R is bolstered by user-developed segments of code known as packages. While base R is installed with 15 required packages, thousands of packages are created each year to streamline complicated processes in a reproducible manner. In a package the author will create _functions_, blocks of code that perform a specific task for a certain input. Such funcitons remove the burden of calculation from the user -- allowing long calculations such as least squares regression to be done in a matter of seconds with no programming knowledge. Packages also contain datasets -- as such data is now stored in a single location. 

@@ -1,6 +1,6 @@
 ---
 title: "Easter Egg"
-author: "Francis R. Kovacs and Jacqueline Liu"
+author: "Francis R. Kovacs"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
@@ -47,8 +47,6 @@ vignette.theme <- theme(rect = element_rect(fill = "white",
                                                   vjust = 1))
 ```
 
-# R202
-
 ## Easter Egg
 
 Professor Nugent has empowered the author of this vignette to create a fully-featured vignette on "any topic you wish". While I am also creating a serious vignette about package installation, I have also created this vignette to both illustrate the functionality and power of vignettes while imposing my love of TV befitting of "People" Magazine on the audience. 
@@ -89,17 +87,16 @@ Below we see a graph illustrating the distribution of capture rate -- the rate a
 We will now produce the graphical summary.
 
 ```{r}
-capture.plot <- ggplot(data = pokemon, 
+plot.capture <- ggplot(data = pokemon, 
                        aes(x = capture_rate)) + 
   geom_histogram(alpha=0.86,
            size=1,
-           pad=FALSE, 
            bins = 31) + 
   xlab("Capture Rate") + 
   ylab("Count") + 
   ggtitle("Distribution of Capture Rate") + 
   vignette.theme
-capture.plot
+plot.capture
 ```
 
 We can see that most Pokemon have a capture rate around 45, meaning that the average catch percentage is `r 100 * round(45 / 255, digits = 4)`%.
@@ -107,16 +104,16 @@ We can see that most Pokemon have a capture rate around 45, meaning that the ave
 The theme code used to display the graph is seen below:
 
 ```{r eval=FALSE, echo=TRUE}
-capture.plot <- ggplot(data = pokemon, 
+plot.capture <- ggplot(data = pokemon, 
                        aes(x = capture_rate)) + 
   geom_histogram(alpha=0.86,
            size=1,
-           pad=FALSE, 
            bins = 31) + 
   xlab("Capture Rate") + 
   ylab("Count") + 
   ggtitle("Distribution of Capture Rate") + 
   vignette.theme
+plot.capture
 ```
 
 
@@ -124,8 +121,14 @@ capture.plot <- ggplot(data = pokemon,
 
 R vignettes have the ability to images. 
 
-### Including online images.
+### Including Images
 
 ![Mudge House, the home of the author](mudge_image.jpg)
 
+The code to display such an image is given as follows:
 
+```{asis}
+![Mudge House, the home of the author](mudge_image.jpg)
+```
+
+Given that `mudge_image.jpg` is in the same directory as the `.Rmd` file. 
