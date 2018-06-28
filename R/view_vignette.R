@@ -32,7 +32,7 @@ vv <- function(vignetteName) {
     vignette(vignetteName, package = "R202")
   )
   
-  if ( class( vign.var ) == "character" ) {
+  if ( class( vign.var ) != "vignette" ) {
     stop(paste("Invalid vignette name:", vignetteName))
   }
   
