@@ -6,6 +6,7 @@ Please indicate the type of PR you are making:
 [] I am adding a new data set.
 [] I am adding a new function.
 [] I am adding a new feature.
+[] I am adding a new vignette.
 [] Other (Please describe below)
 
 Please indicate that you have made the following changes:
