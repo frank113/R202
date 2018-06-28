@@ -124,8 +124,8 @@ capture.plot <- ggplot(data = pokemon,
 
 R vignettes have the ability to images. 
 
-### Including online images.
+### Including built-in images.
 
 ![Mudge House, the home of the author](mudge_imate.jpg)
 
-
+For those who come after, the author of this post has an embarrassment of Mudge photos. 
