@@ -126,6 +126,6 @@ R vignettes have the ability to images.
 
 ### Including built-in images.
 
-![Mudge House, the home of the author](mudge_imate.jpg)
+![Mudge House, the home of the author](mudge_image.jpg)
 
 For those who come after, the author of this post has an embarrassment of Mudge photos. 
