@@ -1,6 +1,6 @@
 ---
 title: "Easter Egg"
-author: "Francis R. Kovacs and Jacqueline Liu"
+author: "Francis R. Kovacs"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
