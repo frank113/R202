@@ -2,17 +2,17 @@ context("Test that columns are named correctly and of correct type")
 
 ## has the names we think it will
 test_that("Airlines has correctly named columns", {
+  data("airlines")
   correct.names <- c("ArrDelay", "DayOfWeek", "LateAircraft")
-  # data("airlines")
   df.names <- names(airlines)
   for (i in 1:ncol(airlines)) {
     expect_equal(df.names[[i]], correct.names[[i]])
   }
-  # rm(airlines)
 })
 
 # Algebra
 test_that("Algebra has correctly named columns", {
+  data("algebra")
   correct.names <- c("Score", "Condition", "Years", 
                      "Grade", "ConditionLabels")
   df.names <- names(algebra)
@@ -23,6 +23,7 @@ test_that("Algebra has correctly named columns", {
 
 # Bikes
 test_that("Bikes has correctly named columns", {
+  data("bikes")
   correct.names <- c("Casual", "Day", "Weather")
   df.names <- names(bikes)
   for (i in 1:ncol(bikes)) {
@@ -32,6 +33,7 @@ test_that("Bikes has correctly named columns", {
 
 # Calculators
 test_that("Calculators has correctly named columns", {
+  data("calculators")
   correct.names <- c("times", "model", "person", "problem")
   df.names <- names(calculators)
   for (i in 1:ncol(calculators)) {
@@ -41,6 +43,7 @@ test_that("Calculators has correctly named columns", {
 
 # Colvard
 test_that("Colvard has correctly named columns", {
+  data("colvard")
   correct.names <- c("Rating", "TotalScore", "SubScore1", "SubScore2", "SubScore3")
   df.names <- names(colvard)
   for (i in 1:ncol(colvard)) {
@@ -50,6 +53,7 @@ test_that("Colvard has correctly named columns", {
 
 # Countries
 test_that("Countries has correctly named columns", {
+  data("countries")
   correct.names <- c("Country", "LandArea","Population","Density", "GDP",
                      "Rural", "CO2", "PumpPrice", "Military","Health", 
                      "ArmedForces", "Internet", "Cell", "HIV", "Hunger",
@@ -63,6 +67,7 @@ test_that("Countries has correctly named columns", {
 
 # Court Cases
 test_that("Court Cases has correctly named columns", {
+  data("courts")
   correct.names <- c("TOTDAM", "BODINJ", "YEAR")
   df.names <- names(courts)
   for (i in 1:ncol(courts)) {
@@ -72,6 +77,7 @@ test_that("Court Cases has correctly named columns", {
 
 # Depression
 test_that("Depression has correctly named columns", {
+  data("depression")
   correct.names <- c("Dep_Score", "Week", "Subject")
   df.names <- names(depression)
   for (i in 1:ncol(depression)) {
@@ -81,6 +87,7 @@ test_that("Depression has correctly named columns", {
 
 # Detergent
 test_that("Detergent has correctly named columns", {
+  data("detergent")
   correct.names <- c("Whiteness", "Brand", "Temp")
   df.names <- names(detergent)
   for (i in 1:ncol(detergent)) {
@@ -90,6 +97,7 @@ test_that("Detergent has correctly named columns", {
 
 # Disease
 test_that("Diseases has correctly named columns", {
+  data("disease")
   correct.names <- c("age", "ses", "sector", "disease_status")
   df.names <- names(disease)
   for (i in 1:ncol(disease)) {
@@ -99,16 +107,28 @@ test_that("Diseases has correctly named columns", {
 
 # Ethics
 test_that("Ethics has correctly named columns", {
+  data("ethics")
   correct.names <- c("treatment", "age", "pre", "post", 
-                      "diff")
+                     "diff")
   df.names <- names(ethics)
   for (i in 1:ncol(ethics)) {
     expect_equal(df.names[[i]], correct.names[[i]])
   }
 })
 
+test_that("Example has correctly named columns", {
+  data("example")
+  correct.names <- c("X", "Y", "Z", "Name", "Media", 
+                     "Score", "Rating")
+  df.names <- names(example)
+  for (i in 1:ncol(example)) {
+    expect_equal(df.names[[i]], correct.names[[i]])
+  }
+})
+
 # Facebook_grey
 test_that("facebook_grey has correctly named columns", {
+  data("facebook_grey")
   correct.names <- c("GMdensity", "FBfriends")
   df.names <- names(facebook_grey)
   for (i in 1:ncol(facebook_grey)) {
@@ -118,12 +138,14 @@ test_that("facebook_grey has correctly named columns", {
 
 # flights
 test_that("Flights has a correctly named column", {
+  data("flights")
   expect_equal(names(flights)[[1]], "time")
   expect_equal(length(names(flights)), 1)
 })
 
 # Flu
 test_that("Flu has 50 correctly named columns", {
+  data("flu")
   correct.names <- c("flu_shot", "Age")
   df.names <- names(flu)
   for (i in 1:ncol(flu)) {
@@ -133,6 +155,7 @@ test_that("Flu has 50 correctly named columns", {
 
 # Hospital satisfaction
 test_that("Hospital Satisfaction has correctly named columns", {
+  data("hospital")
   correct.names <- c("Satisfaction", "Age", "Severity", 
                      "Anxiety", "Gender")
   df.names <- names(hospital)
@@ -143,6 +166,7 @@ test_that("Hospital Satisfaction has correctly named columns", {
 
 # Houses
 test_that("Houses has correctly named columns", {
+  data("houses")
   correct.names <- c("Price", "Area", "Rooms", 
                      "Location", "dum.loc1", "dum.loc2")
   df.names <- names(houses)
@@ -153,6 +177,7 @@ test_that("Houses has correctly named columns", {
 
 # Mammals
 test_that("Mammals has correctly named columns", {
+  data("mammals")
   correct.names <- c("Animal", "Sleep", "BodyWt", 
                      "LifeSpan", "Gestation", "Danger")
   df.names <- names(mammals)
@@ -163,6 +188,7 @@ test_that("Mammals has correctly named columns", {
 
 # Mum
 test_that("Mum has correctly named columns", {
+  data("mum")
   correct.names <- c("Time", "Visibility", "TestResult")
   df.names <- names(mum)
   for (i in 1:ncol(mum)) {
@@ -172,6 +198,7 @@ test_that("Mum has correctly named columns", {
 
 # NYC
 test_that("NYC has correctly named columns", {
+  data("nyc")
   correct.names <- c("Income", "Gender", "Health")
   df.names <- names(nyc)
   for (i in 1:ncol(nyc)) {
@@ -181,6 +208,7 @@ test_that("NYC has correctly named columns", {
 
 # Nutrition
 test_that("Nutrition has correctly named columns", {
+  data("nutrition")
   correct.names <- c("Shrt_Desc", "Energy", 
                      "Water", "Choles")
   df.names <- names(nutrition)
@@ -191,6 +219,7 @@ test_that("Nutrition has correctly named columns", {
 
 # Offer
 test_that("Offer data has correctly named columns", {
+  data("offer")
   correct.names <- c("Offer", "Age", "Gender")
   df.names <- names(offer)
   for (i in 1:ncol(offer)) {
@@ -200,6 +229,7 @@ test_that("Offer data has correctly named columns", {
 
 # Restaurant
 test_that("Restaurant has correctly named columns", {
+  data("restaurant")
   correct.names <- c("Rating", "Groupsize", "Wine")
   df.names <- names(restaurant)
   for (i in 1:ncol(restaurant)) {
@@ -209,6 +239,7 @@ test_that("Restaurant has correctly named columns", {
 
 # Social
 test_that("Social Media has correctly named columns", {
+  data("social")
   correct.names <- c("shares", "videos", "channel")
   df.names <- names(social)
   for (i in 1:ncol(social)) {
@@ -218,6 +249,7 @@ test_that("Social Media has correctly named columns", {
 
 # Swimmers
 test_that("Swimmers data has correctly named columns", {
+  data("swim")
   correct.names <- c("Ratio", "CN")
   df.names <- names(swim)
   for (i in 1:ncol(swim)) {
@@ -227,10 +259,12 @@ test_that("Swimmers data has correctly named columns", {
 
 # TempLoad
 test_that("Temp has correctly named columns", {
+  data("temp")
   correct.names <- c("temp", "load")
   df.names <- names(temp)
   for (i in 1:ncol(temp)) {
     expect_equal(df.names[[i]], correct.names[[i]])
   }
 })
+
 
