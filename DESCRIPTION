@@ -4,7 +4,6 @@ Version: 0.2.0
 Authors@R: c(person(given="Frank", family="Kovacs", 
   role=c("aut", "cre"), email="fkovacs@stat.cmu.edu"))
 Maintainer: Frank Kovacs <fkovacs@andrew.cmu.edu>
-Repository: CRAN
 Description: This package provides all necessary pacakges and data for 36-202. 
 Imports:
   knitr,
