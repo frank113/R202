@@ -14,7 +14,6 @@ library(R202)
 library(ggplot2)
 library(dplyr)
 
-load("../R/sysdata.rda")
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -25,7 +24,9 @@ knitr::opts_chunk$set(
   fig.width = 7,
   height = 6
 )
+```
 
+```{r init, echo=FALSE, eval=TRUE}
 axis.size <- 20
 font <- "Times"
 
@@ -47,10 +48,27 @@ vignette.theme <- theme(rect = element_rect(fill = "white",
                                                   vjust = 1))
 ```
 
-# R202
-
 ## Knitting
 
+The term "knitting" refers to the conversion of an RMarkdown document to a human-readable styling, such as a `.pdf` or `.html` document. In the knitting process, R evaluates all code chunks and produces the output while also displaying the code used to generate such an output. Note that one can hide either the output or the code itself, for a full guide on how to control these features visit the [official knitr website](https://yihui.name/knitr/options/). 
+
+Note that when knitting occurs, the code is evaluated in order inheriting all previously executed code. For example, we will define a variable named `frank` below as such:
+
+```{r frank assignment, echo=TRUE, eval=TRUE}
+frank <- "Mudge"
+```
+
+Note that for any following code chunk, we can use the `frank` variable.
+
+```{r frank proof, echo=TRUE, eval=TRUE}
+# Simply calling the variable will produce the value of the variable as the output, in this case "Mudge"
+
+frank
+```
+
+The inheritance demonstrated applies to *all* R objects, including but not limited to `library()` calls, variable assignments, function definitions and the loading of data. Note that the inheritance only applies to code chunks **below** the assigment. If one were to reference the `frank` variable in a code chunk placed before the assignment code, the code would not knit. Furthermore, the code is re-run with an empty environment *each time knitting occurs*. 
+
+In short, knit often!
 
 
 
