@@ -23,4 +23,7 @@ inst/doc
 *.pyc
 test.py
 
+# Vignette files
+vignettes/.build.timestamp
+
 installation.Rmd
