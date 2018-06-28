@@ -126,6 +126,6 @@ R vignettes have the ability to images.
 
 ### Including online images.
 
-![Mudge House, the home of the author](mudge_imate.jpg)
+![Mudge House, the home of the author](mudge_image.jpg)
 
 
