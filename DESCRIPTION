@@ -22,7 +22,8 @@ Imports:
   rjson,
   magrittr,
   readr,
-  car
+  car,
+  utils
 Depends: R (>= 3.2.0), 
 License: GPL-2
 Encoding: UTF-8

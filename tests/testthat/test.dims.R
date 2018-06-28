@@ -1,7 +1,5 @@
 context("Test datasets have correct dimensions")
 
-library(R202)
-
 # Airlines
 test_that("Airlines has 500 rows and 3 columns", {
   data("airlines")
