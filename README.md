@@ -42,6 +42,7 @@ The R202 packages provides the following data sets:
 + Detergent
 + Disease
 + Ethics
++ Example Data
 + Facebook Grey Matter
 + Flights
 + Flu
@@ -59,7 +60,7 @@ The R202 packages provides the following data sets:
 
 # Contributing
 
-To suggest a change, please open a pull request. 
+To suggest a change, please open a pull request.
 
 # Acknowledgements
 
