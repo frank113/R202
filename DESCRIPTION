@@ -31,5 +31,6 @@ LazyData: false
 RoxygenNote: 6.0.1
 Suggests: testthat,
     knitr,
-    rmarkdown
+    rmarkdown,
+    covr (>= 3.0.1)
 VignetteBuilder: knitr
