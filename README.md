@@ -3,11 +3,17 @@ R Package for 36-202 at Carnegie Mellon University
 
 R202 is an R package designed to compile and collect all R functionality to complement 36-202 at Carnegie Mellon University. The pacakge provides 25 unique data sets used in labs and projects. The package also provides an easy mechanism to install all dependencies needed in the course. A full listing of datasets is available in the appendix below.
 
-# Contact
+# Features
 
-For any pressing issues related to the R202 package, please contact the author at:
+The R202 package is a fully-featured R suite designed to transition students with no programming experience to using R and RStudio in the context of a second university-level course in statistics. 
 
-`fkovacs@andrew.cmu.edu`
+## Vignettes
+
+The R202 package is equipped with many vignettes to provide low-level explanations about various aspects of R that may seem foreign to introductory, such as package installation.
+
+### Interface to Vignettes
+
+R202 provides easy-to-remember interface and navigation to various vignettes. 
 
 # Requirements
 
@@ -17,15 +23,65 @@ To successfully use the R202 package, one must install the following R libraries
 
 # Installation
 
+## Devtools (Recommended)
+
 To install the package, run the following code in an R terminal:
 
-`devtools::install_github("frank113/R202", build_vignettes = TRUE)`
+```r
+devtools::install_github("frank113/R202", build_vignettes = TRUE, version = "0.2.1")
+.rs.restartR()
+library(R202)
+```
 
-You may also clone into the development version by running the following code in a bash terminal:
+Note that the `.rs.restartR()` command is critical to the installation of the package, as the restarting of the R session will ensure that the `.rdb` (internal compressed R files) can be properly loaded. 
 
-`git clone https://github.com/frank113/R202.git`
+## Build from Source
 
-If you clone or fork the repository, you must use `devtools` to install the package on your local computer.
+If the above method fails, you may also install the version from a source or binary package. 
+
+### Packaged Versions
+
+To install from a pre-made distribution of the package, please follow the directions below to determine which relase of the package you must install.
+
+#### Windows
+
+Note that windows will use the **binary** release of the package. To download the most recent binary version of the package, find the `.tgz` file at [this link](https://github.com/frank113/R202/blob/e0002b8a7b0e9981ed01d257c4d9c2f7d39cc3dd/R202_0.2.1.tgz)
+
+Older binary links are available at the following links:
+
++ [0.2.1](https://github.com/frank113/R202/blob/e0002b8a7b0e9981ed01d257c4d9c2f7d39cc3dd/R202_0.2.1.tgz)
++ [0.2](https://github.com/frank113/R202/blob/c2ffd608d5e71d4a354b86826188fd41a4d989f3/R202_0.2.0.tgz)
+
+#### Mac / Linux
+
+To install the `R202` package without devtools on a Mac or Linux operating system, please use the **source** release of the package. To download the most recent source version of the package, please download the `.tar.gz` file at [this link](https://github.com/frank113/R202/blob/e0002b8a7b0e9981ed01d257c4d9c2f7d39cc3dd/R202_0.2.1.tar.gz)
+
+Older source distributions are available at the following links:
+
++ [0.2.1](https://github.com/frank113/R202/blob/e0002b8a7b0e9981ed01d257c4d9c2f7d39cc3dd/R202_0.2.1.tar.gz)
+
+### Installation after Download
+
+After you have saved the distribution to your personal computer, navigate to the `packages` pane in RStudio and click on the "install" button. 
+
+Indicate that you wish to install from a "package archive file .tgz, .tar.gz" in the "install from" drop-down. In the "package archive" section, navigate to your recently downloaded distribution. Install the package. 
+
+Note that the above may also be duplicated by running the following code in your console (assuming that your distribution is located at `distribution_location`):
+
+```r
+# If on mac with .tgz file
+install.packages("distribution_location", repos = NULL, type = "source")
+
+# If on Windows
+install.packages("distribution_location", repos = NULL, type = .Platform$pkgType)
+```
+
+After installing in that manner, plesae the following code in your console
+
+```r
+.rs.restartR()
+library(R202)
+```
 
 # Data sets
 
@@ -61,6 +117,12 @@ The R202 packages provides the following data sets:
 # Contributing
 
 To suggest a change, please open a pull request.
+
+# Contact
+
+For any pressing issues related to the R202 package, please contact the author at:
+
+`fkovacs@andrew.cmu.edu`
 
 # Acknowledgements
 
