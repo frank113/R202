@@ -11,10 +11,6 @@ The R202 package is a fully-featured R suite designed to transition students wit
 
 The R202 package is equipped with many vignettes to provide low-level explanations about various aspects of R that may seem foreign to introductory, such as package installation.
 
-### Interface to Vignettes
-
-R202 provides easy-to-remember interface and navigation to various vignettes. 
-
 # Requirements
 
 To successfully use the R202 package, one must install the following R libraries:
