@@ -1,6 +1,6 @@
 ---
 title: "Introduction to RStudio"
-author: "Francis R. Kovacs and Jacqueline Liu"
+author: "Francis R. Kovacs and Kayla Frisoli"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
