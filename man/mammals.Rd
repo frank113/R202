@@ -20,4 +20,7 @@ data("mammals")
 \note{
 36-202 Lab Data.
 }
+\references{
+Allison, T., and Cicchetti, D. V. (1976). "Sleep in Mammals: Ecological and Constitutional Correlates."" Science, 194, 732-734.
+}
 \keyword{datasets}

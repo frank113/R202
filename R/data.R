@@ -465,6 +465,7 @@
 #'   \item{\code{Danger}}{The danger rating of an animal on a scale from 1-5.}
 #'   }
 #' @usage data("mammals")
+#' @references Allison, T., and Cicchetti, D. V. (1976). "Sleep in Mammals: Ecological and Constitutional Correlates."" Science, 194, 732-734.
 #' @note 36-202 Lab Data.
 "mammals"
 
