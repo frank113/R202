@@ -18,7 +18,7 @@ sudo: false
 cache: packages
 
 # Check options
-warnings_are_errors: true
+warnings_are_errors: false
 r_check_args: "--as-cran"
 r_build_args: "--timing"
 
