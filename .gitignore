@@ -15,8 +15,6 @@
 *.json
 
 # Builds
-*.tar.gz
-*.tgz
 inst/doc
 
 # Python files not needed
