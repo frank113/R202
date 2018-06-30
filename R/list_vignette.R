@@ -22,7 +22,7 @@
 #' ## x is a vector containing the vignettes
 #' ## the below command will be valid
 #' # vv(lv()[[1]])
-#' @seealso \link{vignette}, \link{vv}
+#' @seealso \link{vignette}, \link{vv}, \link{vl}
 #'
 #' @export
 "lv"

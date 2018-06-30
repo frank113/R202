@@ -30,5 +30,5 @@ This command manipulates the datafame returned by
 # vv(lv()[[1]])
 }
 \seealso{
-\link{vignette}, \link{vv}
+\link{vignette}, \link{vv}, \link{vl}
 }
