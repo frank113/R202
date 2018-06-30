@@ -23,5 +23,6 @@ test.py
 
 # Vignette files
 vignettes/.build.timestamp
+inst/man/doc/*.pdf
 
 installation.Rmd
