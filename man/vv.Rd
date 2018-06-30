@@ -30,5 +30,5 @@ This command is identical to \code{vignette("vignetteName", package = "R202")}
 # view_vignette("egg") ## Views the egg vignette.
 }
 \seealso{
-\link{vignette}.
+\link{vignette}, \link{vl}, \link{lv}
 }
