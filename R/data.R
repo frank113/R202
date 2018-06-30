@@ -632,10 +632,12 @@
 #'   trial and vice-versa.}
 #' }
 #' @usage data("swim")
+#' @references Seligman, M.E.P., Nolen-Hoeksema, S., Thornton, N., & Thornton, C.M. (1990). 
+#'     Explanatory style as a mechanism of disappointing athletic performance. 
+#'     Psychological Science, 1, 143-146,as described on 
+#'     \link{http://www.uvm.edu/~dhowell/StatPages/Swimming/Swimming.html}
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
-#' @note 36-201 Homework 2 Data.
-#' @note 36-202 Lab 2 Data.
 #' @note Obtained from the Fall 2015 edition of 36-201.
 "swim"
 
