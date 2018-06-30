@@ -128,7 +128,7 @@
 #' @format A dataframe with 215 rows and 25 columns.
 #' \describe{
 #'   \item{\code{Country}}{Name of country.}
-#'   \item{\code{LandArea}}{Rize in 1000 sq. km.}
+#'   \item{\code{LandArea}}{Size in 1000 sq. km.}
 #'   \item{\code{Population}}{Population in millions of people.}
 #'   \item{\code{Density}}{Number of people per square kilometer.}
 #'   \item{\code{GDP}}{Gross Domestic Product (per capita in USD).}
