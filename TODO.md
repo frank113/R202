@@ -1,5 +1,7 @@
 # Lab01
 
++ `home/202/classdata` is common to all of them
+
 + Vignette for vectors
 + ~~introR vignette~~
 + Put lab01 files directly into the server
