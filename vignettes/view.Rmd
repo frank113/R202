@@ -1,0 +1,65 @@
+---
+title: "Viewing Data"
+author: "Francis R. Kovacs"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Viewing Data}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+library(R202)
+library(ggplot2)
+
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.align = "center",
+  warning = FALSE,
+  message = FALSE,
+  echo = TRUE,
+  eval=FALSE,
+  fig.width = 7,
+  height = 6
+)
+```
+
+# Viewing Data
+
+## View
+
+When you have a dataframe (an entry under the "data" tab of "environment"), you may view it in an excel-like format by running the following code:
+
+```{r, echo=TRUE, eval=FALSE}
+View(data_name)
+```
+
+Note that this command is never to be run in an `.Rmd` or `.R` file, only in the terminal.
+
+## Head
+
+The `head()` function allows one to see the first 6 rows of data. It is called with:
+
+```{r, eval=TRUE}
+# Load the data for the example
+library(R202)
+data("airlines")
+
+head(airlines)
+```
+
+## Tail
+
+The `tail()` function allows one to see the last six rows of data. It is called with:
+
+```{r, eval=TRUE}
+# Load the data for the example
+library(R202)
+data("airlines")
+
+tail(airlines)
+```
+
+
