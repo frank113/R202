@@ -3,6 +3,7 @@ title: "Knitting RMarkdown Files"
 author: "Francis R. Kovacs"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
+urlcolor: blue
 vignette: >
   %\VignetteIndexEntry{Knitting to RMarkdown}
   %\VignetteEngine{knitr::rmarkdown}

@@ -3,6 +3,7 @@ title: "Help Function"
 author: "Francis R. Kovacs"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
+urlcolor: blue
 vignette: >
   %\VignetteIndexEntry{Help Function}
   %\VignetteEngine{knitr::rmarkdown}

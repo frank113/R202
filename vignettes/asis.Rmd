@@ -3,6 +3,7 @@ title: "Asis"
 author: "Francis R. Kovacs"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
+urlcolor: blue
 vignette: >
   %\VignetteIndexEntry{Asis}
   %\VignetteEngine{knitr::rmarkdown}

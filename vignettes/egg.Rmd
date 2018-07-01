@@ -3,6 +3,7 @@ title: "Easter Egg"
 author: "Francis R. Kovacs"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
+urlcolor: blue
 vignette: >
   %\VignetteIndexEntry{Easter Egg}
   %\VignetteEngine{knitr::rmarkdown}

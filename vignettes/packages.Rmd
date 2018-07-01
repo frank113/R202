@@ -3,6 +3,7 @@ title: "R Packages"
 author: "Francis R. Kovacs"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
+urlcolor: blue
 vignette: >
   %\VignetteIndexEntry{R Packages}
   %\VignetteEngine{knitr::rmarkdown}
