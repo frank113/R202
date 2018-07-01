@@ -24,5 +24,6 @@ test.py
 # Vignette files
 vignettes/.build.timestamp
 inst/doc/*.pdf
+vignettes/help_image.pptx
 
 installation.Rmd

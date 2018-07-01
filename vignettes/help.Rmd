@@ -1,0 +1,40 @@
+---
+title: "Help Function"
+author: "Francis R. Kovacs"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Help Function}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+library(R202)
+
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.align = "center",
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 7,
+  height = 6
+)
+```
+
+Each R function and package has built-in documentation to provide guidance about each function. Documentation is included with every package. While we direct you to vignettes in 36-202, for more advanced functionality the help pages are the first source of guidance. 
+
+One may access the help documentation by using the following command (for an object called `function`, which may be anything):
+
+```{r, echo=TRUE, eval=FALSE}
+help(function)
+```
+
+Help may also be accessed by the "Help" pane in RStudio and searching for your function, package or data frame. In the image below, the button indicated by the yellow arrow will open the help tab, while one can see the command used to open the page in the red box. 
+
+![Help in Action](help_image.png)
+
+
+
