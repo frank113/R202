@@ -11,7 +11,6 @@ Imports:
   ggplot2,
   gridExtra,
   gtable,
-  htmltools,
   kableExtra,
   knitr,
   magrittr,
@@ -30,7 +29,8 @@ License: GPL-2
 Encoding: UTF-8
 LazyData: false
 RoxygenNote: 6.0.1
-Suggests: testthat,
-    knitr,
-    rmarkdown
+Suggests: htmltools,
+  knitr,
+  rmarkdown,
+  testthat
 VignetteBuilder: knitr
