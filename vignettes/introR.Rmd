@@ -3,6 +3,7 @@ title: "Introduction to RStudio"
 author: "Francis R. Kovacs and Kayla Frisoli"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
+urlcolor: blue
 vignette: >
   %\VignetteIndexEntry{Introduction to RStudio}
   %\VignetteEngine{knitr::rmarkdown}
@@ -10,10 +11,10 @@ vignette: >
 ---
 
 ```{r setup, include = FALSE}
-library(R202)
-library(ggplot2)
+## library(R202)
+## library(ggplot2)
 
-load("../R/sysdata.rda")
+## load("../R/sysdata.rda")
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -28,22 +29,6 @@ knitr::opts_chunk$set(
 axis.size <- 20
 font <- "Times"
 
-vignette.theme <- theme(rect = element_rect(fill = "white", 
-                                            colour = "black", size = 0.5), 
-                        text = element_text(face = "plain", colour = "black", 
-                                            size = 11, hjust = 0.5, 
-                                            vjust = 0.5, angle = 0, 
-                                            lineheight = 0), 
-                        axis.title.x = element_text(size = axis.size, vjust = 1, 
-                                             family = font), 
-                        axis.title.y = element_text(size = axis.size, angle = 90, 
-                                                    vjust = 1), 
-                        axis.text.x = element_text(size = 15, vjust = 1), 
-                        axis.text.y = element_text(size = 15, hjust = 1), 
-                        axis.ticks = element_line(size = 0, colour = "grey20"), 
-                        plot.title = element_text(family = font, face = "bold", 
-                                                  size = 25, hjust = 0.5, 
-                                                  vjust = 1))
 ```
 
 ## Introduction to R Studio
@@ -52,11 +37,13 @@ vignette.theme <- theme(rect = element_rect(fill = "white",
 
 `R` is a FREE programming language / environment that is often used for statistical analysis and graphing. `R` is an amazing tool that is widely used by data scientists, researchers, and professionals from all fields. It has built-in statistical tools that help facilitate both qualitative and quantitative analysis of data. It is [open-source](https://en.wikipedia.org/wiki/Open-source_model) and helps facilitate reproducible research.  You can read more about it [here](https://www.r-project.org/about.html).
 
-Developed in 1993 by Professors from the University of Auckland, R is one of the most commonly used programming languages for data science. Ranked at the 10th most popular programming langauge (see the [Tiobe Index](https://www.tiobe.com/tiobe-index/)); R is a vital skill for msot data scientists. 
+Developed in 1993 by Professors from the University of Auckland, R is one of the most commonly used programming languages for data science. Ranked at the 10th most popular programming language (see the [Tiobe Index](https://www.tiobe.com/tiobe-index/)); R is a vital skill for most data scientists. 
+
+On a side note, the name R comes not from a grand scheme of meaning; the two scientists who developed the language both have names that begin with R. 
 
 ### RStudio
 
-RStudio is known as an integrated development environment (IDE), a tool that contains all resources to develop R at any level. The layout of R studio is given as follows:
+R Studio is known as an integrated development environment (IDE), a tool that contains all resources to develop R at any level. The layout of R studio is given as follows:
 
 You will see four panes within the R Studio window.
 
