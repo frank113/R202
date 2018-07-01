@@ -1,0 +1,37 @@
+---
+title: "Asis"
+author: "Francis R. Kovacs"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Asis}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+```{r setup, include = FALSE}
+library(R202)
+
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.align = "center",
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 7,
+  height = 6
+)
+```
+
+When working in an RMarkdown file, formatting can sometimes be tricky. Adding the `asis` tag within a code chunk ensures that anything in the code chunk will be displayed as-is without formatting. Commands such as `echo` and `eval` still apply when an `asis` tag is used. To display an `asis` tag, use the following code:
+
+\```{asis, echo=TRUE, eval=FALSE}
+
+Anything goes here!
+
+\```
+
+
+Any code placed in this block will not be executed. 

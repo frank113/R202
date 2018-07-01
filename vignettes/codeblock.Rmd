@@ -1,0 +1,39 @@
+---
+title: "Code Block"
+author: "Francis R. Kovacs"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Code Block}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+library(R202)
+
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.align = "center",
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 7,
+  height = 6
+)
+```
+
+When working in an RMarkdown file, R code is inserted in pieces of text known as code blocks. Within a code block, R commands may be used and are executed by defualt. The contents of a code chunk do not affect the text outside of the chunk and are useful for organizing processes. The result of the Each code block may use any variables and libraries called in a previous code chunk. 
+
+A code chunk is denoted by the following text:
+
+
+\```{r, echo=TRUE, eval=FALSE}
+
+# Code goes here
+
+\```
+
+
+Options are available for code chunk. Setting `echo=TRUE` ensures that readers will see the code as it is executed. Setting `eval=TRUE` ensures that the code within the code chunk will be evaluated regardless of `ECHO`. 

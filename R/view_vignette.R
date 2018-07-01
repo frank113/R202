@@ -22,7 +22,7 @@
 #' 
 #' @examples 
 #' # view_vignette("egg") ## Views the egg vignette.
-#' @seealso \link{vignette}. 
+#' @seealso \link{vignette}, \link{vl}, \link{lv}
 #'
 #' @export
 "vv"
