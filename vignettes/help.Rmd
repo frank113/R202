@@ -34,7 +34,7 @@ help(function)
 
 Help may also be accessed by the "Help" pane in RStudio and searching for your function, package or data frame. In the image below, the button indicated by the yellow arrow will open the help tab, while one can see the command used to open the page in the red box. 
 
-![Help in Action](help_image.png)
+![Help in Action](help_files/help_image.png)
 
 
 
