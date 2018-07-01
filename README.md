@@ -41,20 +41,22 @@ To install from a pre-made distribution of the package, please follow the direct
 
 #### Windows
 
-Note that windows will use the **binary** release of the package. To download the most recent binary version of the package, find the `.tgz` file at [this link](https://github.com/frank113/R202/blob/c13632e8aa08dd885b350ec96d66be85b5167e16/R202_0.2.2.tgz)
+Note that windows will use the **binary** release of the package. To download the most recent binary version of the package, find the `.tgz` file at [this link](https://github.com/frank113/R202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/R202_0.2.2.1.tgz)
 
 Older binary links are available at the following links:
 
++ [0.2.2.1](https://github.com/frank113/R202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/R202_0.2.2.1.tgz)
 + [0.2.2](https://github.com/frank113/R202/blob/c13632e8aa08dd885b350ec96d66be85b5167e16/R202_0.2.2.tgz)
 + [0.2.1](https://github.com/frank113/R202/blob/e0002b8a7b0e9981ed01d257c4d9c2f7d39cc3dd/R202_0.2.1.tgz)
 + [0.2](https://github.com/frank113/R202/blob/c2ffd608d5e71d4a354b86826188fd41a4d989f3/R202_0.2.0.tgz)
 
 #### Mac / Linux
 
-To install the `R202` package without devtools on a Mac or Linux operating system, please use the **source** release of the package. To download the most recent source version of the package, please download the `.tar.gz` file at [this link](https://github.com/frank113/R202/blob/c13632e8aa08dd885b350ec96d66be85b5167e16/R202_0.2.2.tar.gz)
+To install the `R202` package without devtools on a Mac or Linux operating system, please use the **source** release of the package. To download the most recent source version of the package, please download the `.tar.gz` file at [this link](https://github.com/frank113/R202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/R202_0.2.2.1.tar.gz)
 
 Older source distributions are available at the following links:
 
++ [0.2.2.1](https://github.com/frank113/R202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/R202_0.2.2.1.tar.gz)
 + [0.2.2](https://github.com/frank113/R202/blob/c13632e8aa08dd885b350ec96d66be85b5167e16/R202_0.2.2.tar.gz)
 + [0.2.1](https://github.com/frank113/R202/blob/e0002b8a7b0e9981ed01d257c4d9c2f7d39cc3dd/R202_0.2.1.tar.gz)
 
