@@ -24,16 +24,32 @@ knitr::opts_chunk$set(
 )
 ```
 
-When working in an RMarkdown file, R code is inserted in pieces of text known as code blocks. Within a code block, R commands may be used and are executed by defualt. The contents of a code chunk do not affect the text outside of the chunk and are useful for organizing processes. The result of the Each code block may use any variables and libraries called in a previous code chunk. 
+When working in an R Markdown file, R code is inserted in pieces of text known as code blocks. Within a code block, R commands may be used and are executed by default. The contents of a code chunk do not affect the text outside of the chunk and are useful for organizing processes. The result of the Each code block may use any variables and libraries called in a previous code chunk. 
 
 A code chunk is denoted by the following text:
 
+```{r, echo=FALSE, eval=TRUE, comment = ""}
+cat(htmltools::includeText("codeblock_files/example.Rmd"))
+```
 
-\```{r, echo=TRUE, eval=FALSE}
+In this chunk we have the variable `x` being assigned to the number `1356`. 
 
-# Code goes here
+Options are available for code chunk. Setting `echo=TRUE` ensures that readers will see the code as it is executed. Setting `eval=TRUE` ensures that the code within the code chunk will be evaluated regardless of `ECHO`. These options may be changed by adding them after the `r` in the opening tag:
 
-\```
+See the following example:
 
+```{r, echo=FALSE, eval=TRUE, comment = ""}
+cat(htmltools::includeText("codeblock_files/code_chunk_echo.Rmd"))
+```
 
-Options are available for code chunk. Setting `echo=TRUE` ensures that readers will see the code as it is executed. Setting `eval=TRUE` ensures that the code within the code chunk will be evaluated regardless of `ECHO`. 
+*echo and eval operate independently from one another -- for example `echo=TRUE` and `eval=FALSE` will display the raw code but not execute the code.*
+
+One may also insert a code chunk by clicking the green "insert" button to see a drop-down menu, after which click the "R" button (surrounded by the red box) as seen in the images below:
+
+![Click the Button Pointed to by the Orange Arrow](codeblock_files/code_chunk_button.png)
+
+After clicking the buttons, you will have a code chunk!
+![Code Chunk in Red](codeblock_files/code_chunk_after_insert.png)
+
+Thank you to the user at [this link](https://github.com/yihui/knitr/issues/1237) for assisting in how to display a raw code block in the creation of the vignette.
+
