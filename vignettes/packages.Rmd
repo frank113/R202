@@ -12,7 +12,6 @@ vignette: >
 
 ```{r setup, include = FALSE}
 library(R202)
-library(ggplot2)
 
 knitr::opts_chunk$set(
   collapse = TRUE,
@@ -24,35 +23,15 @@ knitr::opts_chunk$set(
   fig.width = 7,
   height = 6
 )
-
-axis.size <- 20
-font <- "Times"
-
-vignette.theme <- theme(rect = element_rect(fill = "white", 
-                                            colour = "black", size = 0.5), 
-                        text = element_text(face = "plain", colour = "black", 
-                                            size = 11, hjust = 0.5, 
-                                            vjust = 0.5, angle = 0, 
-                                            lineheight = 0), 
-                        axis.title.x = element_text(size = axis.size, vjust = 1, 
-                                             family = font), 
-                        axis.title.y = element_text(size = axis.size, angle = 90, 
-                                                    vjust = 1), 
-                        axis.text.x = element_text(size = 15, vjust = 1), 
-                        axis.text.y = element_text(size = 15, hjust = 1), 
-                        axis.ticks = element_line(size = 0, colour = "grey20"), 
-                        plot.title = element_text(family = font, face = "bold", 
-                                                  size = 25, hjust = 0.5, 
-                                                  vjust = 1))
 ```
 
 ## Packages
 
-The functionality of R is bolstered by user-developed segments of code known as packages. While base R is installed with 15 required packages, thousands of packages are created each year to streamline complicated processes in a reproducible manner. In a package the author will create _functions_, blocks of code that perform a specific task for a certain input. Such funcitons remove the burden of calculation from the user -- allowing long calculations such as least squares regression to be done in a matter of seconds with no programming knowledge. Packages also contain datasets -- as such data is now stored in a single location. 
+The functionality of R is bolstered by user-developed segments of code known as packages. While base R is installed with 15 required packages, thousands of packages are created each year to streamline complicated processes in a reproducible manner. In a package the author will create _functions_, blocks of code that perform a specific task for a certain input. Such functions remove the burden of calculation from the user -- allowing long calculations such as least squares regression to be done in a matter of seconds with no programming knowledge. Packages also contain data sets -- as such data is now stored in a single location. 
 
 ## Installation and Loading
 
-One can install R packages to their computer with a single call, after which the package may be loaded for use at any time thereafter. One must load each installed package with the `library()` command to then use the pacakge. This mechanism is designed to not create a memory burden on the computer -- as the package will then take up space in the environment after being loaded. 
+One can install R packages to their computer with a single call, after which the package may be loaded for use at any time thereafter. One must load each installed package with the `library()` command to then use the package. This mechanism is designed to not create a memory burden on the computer -- as the package will then take up space in the environment after being loaded. 
 
 To summarize:
 
@@ -64,13 +43,15 @@ Package must only be installed once. For example:
 install.packages("ggplot2")
 ```
 
-To load `ggplot2` in a new R session, one must run (at the start of each file that uses the pacakge):
+To load `ggplot2` in a new R session, one must run (at the start of each file that uses the package):
 
 ```{r echo=TRUE, eval=FALSE}
 library(ggplot2)
 ```
 
 Typically most `library()` calls are performed at the top of each `.R` or `.Rmd` file. For an `.Rmd` file, the `library()` calls are performed in the first code chunk -- making them available for all following code chunks. 
+
+**One must load each needed package at the start of every file**
 
 ## Package Management
 
