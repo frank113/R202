@@ -26,13 +26,16 @@ knitr::opts_chunk$set(
 )
 ```
 
-When working in an RMarkdown file, formatting can sometimes be tricky. Adding the `asis` tag within a code chunk ensures that anything in the code chunk will be displayed as-is without formatting. Commands such as `echo` and `eval` still apply when an `asis` tag is used. To display an `asis` tag, use the following code:
+When working in an RMarkdown file, formatting can sometimes be tricky. Adding the `asis` tag within a code chunk ensures that anything in the code chunk will be displayed as text. For example, typing:
 
-\```{asis, echo=TRUE, eval=FALSE}
+`x <- 5` 
 
-Anything goes here!
+as text will be indistinguishable from 
 
-\```
+```{r, echo=FALSE, eval=TRUE, comment=""}
+cat(htmltools::includeText("asis_files/asis_example.Rmd"))
+```
 
+when knitted. Note that the `x <- 5` is treated as text, not code. No variable named `x` will be created. 
 
-Any code placed in this block will not be executed. 
+In short, *asis ensures that anything in the chunk will be treated as text*.
