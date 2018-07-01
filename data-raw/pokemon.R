@@ -3,7 +3,8 @@
 pokemon_go <- readr::read_csv("data-raw/pokemon_go_scatterplot.csv")
 pokemon <- readr::read_csv("data-raw/pokemon_handheld.csv")
 
-# Save it
+# Save it for vignettes
 
-devtools::use_data(pokemon_go, internal = TRUE, overwrite = TRUE)
-devtools::use_data(pokemon, internal = TRUE, overwrite = TRUE)
+readr::write_csv(pokemon, "vignettes/egg_files/pokemon.csv")
+readr::write_csv(pokemon_go, "vignettes/egg_files/pokemon_go.csv")
+
