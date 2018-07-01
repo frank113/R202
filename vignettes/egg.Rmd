@@ -3,6 +3,7 @@ title: "Easter Egg"
 author: "Francis R. Kovacs"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
+urlcolor: blue
 vignette: >
   %\VignetteIndexEntry{Easter Egg}
   %\VignetteEngine{knitr::rmarkdown}
@@ -13,8 +14,9 @@ vignette: >
 library(R202)
 library(ggplot2)
 library(dplyr)
+library(readr)
 
-load("../R/sysdata.rda")
+pokemon <- readr::read_csv("egg_files/pokemon.csv")
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -58,17 +60,17 @@ XOXO and Mudgelove forever.
 
 ## Pokemon
 
-The Pokemon series is considered a staple of the childhood experience in the humble opinion of this author. A three dimensional third-person adventure game, the primary mechanism of the game centers on the training, collection and battling of small animal-like creatures dubbed **Pokemon**. Pokemon are either acquired through live capture in the wild based on a systme of random encounters and trading with other players. The open-ended nature of Pokemon acquisition has often been cited as a source of enjoyment for many players. 
+The Pokemon series is considered a staple of the childhood experience in the humble opinion of this author. A three dimensional third-person adventure game, the primary mechanism of the game centers on the training, collection and battling of small animal-like creatures dubbed **Pokemon**. Pokemon are either acquired through live capture in the wild based on a system of random encounters and trading with other players. The open-ended nature of Pokemon acquisition has often been cited as a source of enjoyment for many players. 
 
-Multi-player and online competition has enabled the series to far outpace its humble beginnings. In allowing for online battles, the sense of competition and strategy continues at the highest levels. The impetus for this paragaph comes rom the author's previous experience in Pokemon tournaments. 
+Multi-player and online competition has enabled the series to far outpace its humble beginnings. In allowing for online battles, the sense of competition and strategy continues at the highest levels. The impetus for this paragraph comes from the author's previous experience in Pokemon tournaments. 
 
 ## The Data
 
-The data summarized below comes from [Kaggle](https://www.kaggle.com/rounakbanik/pokemon). Containing `r nrow(pokemon)` rows and `r ncol(pokemon)` columns, the data set contains every pokemon released in the handheld series. This block of text displays the ability to use headings, links and embedded R code. The dimensions of the `pokemon` dataset are generated with in-line R code. 
+The data summarized below comes from [Kaggle](https://www.kaggle.com/rounakbanik/pokemon). Containing `r nrow(pokemon)` rows and `r ncol(pokemon)` columns, the data set contains every Pokemon released in the handheld series. This block of text displays the ability to use headings, links and embedded R code. The dimensions of the `pokemon` data set are generated with in-line R code. 
 
 ## Some Graphs
 
-While somewhat mundane in the context of typically-used `Rmd` files, the ability to include graphics specifically those created with the `ggplot2` pacakge is a new feature and one that the author plans to exploit extensively in his development of the package. 
+While somewhat mundane in the context of typically-used `Rmd` files, the ability to include graphics specifically those created with the `ggplot2` package is a new feature and one that the author plans to exploit extensively in his development of the package. 
 
 To further develop our point, we will demonstrate the ability to show code that is being executed. The code below demonstrated the ability to modify the data set to provide an outlet to plot the data.
 
@@ -123,12 +125,12 @@ R vignettes have the ability to images.
 
 ### Including Images
 
-![Mudge House, the home of the author](mudge_image.jpg)
+![Mudge House, the home of the author](egg_files/mudge_image.jpg)
 
 The code to display such an image is given as follows:
 
 ```{asis}
-![Mudge House, the home of the author](mudge_image.jpg)
+![Mudge House, the home of the author](egg_files/mudge_image.jpg)
 ```
 
-Given that `mudge_image.jpg` is in the same directory as the `.Rmd` file. 
+Given that `mudge_image.jpg` is in the specified directory.

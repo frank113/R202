@@ -1,35 +1,36 @@
 Package: R202
 Title: Necessary Packages and Data for 36-202 at Carnegie Mellon University
-Version: 0.2.2
+Version: 0.2.2.1
 Authors@R: c(person(given="Frank", family="Kovacs", 
   role=c("aut", "cre"), email="fkovacs@andrew.cmu.edu"))
 Maintainer: Frank Kovacs <fkovacs@andrew.cmu.edu>
 Description: This package provides all necessary pacakges and data for 36-202. 
 Imports:
-  knitr,
-  kableExtra,
-  gtable,
-  tidyverse,
-  dplyr,
-  pander,
-  ResourceSelection,
-  MASS,
-  nnet,
-  gridExtra,
-  nlme,
-  multcomp,
-  ggplot2,
-  rjson,
-  magrittr,
-  readr (>= 1.1.1),
   car,
+  dplyr,
+  ggplot2,
+  gridExtra,
+  gtable,
+  kableExtra,
+  knitr,
+  magrittr,
+  MASS,
+  multcomp,
+  nlme,
+  nnet,
+  pander,
+  readr (>= 1.1.1),
+  ResourceSelection,
+  rjson,
+  tidyverse,
   utils (>= 3.5.0)
 Depends: R (>= 3.2.0), 
 License: GPL-2
 Encoding: UTF-8
 LazyData: false
 RoxygenNote: 6.0.1
-Suggests: testthat,
-    knitr,
-    rmarkdown
+Suggests: htmltools,
+  knitr,
+  rmarkdown,
+  testthat
 VignetteBuilder: knitr

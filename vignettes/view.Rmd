@@ -3,6 +3,7 @@ title: "Viewing Data"
 author: "Francis R. Kovacs"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
+urlcolor: blue
 vignette: >
   %\VignetteIndexEntry{Viewing Data}
   %\VignetteEngine{knitr::rmarkdown}
