@@ -1,0 +1,44 @@
+---
+title: "Code Comments"
+author: "Francis R. Kovacs"
+date: "`r Sys.Date()`"
+output: rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{Code Comments}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+library(R202)
+
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.align = "center",
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 7,
+  height = 6
+)
+```
+
+When writing R code, good comments are essential. Code comments are pieces of text that are not executed and serve as notes to describe what the code is doing. Comments serve to guide a reader through perhaps unfamiliar code. In general, code comments allow you to look at code from over six months ago and reason through the code. 
+
+Code are denoted in R by one or more `#` in a line by itself. Observe the code below:
+
+```{r, echo=TRUE, eval=FALSE}
+library(R202)
+cat("This is text")
+# Load the library and print some text
+
+y <- 1356
+
+## Comments can have multiple #s starting the lines
+
+x <- 5 # A comment with code 
+```
+
+Note that in each line, everything aftre `#` is considered a comment. 
+
