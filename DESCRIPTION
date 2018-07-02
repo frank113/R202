@@ -29,7 +29,8 @@ License: GPL-2
 Encoding: UTF-8
 LazyData: false
 RoxygenNote: 6.0.1
-Suggests: htmltools,
+Suggests: covr,
+  htmltools,
   knitr,
   rmarkdown,
   testthat

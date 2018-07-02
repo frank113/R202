@@ -1,4 +1,9 @@
 # R202
+
+## Tests
+
+[![Build Status](https://travis-ci.org/frank113/R202.svg?branch=master)](https://travis-ci.org/frank113/R202)
+
 R Package for 36-202 at Carnegie Mellon University
 
 R202 is an R package designed to compile and collect all R functionality to complement 36-202 at Carnegie Mellon University. The pacakge provides 25 unique data sets used in labs and projects. The package also provides an easy mechanism to install all dependencies needed in the course. A full listing of datasets is available in the appendix below.
