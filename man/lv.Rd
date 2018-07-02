@@ -2,7 +2,7 @@
 % Please edit documentation in R/list_vignette.R
 \name{lv}
 \alias{lv}
-\title{List Vignettes available in the R202 Package}
+\title{List Vignettes available in the cmu202 Package}
 \usage{
 lv()
 }
@@ -11,17 +11,17 @@ lv()
 }
 \value{
 \code{vector}. A vector of \code{string}s indicating the 
-    vignettes available in the R202 package.
+    vignettes available in the cmu202 package.
 }
 \description{
 This function provides a wrapper for students to list the available
-    vignettes only in the \code{R202} package. \code{lv} returns a \code{vector} 
+    vignettes only in the \code{cmu202} package. \code{lv} returns a \code{vector} 
     of vignettes a sstrings, each of which may be passed to the \code{vv()} 
     function.
 }
 \note{
 This command manipulates the datafame returned by 
-    \code{vignette(package = "R202")}
+    \code{vignette(package = "cmu202")}
 }
 \examples{
 # x <- lv()

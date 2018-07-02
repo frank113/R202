@@ -6,6 +6,6 @@ test_that("vv throws an error when provided with invalid vignette name", {
                      "Delta Tau Delta 209", "Mudge C203 RA", 
                      "Delta Tau Delta 302", "Mudge A101 CA")
   for ( wrong.name in invalid.names ) {
-    expect_error( R202::vv( wrong.name ) )
+    expect_error( cmu202::vv( wrong.name ) )
   }
 })

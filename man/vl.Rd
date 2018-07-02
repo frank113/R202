@@ -16,13 +16,13 @@ vl()
 }
 \description{
 This function provides a wrapper for students to see the available
-    vignettes in the \code{R202} package. \code{vl} opens a tab in the 
+    vignettes in the \code{cmu202} package. \code{vl} opens a tab in the 
     primary editor pane of RStudio displaying the vignettes and titles available
     in the package.
 }
 \note{
 This command produces the same result as 
-    \code{vignette(package = "R202")}
+    \code{vignette(package = "cmu202")}
 }
 \examples{
 # vl()

@@ -2,7 +2,7 @@
 % Please edit documentation in R/view_vignette.R
 \name{vv}
 \alias{vv}
-\title{View a Vignette in the R202 Package}
+\title{View a Vignette in the cmu202 Package}
 \usage{
 vv("vignetteName")
 }
@@ -18,13 +18,13 @@ not match any existing vignettes.}
 }
 \description{
 This function provides a wrapper for students to view vignettes
-    only in the \code{R202} package. \code{view_vignette} is intended to make
+    only in the \code{cmu202} package. \code{view_vignette} is intended to make
     the viewing of vignettes as painless as humanly possibe. Upon calling 
     the function, the vignette will become viewable in the "viewer" tab of the 
     "files" pane in RStudio.
 }
 \note{
-This command is identical to \code{vignette("vignetteName", package = "R202")}
+This command is identical to \code{vignette("vignetteName", package = "cmu202")}
 }
 \examples{
 # view_vignette("egg") ## Views the egg vignette.

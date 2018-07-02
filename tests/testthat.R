@@ -1,5 +1,5 @@
 library(testthat)
-library(R202)
+library(cmu202)
 
-test_check("R202")
+test_check("cmu202")
 
