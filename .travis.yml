@@ -1,25 +1,5 @@
-# Travis build file for R202
+# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 
-## R configuration
-language: r
-r:
-  - oldred
-  -release
-  -devel
-
-# LaTeX
-latex: false
-
-# Pandoc
-pandoc: false
-
-# Packages
+language: R
 sudo: false
 cache: packages
-
-# Check options
-warnings_are_errors: false
-r_check_args: "--as-cran"
-r_build_args: "--timing"
-
-# After testing (Option taken from dplyr's .travis.yml file
