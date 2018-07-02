@@ -1,8 +1,7 @@
 # R202
 
-## Tests
-
 [![Build Status](https://travis-ci.org/frank113/R202.svg?branch=master)](https://travis-ci.org/frank113/R202)
+[![codecov](https://codecov.io/gh/frank113/R202/branch/master/graph/badge.svg)](https://codecov.io/gh/frank113/R202)
 
 R Package for 36-202 at Carnegie Mellon University
 
