@@ -1,14 +1,14 @@
-#' @title View a Vignette in the R202 Package
+#' @title View a Vignette in the cmu202 Package
 #'
 #' @name vv
 #'
 #' @description This function provides a wrapper for students to view vignettes
-#'     only in the \code{R202} package. \code{view_vignette} is intended to make
+#'     only in the \code{cmu202} package. \code{view_vignette} is intended to make
 #'     the viewing of vignettes as painless as humanly possibe. Upon calling 
 #'     the function, the vignette will become viewable in the "viewer" tab of the 
 #'     "files" pane in RStudio. 
 #'
-#' @note This command is identical to \code{vignette("vignetteName", package = "R202")}
+#' @note This command is identical to \code{vignette("vignetteName", package = "cmu202")}
 #'
 #' @param \code{vignetteName} A \code{string} value indicating the name of the 
 #'     vignette you wish to see. Will return an \code{error} if the argument does 
@@ -29,7 +29,7 @@
 vv <- function(vignetteName) {
   # check to make sure that it is an existing vignette
   vign.var <- suppressWarnings(
-    vignette(vignetteName, package = "R202")
+    vignette(vignetteName, package = "cmu202")
   )
   
   # this is a comment that is a placeholder

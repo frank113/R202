@@ -1,23 +1,23 @@
-# R202
+# cmu202
 
 [![Build Status](https://travis-ci.org/frank113/R202.svg?branch=master)](https://travis-ci.org/frank113/R202)
 [![codecov](https://codecov.io/gh/frank113/R202/branch/master/graph/badge.svg)](https://codecov.io/gh/frank113/R202)
 
 R Package for 36-202 at Carnegie Mellon University
 
-R202 is an R package designed to compile and collect all R functionality to complement 36-202 at Carnegie Mellon University. The pacakge provides 25 unique data sets used in labs and projects. The package also provides an easy mechanism to install all dependencies needed in the course. A full listing of datasets is available in the appendix below.
+cmu202 is an R package designed to compile and collect all R functionality to complement 36-202 at Carnegie Mellon University. The pacakge provides 25 unique data sets used in labs and projects. The package also provides an easy mechanism to install all dependencies needed in the course. A full listing of datasets is available in the appendix below.
 
 # Features
 
-The R202 package is a fully-featured R suite designed to transition students with no programming experience to using R and RStudio in the context of a second university-level course in statistics. 
+The cmu202 package is a fully-featured R suite designed to transition students with no programming experience to using R and RStudio in the context of a second university-level course in statistics. 
 
 ## Vignettes
 
-The R202 package is equipped with many vignettes to provide low-level explanations about various aspects of R that may seem foreign to introductory, such as package installation.
+The cmu202 package is equipped with many vignettes to provide low-level explanations about various aspects of R that may seem foreign to introductory, such as package installation.
 
 # Requirements
 
-To successfully use the R202 package, one must install the following R libraries:
+To successfully use the cmu202 package, one must install the following R libraries:
 
 + `devtools`
 
@@ -29,9 +29,9 @@ To install the package, run the following code in an R terminal:
 
 ```r
 .rs.restartR()
-devtools::install_github("frank113/R202", build_vignettes = TRUE, version = "0.2.2.1")
+devtools::install_github("frank113/cmu202", build_vignettes = TRUE, version = "0.3")
 .rs.restartR()
-library(R202)
+library(cmu202)
 ```
 
 Note that the `.rs.restartR()` command is critical to the installation of the package, as the restarting of the R session will ensure that the `.rdb` (internal compressed R files) can be properly loaded. 
@@ -46,24 +46,24 @@ To install from a pre-made distribution of the package, please follow the direct
 
 #### Windows
 
-Note that windows will use the **binary** release of the package. To download the most recent binary version of the package, find the `.tgz` file at [this link](https://github.com/frank113/R202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/R202_0.2.2.1.tgz)
+Note that windows will use the **binary** release of the package. To download the most recent binary version of the package, find the `.tgz` file at [this link](https://github.com/frank113/cmu202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/cmu202_0.2.2.1.tgz)
 
-Older binary links are available at the following links:
+Older binary links are available at the following links: (note that all versions <= 0.2.2.1 have the name `R202`)
 
-+ [0.2.2.1](https://github.com/frank113/R202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/R202_0.2.2.1.tgz)
-+ [0.2.2](https://github.com/frank113/R202/blob/c13632e8aa08dd885b350ec96d66be85b5167e16/R202_0.2.2.tgz)
-+ [0.2.1](https://github.com/frank113/R202/blob/e0002b8a7b0e9981ed01d257c4d9c2f7d39cc3dd/R202_0.2.1.tgz)
-+ [0.2](https://github.com/frank113/R202/blob/c2ffd608d5e71d4a354b86826188fd41a4d989f3/R202_0.2.0.tgz)
++ [0.2.2.1](https://github.com/frank113/cmu202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/R202_0.2.2.1.tgz)
++ [0.2.2](https://github.com/frank113/cmu202/blob/c13632e8aa08dd885b350ec96d66be85b5167e16/R202_0.2.2.tgz)
++ [0.2.1](https://github.com/frank113/cmu202/blob/e0002b8a7b0e9981ed01d257c4d9c2f7d39cc3dd/R202_0.2.1.tgz)
++ [0.2](https://github.com/frank113/cmu202/blob/c2ffd608d5e71d4a354b86826188fd41a4d989f3/R202_0.2.0.tgz)
 
 #### Mac / Linux
 
-To install the `R202` package without devtools on a Mac or Linux operating system, please use the **source** release of the package. To download the most recent source version of the package, please download the `.tar.gz` file at [this link](https://github.com/frank113/R202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/R202_0.2.2.1.tar.gz)
+To install the `cmu202` package without devtools on a Mac or Linux operating system, please use the **source** release of the package. To download the most recent source version of the package, please download the `.tar.gz` file at [this link](https://github.com/frank113/cmu202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/cmu202_0.2.2.1.tar.gz)
 
-Older source distributions are available at the following links:
+Older source distributions are available at the following links: (note that all versions <= 0.2.2.1 have the name `R202`)
 
-+ [0.2.2.1](https://github.com/frank113/R202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/R202_0.2.2.1.tar.gz)
-+ [0.2.2](https://github.com/frank113/R202/blob/c13632e8aa08dd885b350ec96d66be85b5167e16/R202_0.2.2.tar.gz)
-+ [0.2.1](https://github.com/frank113/R202/blob/e0002b8a7b0e9981ed01d257c4d9c2f7d39cc3dd/R202_0.2.1.tar.gz)
++ [0.2.2.1](https://github.com/frank113/cmu202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/R202_0.2.2.1.tar.gz)
++ [0.2.2](https://github.com/frank113/cmu202/blob/c13632e8aa08dd885b350ec96d66be85b5167e16/R202_0.2.2.tar.gz)
++ [0.2.1](https://github.com/frank113/cmu202/blob/e0002b8a7b0e9981ed01d257c4d9c2f7d39cc3dd/R202_0.2.1.tar.gz)
 
 ### Installation after Download
 
@@ -85,12 +85,12 @@ After installing in that manner, plesae the following code in your console
 
 ```r
 .rs.restartR()
-library(R202)
+library(cmu202)
 ```
 
 # Data sets
 
-The R202 packages provides the following data sets:
+The cmu202 packages provides the following data sets:
 
 + Airlines
 + Algebra
@@ -125,7 +125,7 @@ To suggest a change, please open a pull request.
 
 # Contact
 
-For any pressing issues related to the R202 package, please contact the author at:
+For any pressing issues related to the cmu202 package, please contact the author at:
 
 `fkovacs@andrew.cmu.edu`
 

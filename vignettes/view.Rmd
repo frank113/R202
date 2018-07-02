@@ -11,7 +11,7 @@ vignette: >
 ---
 
 ```{r setup, include = FALSE}
-library(R202)
+library(cmu202)
 library(ggplot2)
 
 knitr::opts_chunk$set(
@@ -45,7 +45,7 @@ The `head()` function allows one to see the first 6 rows of data. It is called w
 
 ```{r, eval=TRUE}
 # Load the data for the example
-library(R202)
+library(cmu202)
 data("airlines")
 
 head(airlines)
@@ -57,7 +57,7 @@ The `tail()` function allows one to see the last six rows of data. It is called 
 
 ```{r, eval=TRUE}
 # Load the data for the example
-library(R202)
+library(cmu202)
 data("airlines")
 
 tail(airlines)

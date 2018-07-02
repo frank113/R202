@@ -11,7 +11,7 @@ vignette: >
 ---
 
 ```{r setup, include = FALSE}
-library(R202)
+library(cmu202)
 
 knitr::opts_chunk$set(
   collapse = TRUE,
@@ -30,7 +30,7 @@ When writing R code, good comments are essential. Code comments are pieces of te
 Comments are denoted in R by one or more `#` in a line by itself. Observe the code below:
 
 ```{r, echo=TRUE, eval=FALSE}
-library(R202)
+library(cmu202)
 cat("This is text")
 # Load the library and print some text
 

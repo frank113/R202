@@ -1,21 +1,21 @@
-#' @title List Vignettes available in the R202 Package
+#' @title List Vignettes available in the cmu202 Package
 #'
 #' @name lv
 #'
 #' @description This function provides a wrapper for students to list the available
-#'     vignettes only in the \code{R202} package. \code{lv} returns a \code{vector} 
+#'     vignettes only in the \code{cmu202} package. \code{lv} returns a \code{vector} 
 #'     of vignettes a sstrings, each of which may be passed to the \code{vv()} 
 #'     function.
 #'
 #' @note This command manipulates the datafame returned by 
-#'     \code{vignette(package = "R202")}
+#'     \code{vignette(package = "cmu202")}
 #'
 #' @param None
 #'
 #' @usage lv()
 #'
 #' @return \code{vector}. A vector of \code{string}s indicating the 
-#'     vignettes available in the R202 package. 
+#'     vignettes available in the cmu202 package. 
 #' 
 #' @examples 
 #' # x <- lv()
@@ -29,7 +29,7 @@
 lv <- function() {
   # check to make sure that it is an existing vignette
   vign.var <- suppressWarnings(
-    vignette(package = "R202")
+    vignette(package = "cmu202")
   )
   
   ## get the dataframe

@@ -1,8 +1,8 @@
-citHeader("To cite R202, please use the following citation")
+citHeader("To cite cmu202, please use the following citation")
 
 citEntry(entry = "Manual",
     author = "Francis R. Kovacs",
-    title = "R202: A Companion Package for 36-202 at Carnegie Mellon University",
+    title = "cmu202: A Companion Package for 36-202 at Carnegie Mellon University",
     institution = "Carnegie Mellon University",
     note = "Software developed under the guidance of Professor Rebecca Nugent"
 )

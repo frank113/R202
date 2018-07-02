@@ -11,7 +11,7 @@ vignette: >
 ---
 
 ```{r setup, include = FALSE}
-library(R202)
+library(cmu202)
 library(ggplot2)
 library(dplyr)
 library(readr)
