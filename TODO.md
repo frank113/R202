@@ -1,3 +1,13 @@
+# Post Lab01
+
++ Adding how to upload file
++ Upload how to submit them
++ Upload how to knit file
++ Upload what knitting does
++ Message about lab01 being graded for completion
++ Message about being ready for lab02 --> msut know how to knit and upload
+
+
 # Lab01
 
 + `home/202/classdata` is common to all of them
