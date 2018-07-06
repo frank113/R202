@@ -10,8 +10,6 @@
 #' @note This command produces the same result as 
 #'     \code{vignette(package = "cmu202")}
 #'
-#' @param None
-#'
 #' @usage vl()
 #'
 #' @return \code{Named List}. A named list containing attributes about the
