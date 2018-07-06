@@ -2,5 +2,10 @@ comment: false
 language: R
 sudo: false
 cache: packages
+
+ignore:
+  - "R/list_vignettes.R"
+  - "R/vignette_list.R"
+
 after_success:
   - Rscript -e 'covr::codecov()'
