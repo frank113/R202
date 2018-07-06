@@ -4,5 +4,9 @@ citEntry(entry = "Manual",
     author = "Francis R. Kovacs",
     title = "cmu202: A Companion Package for 36-202 at Carnegie Mellon University",
     institution = "Carnegie Mellon University",
-    note = "Software developed under the guidance of Professor Rebecca Nugent"
+    note = "Software developed under the guidance of Professor Rebecca Nugent",
+    textVersion = paste("Kovacs, Francis R. (2018)", 
+                        "cmu202: An R Package to Complement a Second Course in Statistics"
+                        )
+    
 )
