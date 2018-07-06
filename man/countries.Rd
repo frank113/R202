@@ -39,6 +39,9 @@
 \usage{
 data("countries")
 }
+\description{
+Data DEscribing various countries of the world circa 2004.
+}
 \note{
 The documentation does not auto-update. If one changes the base file,
   this documentation will no longer remain accurate.

@@ -20,6 +20,10 @@
 \usage{
 data("courts")
 }
+\description{
+Data relating to civil right court cases from the mid-1990s to 
+    2001.
+}
 \note{
 The documentation does not auto-update. If one changes the base file,
   this documentation will no longer remain accurate.

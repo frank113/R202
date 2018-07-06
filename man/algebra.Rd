@@ -28,7 +28,7 @@
 data("algebra")
 }
 \description{
-I Wonder what a description does?
+Data assesing how much algebra knowledge is retained.
 }
 \details{
 See what this does

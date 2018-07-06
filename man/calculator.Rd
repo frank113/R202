@@ -4,9 +4,7 @@
 \name{calculator}
 \alias{calculator}
 \alias{calculators}
-\title{Problem scores when using a new calculator for an assesment
-   given to six engineers at a large company. One assesment (two tests) were
-   given to each employee with the old calculator and new calculators.}
+\title{Data Assessing Calculator Effectiveness}
 \format{A dataframe with 24 rows and 4 columns.
 \describe{
   \item{\code{times}}{The time taken to complete the problem.}
@@ -22,6 +20,11 @@
 }}
 \usage{
 data("calculators")
+}
+\description{
+Problem scores when using a new calculator for an assesment
+   given to six engineers at a large company. One assesment (two tests) were
+   given to each employee with the old calculator and new calculators.
 }
 \note{
 The documentation does not auto-update. If one changes the base file,

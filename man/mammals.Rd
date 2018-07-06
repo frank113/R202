@@ -17,6 +17,9 @@
 \usage{
 data("mammals")
 }
+\description{
+Sleep time and gestation of mammals.
+}
 \note{
 36-202 Lab Data.
 }

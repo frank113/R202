@@ -11,6 +11,9 @@
 \usage{
 data("flights")
 }
+\description{
+Flight times for various iterations of United Flight 433.
+}
 \note{
 The documentation does not auto-update. If one changes the base file,
   this documentation will no longer remain accurate.

@@ -8,10 +8,10 @@
 #'	 \item{\code{ArrDelay}}{Arrival delay in minutes (negative means an early arrival)}
 #'	 \item{\code{LateAircraft}}{Was there a delay due to a late aircraft? 1 = Yes 0 = No}
 #' }
-#' @usage data("airlines")
+#' @examples \dontrun{data("airlines")}
 #' @references United States Bureau of Transportation Statistics, 
 #'     On-Time Performance. [Data Set]. Data Filtered by Philipp Burchhardt, 
-#'     Kayla Frisoli and Frank Kovacs. Retrieved from \link{https://transtats.bts.gov/Fields.asp?Table_ID=236}
+#'     Kayla Frisoli and Frank Kovacs. Retrieved from \url{https://transtats.bts.gov/Fields.asp?Table_ID=236}
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note Initially used in 36-200.
@@ -23,7 +23,7 @@
 #' @docType data
 #' @title Retention of algebra among adults.
 #' @details See what this does
-#' @description I Wonder what a description does?
+#' @description Data assesing how much algebra knowledge is retained.
 #' @format A dataframe with 125 rows and 5 columns.
 #' \describe{
 #'   \item{\code{Score}}{Subject's score on algebra test of 100.}
@@ -70,7 +70,7 @@
 #' @usage data("bikes")
 #' @references Fanaee-T, Hadi and Gamma, J "Event Labeling Combining Ensemble Detectors 
 #'     and background knowledge", Progress in Articial Intelligence (2013);
-#'     \link{https://capitalbikeshare.com/system-data}  Data Filtered by Philipp Burchhardt, 
+#'     \url{https://capitalbikeshare.com/system-data}  Data Filtered by Philipp Burchhardt, 
 #'     Kayla Frisoli and Frank Kovacs.
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
@@ -79,7 +79,8 @@
 
 #' @name calculator
 #' @docType data
-#' @title Problem scores when using a new calculator for an assesment
+#' @title Data Assessing Calculator Effectiveness
+#' @description  Problem scores when using a new calculator for an assesment
 #'    given to six engineers at a large company. One assesment (two tests) were
 #'    given to each employee with the old calculator and new calculators.
 #' @format A dataframe with 24 rows and 4 columns.
@@ -105,6 +106,7 @@
 #' @name colvard
 #' @docType data
 #' @title Test Scores for New Employees.
+#' @description Test scores for recently-hired employees.
 #' @author Gordon Weinberg. \email{gordonw@stat.cmu.edu}
 #' @format A dataframe with 120 rows and 5 columns.
 #' \describe{
@@ -125,6 +127,7 @@
 #' @name countries
 #' @docType data
 #' @title Countries of the World
+#' @description Data DEscribing various countries of the world circa 2004.
 #' @format A dataframe with 215 rows and 25 columns.
 #' \describe{
 #'   \item{\code{Country}}{Name of country.}
@@ -167,6 +170,8 @@
 #' @name courts
 #' @docType data
 #' @title Civil rights case statistics
+#' @description Data relating to civil right court cases from the mid-1990s to 
+#'     2001.
 #' @format A dataframe with 150 rows and 3 columns.
 #' \describe{
 #'   \item{\code{TOTDAM}}{Total amount of damages awarded to plaintiff in USD.}
@@ -189,6 +194,8 @@
 #' @name depression
 #' @docType data
 #' @title Depression after an earthquake.
+#' @description Data assessing depression levels in individuals after a large 
+#'     earthquake.
 #' @format A dataframe with 125 rows and 3 columns.
 #' \describe{
 #'   \item{\code{Dep_Score}}{The student's depression score (higher -> more depressed)}
@@ -359,9 +366,11 @@
 #'   this documentation will no longer remain accurate.
 "example"
 
-#' @name facebook_Grey
+#' @name facebook_grey
 #' @docType data
 #' @title Gray Brain Matter and Facebook Friends
+#' @description Data collected from a study relating social media interaction
+#'     and brain structure.
 #' @format A dataframe with 40 rows and 2 columns.
 #' \describe{
 #'   \item{\code{GMdensity}}{Number of Facebook friends.}
@@ -376,6 +385,7 @@
 #' @name flights
 #' @docType data
 #' @title Random sample of flight times of United Airlines Flight 433.
+#' @description Flight times for various iterations of United Flight 433.
 #' @format A dataframe with 31 rows and 1 column.
 #' \describe{
 #'   \item{\code{Time}}{The duration of the flight measured in minutes.}
@@ -390,6 +400,7 @@
 #' @name flu
 #' @docType data
 #' @title Flu shot prevelance by age.
+#' @description Data of prevalance of flu shot participation.
 #' @format A dataframe with 50 rows and 2 columns.
 #' \describe{
 #'   \item{\code{Age}}{Age in years of participant.}
@@ -405,6 +416,7 @@
 #' @name hospital
 #' @docType data
 #' @title Patient Satisfaction with Hospitals.
+#' @description Patient satisfaction with hospitals.
 #' @format A dataframe with 23 rows and 5 columns.
 #' \describe{
 #'   \item{\code{Satisfaction}}{Measured on a satisfaction
@@ -455,6 +467,7 @@
 #' @docType data
 #' @aliases MammalSleep
 #' @title Sleep, Gestation and Danger of Mammals
+#' @description Sleep time and gestation of mammals.
 #' @format A dataset containing 51 rows and 6 columns.
 #' \describe{
 #'   \item{\code{Animal}}{Animal Name}
@@ -472,6 +485,8 @@
 #' @name mum
 #' @docType data
 #' @title Mum and Undesirable Messages
+#' @description Data from a study assessing the effect of visible and invisible
+#'     treatments. 
 #' @format A dataframe with 40 rows and 3 columns.
 #' \describe{
 #'   \item{\code{Time}}{Latency Feedback in seconds.}
@@ -635,7 +650,7 @@
 #' @references Seligman, M.E.P., Nolen-Hoeksema, S., Thornton, N., & Thornton, C.M. (1990). 
 #'     Explanatory style as a mechanism of disappointing athletic performance. 
 #'     Psychological Science, 1, 143-146,as described on 
-#'     \link{http://www.uvm.edu/~dhowell/StatPages/Swimming/Swimming.html}
+#'     \url{http://www.uvm.edu/~dhowell/StatPages/Swimming/Swimming.html}
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note Obtained from the Fall 2015 edition of 36-201.
@@ -644,6 +659,8 @@
 #' @name temp
 #' @docType data
 #' @title Power Load by High Temperature
+#' @description Data relating to the load of a company's power input and 
+#'     temperature.
 #' @format A dataframe with 25 rows and 2 columns.
 #' \describe{
 #'   \item{\code{temp}}{The daily high temperature recorded for the company.}

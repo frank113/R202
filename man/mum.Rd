@@ -19,6 +19,10 @@
 \usage{
 data("mum")
 }
+\description{
+Data from a study assessing the effect of visible and invisible
+    treatments.
+}
 \note{
 36-202 Lab 7 Data.
 }
