@@ -33,7 +33,7 @@ When working in an RMarkdown file, formatting can sometimes be tricky. Adding th
 as text will be indistinguishable from 
 
 ```{r, echo=FALSE, eval=TRUE, comment=""}
-cat(htmltools::includeText("asis_files/asis_example.Rmd"))
+cat(htmltools::includeText("asis_example.txt"))
 ```
 
 when knitted. Note that the `x <- 5` is treated as text, not code. No variable named `x` will be created. 
