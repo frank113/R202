@@ -7,7 +7,7 @@
 vv("vignetteName")
 }
 \arguments{
-\item{\code{vignetteName}}{A \code{string} value indicating the name of the 
+\item{vignetteName}{A \code{string} value indicating the name of the 
 vignette you wish to see. Will return an \code{error} if the argument does 
 not match any existing vignettes.}
 }
