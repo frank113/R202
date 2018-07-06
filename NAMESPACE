@@ -3,4 +3,5 @@
 export(lv)
 export(vl)
 export(vv)
+export(qqn)
 importFrom("utils","vignette")
