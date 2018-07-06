@@ -6,9 +6,6 @@
 \usage{
 lv()
 }
-\arguments{
-\item{None}{}
-}
 \value{
 \code{vector}. A vector of \code{string}s indicating the 
     vignettes available in the cmu202 package.
