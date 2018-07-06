@@ -10,8 +10,6 @@
 #' @note This command manipulates the datafame returned by 
 #'     \code{vignette(package = "cmu202")}
 #'
-#' @param None
-#'
 #' @usage lv()
 #'
 #' @return \code{vector}. A vector of \code{string}s indicating the 

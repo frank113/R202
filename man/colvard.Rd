@@ -15,6 +15,9 @@
 \usage{
 data("colvard")
 }
+\description{
+Test scores for recently-hired employees.
+}
 \note{
 The documentation does not auto-update. If one changes the base file,
   this documentation will no longer remain accurate.

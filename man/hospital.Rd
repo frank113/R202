@@ -19,6 +19,9 @@
 \usage{
 data("hospital")
 }
+\description{
+Patient satisfaction with hospitals.
+}
 \note{
 The documentation does not auto-update. If one changes the base file,
   this documentation will no longer remain accurate.

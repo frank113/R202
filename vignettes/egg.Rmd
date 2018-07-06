@@ -16,7 +16,7 @@ library(ggplot2)
 library(dplyr)
 library(readr)
 
-pokemon <- readr::read_csv("egg_files/pokemon.csv")
+pokemon <- readr::read_csv("egg_pokemon.csv")
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -125,12 +125,12 @@ R vignettes have the ability to images.
 
 ### Including Images
 
-![Mudge House, the home of the author](egg_files/mudge_image.jpg)
+![Mudge House, the home of the author](egg_mudge_image.jpg)
 
 The code to display such an image is given as follows:
 
 ```{asis}
-![Mudge House, the home of the author](egg_files/mudge_image.jpg)
+![Mudge House, the home of the author](egg_mudge_image.jpg)
 ```
 
-Given that `mudge_image.jpg` is in the specified directory.
+Given that `egg_mudge_image.jpg` is in the specified directory.

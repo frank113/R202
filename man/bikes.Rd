@@ -30,7 +30,7 @@ Project 2 data.
 \references{
 Fanaee-T, Hadi and Gamma, J "Event Labeling Combining Ensemble Detectors 
     and background knowledge", Progress in Articial Intelligence (2013);
-    \link{https://capitalbikeshare.com/system-data}  Data Filtered by Philipp Burchhardt, 
+    \url{https://capitalbikeshare.com/system-data}  Data Filtered by Philipp Burchhardt, 
     Kayla Frisoli and Frank Kovacs.
 }
 \keyword{datasets}

@@ -10,7 +10,7 @@
 #'
 #' @note This command is identical to \code{vignette("vignetteName", package = "cmu202")}
 #'
-#' @param \code{vignetteName} A \code{string} value indicating the name of the 
+#' @param vignetteName A \code{string} value indicating the name of the 
 #'     vignette you wish to see. Will return an \code{error} if the argument does 
 #'     not match any existing vignettes. 
 #'

@@ -6,9 +6,6 @@
 \usage{
 vl()
 }
-\arguments{
-\item{None}{}
-}
 \value{
 \code{Named List}. A named list containing attributes about the
     available vignettes. For simplicity, it is recommended that one only

@@ -12,6 +12,10 @@
 \usage{
 data("temp")
 }
+\description{
+Data relating to the load of a company's power input and 
+    temperature.
+}
 \note{
 The documentation does not auto-update. If one changes the base file,
   this documentation will no longer remain accurate.

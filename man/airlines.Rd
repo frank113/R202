@@ -11,7 +11,7 @@
  \item{\code{LateAircraft}}{Was there a delay due to a late aircraft? 1 = Yes 0 = No}
 }}
 \usage{
-data("airlines")
+airlines
 }
 \description{
 A dataset containing federally tracked data for flights. See TO-DO: INSERT INFO FUNCTION
@@ -24,9 +24,12 @@ Initially used in 36-200.
 
 Project 2 data.
 }
+\examples{
+\dontrun{data("airlines")}
+}
 \references{
 United States Bureau of Transportation Statistics, 
     On-Time Performance. [Data Set]. Data Filtered by Philipp Burchhardt, 
-    Kayla Frisoli and Frank Kovacs. Retrieved from \link{https://transtats.bts.gov/Fields.asp?Table_ID=236}
+    Kayla Frisoli and Frank Kovacs. Retrieved from \url{https://transtats.bts.gov/Fields.asp?Table_ID=236}
 }
 \keyword{datasets}

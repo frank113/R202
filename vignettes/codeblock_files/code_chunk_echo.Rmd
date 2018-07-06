@@ -1,5 +1,0 @@
-```{r echo=TRUE, eval=TRUE}
-# echo means the reader will see the code chunk
-# eval means code will be executed
-y <- "A101"
-```

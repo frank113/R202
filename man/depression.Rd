@@ -19,6 +19,10 @@
 \usage{
 data("depression")
 }
+\description{
+Data assessing depression levels in individuals after a large 
+    earthquake.
+}
 \note{
 The documentation does not auto-update. If one changes the base file,
   this documentation will no longer remain accurate.

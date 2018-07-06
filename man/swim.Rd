@@ -37,6 +37,6 @@ Obtained from the Fall 2015 edition of 36-201.
 Seligman, M.E.P., Nolen-Hoeksema, S., Thornton, N., & Thornton, C.M. (1990). 
     Explanatory style as a mechanism of disappointing athletic performance. 
     Psychological Science, 1, 143-146,as described on 
-    \link{http://www.uvm.edu/~dhowell/StatPages/Swimming/Swimming.html}
+    \url{http://www.uvm.edu/~dhowell/StatPages/Swimming/Swimming.html}
 }
 \keyword{datasets}

@@ -1,6 +1,6 @@
 Package: cmu202
 Title: Necessary Packages and Data for 36-202 at Carnegie Mellon University
-Version: 0.3
+Version: 0.3.1
 Authors@R: c(person(given="Frank", family="Kovacs", 
   role=c("aut", "cre"), email="fkovacs@andrew.cmu.edu"))
 Maintainer: Frank Kovacs <fkovacs@andrew.cmu.edu>
@@ -24,14 +24,13 @@ Imports:
   rjson,
   tidyverse,
   utils (>= 3.5.0)
-Depends: R (>= 3.2.0), 
+Depends: R (>= 3.1.0), 
 License: GPL-2
 Encoding: UTF-8
 LazyData: false
 RoxygenNote: 6.0.1
 Suggests: covr,
   htmltools,
-  knitr,
   rmarkdown,
   testthat
 VignetteBuilder: knitr
