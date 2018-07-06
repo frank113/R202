@@ -46,10 +46,11 @@ To install from a pre-made distribution of the package, please follow the direct
 
 #### Windows
 
-Note that windows will use the **binary** release of the package. To download the most recent binary version of the package, find the `.tgz` file at [this link](https://github.com/frank113/cmu202/blob/58ccfefeed47e55c1ab34c6aceccca389c7f8248/cmu202_0.3.tgz)
+Note that windows will use the **binary** release of the package. To download the most recent binary version of the package, find the `.tgz` file at [this link](https://github.com/frank113/cmu202/blob/5f98a0e66150d556f3db869483ce1f1b64b6dcaa/cmu202_0.3.1.tgz)
 
 Older binary links are available at the following links: (note that all versions <= 0.2.2.1 have the name `R202`)
 
++ [0.3.1](https://github.com/frank113/cmu202/blob/5f98a0e66150d556f3db869483ce1f1b64b6dcaa/cmu202_0.3.1.tgz)
 + [0.3](https://github.com/frank113/cmu202/blob/58ccfefeed47e55c1ab34c6aceccca389c7f8248/cmu202_0.3.tgz)
 + [0.2.2.1](https://github.com/frank113/cmu202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/R202_0.2.2.1.tgz)
 + [0.2.2](https://github.com/frank113/cmu202/blob/c13632e8aa08dd885b350ec96d66be85b5167e16/R202_0.2.2.tgz)
@@ -58,10 +59,11 @@ Older binary links are available at the following links: (note that all versions
 
 #### Mac / Linux
 
-To install the `cmu202` package without devtools on a Mac or Linux operating system, please use the **source** release of the package. To download the most recent source version of the package, please download the `.tar.gz` file at [this link](https://github.com/frank113/cmu202/blob/58ccfefeed47e55c1ab34c6aceccca389c7f8248/cmu202_0.3.tar.gz)
+To install the `cmu202` package without devtools on a Mac or Linux operating system, please use the **source** release of the package. To download the most recent source version of the package, please download the `.tar.gz` file at [this link](https://github.com/frank113/cmu202/blob/5f98a0e66150d556f3db869483ce1f1b64b6dcaa/cmu202_0.3.1.tar.gz)
 
 Older source distributions are available at the following links: (note that all versions <= 0.2.2.1 have the name `R202`)
 
++ [0.3.1](https://github.com/frank113/cmu202/blob/5f98a0e66150d556f3db869483ce1f1b64b6dcaa/cmu202_0.3.1.tar.gz)
 + [0.3](https://github.com/frank113/cmu202/blob/58ccfefeed47e55c1ab34c6aceccca389c7f8248/cmu202_0.3.tar.gz)
 + [0.2.2.1](https://github.com/frank113/cmu202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/R202_0.2.2.1.tar.gz)
 + [0.2.2](https://github.com/frank113/cmu202/blob/c13632e8aa08dd885b350ec96d66be85b5167e16/R202_0.2.2.tar.gz)
