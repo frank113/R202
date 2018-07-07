@@ -522,6 +522,28 @@
 #' @note Project 2 data.
 "nyc"
 
+#' @name nflDraft
+#' @docType data
+#' @aliases NFL
+#' @title 2000 NFL Draft Data
+#' @author Gordon Weinberg \email{gordonw@stat.cmu.edu}
+#' @format A dataset containing information about 40 draft prospects from the 2000 NFL Draft.
+#' \describe{
+#' \item{\code{First}}{First name of the prospect.}
+#' \item{\code{Last}}{Last name of the prospect.}
+#' \item{\code{Position}}{\itemize{
+#'   \item{Wide Receiver}
+#'   \item{Guard}
+#'   \item{Offensive Tackle}
+#'   }}
+#' \item{\code{Weight}}{Weight in pounds.}
+#' \item{\code{40Dash}}{Time to run 40 yards measured in seconds.}
+#' \item{\code{Rating}}{Rating as a prospect on a scale of 10.}
+#' }
+#' @usage data("nflDraft")
+#' @note 36-202 Lab Data.
+"nflDraft"
+
 #' @title Nutrition Data
 #' @name nutrition
 #' @docType data
