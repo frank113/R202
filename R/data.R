@@ -377,6 +377,9 @@
 #'   \item{\code{FBfriends}}{Measure of grey matter density in brain regions of interest. Normalized to z scores.}
 #' }
 #' @usage data("facebook_grey")
+#' @references Kanai et al. "Online social network size is reflected in human 
+#'     brain structure." Proceedings of the Royal Society, 2012: 279(1732): 
+#'     1327-1334.
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note 36-202 Homework Data.
