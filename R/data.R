@@ -659,7 +659,7 @@
 #' @note Obtained from the Fall 2015 edition of 36-201.
 "swim"
 
-#' @name temp
+#' @name powerLoad
 #' @docType data
 #' @title Power Load by High Temperature
 #' @description Data relating to the load of a company's power input and 
@@ -669,9 +669,9 @@
 #'   \item{\code{temp}}{The daily high temperature recorded for the company.}
 #'   \item{\code{load}}{The corresponding daily peak power load.}
 #'   }
-#' @usage data("temp")
+#' @usage data("powerLoad")
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
-#' @note 36-202 Lab 3 Data.
-"temp"
+#' @note 36-202 Lab 4 Data.
+"powerLoad"
 
