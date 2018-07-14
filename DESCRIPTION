@@ -1,9 +1,24 @@
 Package: cmu202
 Title: Necessary Packages and Data for 36-202 at Carnegie Mellon University
-Version: 0.3.1.1
-Authors@R: c(person(given="Frank", family="Kovacs", 
-  role=c("aut", "cre"), email="fkovacs@andrew.cmu.edu"))
-Maintainer: Frank Kovacs <fkovacs@andrew.cmu.edu>
+Version: 0.3.1.2
+date: 2018-07-13
+Authors@R: c(
+  person(given="Francis", middle="R", family="Kovacs", 
+    role=c("aut", "cre", "own", "prg"), email="fkovacs@andrew.cmu.edu"), 
+  person(given="Rebecca", family="Nugent", 
+    role=c("dtc", "exp", "ths"), email="rnugent@stat.cmu.edu"), 
+  person(given="Gordon", family="Weinberg", 
+    role=c("dtc", "tch"), email="gordonw@andrew.cmu.edu"), 
+  person(given="Kayla", family="Frisoli", 
+    role=c("wat"), email="kfrisoli@andrew.cmu.edu"), 
+  person(given="Brian", family="Junker", 
+    role=c("aqt"), email="brian@stat.cmu.edu", 
+    comment="Wrote the qqn function with Howard Seltman"), 
+  person(given="Howard", middle="J", family="Seltman", 
+    role=c("aqt"), email="howard@stat.cmu.edu", 
+    comment="Wrote the qqn function with Brian Junker.")
+  )
+Maintainer: Francis R. Kovacs <fkovacs@andrew.cmu.edu>
 Description: This package provides all necessary pacakges and data for 36-202. 
 Imports:
   car (>= 3.0-0),
@@ -25,7 +40,7 @@ Imports:
   ResourceSelection (>= 0.3-2),
   rjson (>= 0.2.20),
   tidyverse (>= 1.2.1),
-  utils (>= 3.5.0)
+  utils
 Depends: R (>= 3.5.0), 
 License: GPL-2
 Encoding: UTF-8
