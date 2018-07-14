@@ -3,7 +3,7 @@ Title: Necessary Packages and Data for 36-202 at Carnegie Mellon University
 Version: 0.3.1.2
 date: 2018-07-13
 Authors@R: c(
-  person(given="Francis", middle="R", family="Kovacs", 
+  person(given="Francis", family="Kovacs", 
     role=c("aut", "cre", "own", "prg"), email="fkovacs@andrew.cmu.edu"), 
   person(given="Rebecca", family="Nugent", 
     role=c("dtc", "exp", "ths"), email="rnugent@stat.cmu.edu"), 
@@ -14,7 +14,7 @@ Authors@R: c(
   person(given="Brian", family="Junker", 
     role=c("aqt"), email="brian@stat.cmu.edu", 
     comment="Wrote the qqn function with Howard Seltman"), 
-  person(given="Howard", middle="J", family="Seltman", 
+  person(given="Howard", family="Seltman", 
     role=c("aqt"), email="howard@stat.cmu.edu", 
     comment="Wrote the qqn function with Brian Junker.")
   )
