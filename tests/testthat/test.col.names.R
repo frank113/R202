@@ -257,12 +257,12 @@ test_that("Swimmers data has correctly named columns", {
   }
 })
 
-# TempLoad
-test_that("Temp has correctly named columns", {
-  data("temp")
+# powerLoad
+test_that("powerLoad has correctly named columns", {
+  data("powerLoad")
   correct.names <- c("temp", "load")
-  df.names <- names(temp)
-  for (i in 1:ncol(temp)) {
+  df.names <- names(powerLoad)
+  for (i in 1:ncol(powerLoad)) {
     expect_equal(df.names[[i]], correct.names[[i]])
   }
 })
