@@ -530,7 +530,8 @@
 #' @aliases NFL
 #' @title 2000 NFL Draft Data
 #' @author Gordon Weinberg \email{gordonw@stat.cmu.edu}
-#' @format A dataset containing information about 40 draft prospects from the 2000 NFL Draft.
+#' @description  A dataset containing information about 40 draft prospects from the 2000 NFL Draft.
+#' @format A dataframe with 40 rows and 6 columns.
 #' \describe{
 #' \item{\code{First}}{First name of the prospect.}
 #' \item{\code{Last}}{Last name of the prospect.}
