@@ -29,7 +29,7 @@ To install the package, run the following code in an R terminal:
 
 ```r
 library(devtools)
-devtools::install_github("frank113/cmu202", build_vignettes = TRUE, version = "0.3.1")
+devtools::install_github("frank113/cmu202", build_vignettes = TRUE, version = "0.3.1.3")
 .rs.restartR()
 library(cmu202)
 ```
