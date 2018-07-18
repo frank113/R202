@@ -197,11 +197,11 @@ test_that("Swimmers data has 16 rows and 2 columns", {
   # rm(swim)
 })
 
-# TempLoad
-test_that("Temp has 25 rows and 2 columns", {
-  data("temp")
-  expect_equal(nrow(temp), 25)
-  expect_equal(ncol(temp), 2)
+# powerLoad
+test_that("powerLoad has 25 rows and 2 columns", {
+  data("powerLoad")
+  expect_equal(nrow(powerLoad), 25)
+  expect_equal(ncol(powerLoad), 2)
   # rm(temp)
 })
 

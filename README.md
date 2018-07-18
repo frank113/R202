@@ -1,8 +1,7 @@
 # cmu202
 
-[![Build Status](https://travis-ci.org/frank113/R202.svg?branch=master)](https://travis-ci.org/frank113/R202)
-[![codecov](https://codecov.io/gh/frank113/R202/branch/master/graph/badge.svg)](https://codecov.io/gh/frank113/R202)
-
+[![Build Status](https://travis-ci.org/frank113/cmu202.svg?branch=master)](https://travis-ci.org/frank113/cmu202)
+[![codecov](https://codecov.io/gh/frank113/cmu202/branch/master/graph/badge.svg)](https://codecov.io/gh/frank113/cmu202)
 R Package for 36-202 at Carnegie Mellon University
 
 cmu202 is an R package designed to compile and collect all R functionality to complement 36-202 at Carnegie Mellon University. The pacakge provides 25 unique data sets used in labs and projects. The package also provides an easy mechanism to install all dependencies needed in the course. A full listing of datasets is available in the appendix below.
@@ -46,10 +45,12 @@ To install from a pre-made distribution of the package, please follow the direct
 
 #### Windows
 
-Note that windows will use the **binary** release of the package. To download the most recent binary version of the package, find the `.tgz` file at [this link](https://github.com/frank113/cmu202/blob/5f98a0e66150d556f3db869483ce1f1b64b6dcaa/cmu202_0.3.1.tgz)
+Note that windows will use the **binary** release of the package. To download the most recent binary version of the package, find the `.tgz` file at [this link](https://github.com/frank113/cmu202/blob/8cde21416db1511cbdfb6c99446ad0c62961a1b9/cmu202_0.3.1.2.tgz).
 
 Older binary links are available at the following links: (note that all versions <= 0.2.2.1 have the name `R202`)
 
++ [0.3.1.2](https://github.com/frank113/cmu202/blob/8cde21416db1511cbdfb6c99446ad0c62961a1b9/cmu202_0.3.1.2.tgz)
++ [0.3.1.1](https://github.com/frank113/cmu202/blob/0557b4ce3ebac89b82d00b51a71b8bda847b1965/cmu202_0.3.1.1.tgz)
 + [0.3.1](https://github.com/frank113/cmu202/blob/5f98a0e66150d556f3db869483ce1f1b64b6dcaa/cmu202_0.3.1.tgz)
 + [0.3](https://github.com/frank113/cmu202/blob/58ccfefeed47e55c1ab34c6aceccca389c7f8248/cmu202_0.3.tgz)
 + [0.2.2.1](https://github.com/frank113/cmu202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/R202_0.2.2.1.tgz)
@@ -59,10 +60,12 @@ Older binary links are available at the following links: (note that all versions
 
 #### Mac / Linux
 
-To install the `cmu202` package without devtools on a Mac or Linux operating system, please use the **source** release of the package. To download the most recent source version of the package, please download the `.tar.gz` file at [this link](https://github.com/frank113/cmu202/blob/5f98a0e66150d556f3db869483ce1f1b64b6dcaa/cmu202_0.3.1.tar.gz)
+To install the `cmu202` package without devtools on a Mac or Linux operating system, please use the **source** release of the package. To download the most recent source version of the package, please download the `.tar.gz` file at [this link](https://github.com/frank113/cmu202/blob/8cde21416db1511cbdfb6c99446ad0c62961a1b9/cmu202_0.3.1.2.tar.gz).
 
 Older source distributions are available at the following links: (note that all versions <= 0.2.2.1 have the name `R202`)
 
++ [0.3.1.2](https://github.com/frank113/cmu202/blob/8cde21416db1511cbdfb6c99446ad0c62961a1b9/cmu202_0.3.1.2.tar.gz)
++ [0.3.1.1](https://github.com/frank113/cmu202/blob/0557b4ce3ebac89b82d00b51a71b8bda847b1965/cmu202_0.3.1.1.tar.gz)
 + [0.3.1](https://github.com/frank113/cmu202/blob/5f98a0e66150d556f3db869483ce1f1b64b6dcaa/cmu202_0.3.1.tar.gz)
 + [0.3](https://github.com/frank113/cmu202/blob/58ccfefeed47e55c1ab34c6aceccca389c7f8248/cmu202_0.3.tar.gz)
 + [0.2.2.1](https://github.com/frank113/cmu202/blob/8afbf1da221e93ec4246a91423ea9f797716b421/R202_0.2.2.1.tar.gz)

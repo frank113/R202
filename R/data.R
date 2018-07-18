@@ -377,6 +377,9 @@
 #'   \item{\code{FBfriends}}{Measure of grey matter density in brain regions of interest. Normalized to z scores.}
 #' }
 #' @usage data("facebook_grey")
+#' @references Kanai et al. "Online social network size is reflected in human 
+#'     brain structure." Proceedings of the Royal Society, 2012: 279(1732): 
+#'     1327-1334.
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
 #' @note 36-202 Homework Data.
@@ -678,7 +681,7 @@
 #' @note Obtained from the Fall 2015 edition of 36-201.
 "swim"
 
-#' @name temp
+#' @name powerLoad
 #' @docType data
 #' @title Power Load by High Temperature
 #' @description Data relating to the load of a company's power input and 
@@ -688,9 +691,9 @@
 #'   \item{\code{temp}}{The daily high temperature recorded for the company.}
 #'   \item{\code{load}}{The corresponding daily peak power load.}
 #'   }
-#' @usage data("temp")
+#' @usage data("powerLoad")
 #' @note  The documentation does not auto-update. If one changes the base file,
 #'   this documentation will no longer remain accurate.
-#' @note 36-202 Lab 3 Data.
-"temp"
+#' @note 36-202 Lab 4 Data.
+"powerLoad"
 
