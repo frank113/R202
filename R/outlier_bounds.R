@@ -79,15 +79,3 @@ outlier_bounds <- function(vect, k = 1.5) {
 }
 
 
-
-inputs <- c(1, 2, 4, -5, 10)
-
-for(input in inputs) {
-  tryCatch(print(paste("log of", input, "=", log(input))),
-           warning = function(w) 
-             {print(paste("negative argument", input));  log(-input)},
-           error = function(e) 
-             {print(paste("non-numeric argument", input)); NaN})
-}
-
-
