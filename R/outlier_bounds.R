@@ -1,50 +1,23 @@
-# Function to provide the upper and lower bounds for \pm k IQR
-
-#' @title Quantile-Normal Plot with Limits
+#' @title Outlier Bounds Using K IQR
 #' 
-#' @author Brian Junker, \email{brian AT stat.cmu.edu}
+#' @author Frank Kovacs, \email{fkovacs AT andrew.cmu.edu}
 #' 
-#' @name qqn
+#' @name outlier_bounds
 #' 
-#' @description A function used to calculate a normal QQ plot with confidence 
-#'     bands representing a 95% confidence interval for the acceptable range
-#'     of values. This function extends the graphing capabilities of base R and 
-#'     implicitly creates a plot that may be added to. 
+#' @description A function used to calculate the bounds containing observations
+#'     not classified as outliers. In short, any observations above the upper 
+#'     limit or below the lower limit will be classified as outliers. 
 #' 
-#' @param x A numeric vector of data for which to create the QQ plot. 
-#' @param ylab A \code{string} indicating the label for the y-axis of the 
-#'     plot. Defaults to the variable name of the argument \code{x}.
-#' @param lty1 The line type for the reference line. See \link{par} for 
-#'     more information. Defaults to \code{1}.
-#' @param lty2 The line types for the confidence intervals. See \link{par}
-#'     for more information. Defaults to \code{1}.
-#' @param swap A boolean value indicating whether to swap the x and y axes. 
-#'     If set to \code{TRUE}, the quantiles of standard normal will be placed on 
-#'     the Y axis. Defaults to \code{FALSE}.
-#' @param conf A boolean value indicating whether to produce the confidence 
-#'     bands. Defaults to \code{TRUE}.
-#' @param ... Other arguments passed to \link{qqnorm}.
+#' @param vect A numeric vector of data for which to calculate bounds. 
+#' @param k A \code{number} the value of k to use when calculating outliers. Defaults
+#'     to 1.5.
 #'
-#' @return An invisible list with the following components: \describe{
-#'   \item{\code{z}}{The normal quantiles.}
-#'   \item{\code{x}}{The input data.}
-#'   \item{\code{slope}}{The slope of the plot.}
-#'   \item{\code{zz}}{The z values sorted in ascending order.}
-#'   \item{\code{P}}{Probability points. See \link{ppoints} for more 
-#'       information.}
-#'   \item{\code{SE}}{The delta-method standard error for the confidence 
-#'       interval.}
-#' }.
-#' Additionally the function will always plot the normal QQ plot. 
+#' @return An object with the following fields: \describe{
+#'   \item{\code{upper}}{The upper bound of non-outlier values.}
+#'   \item{\code{lower}}{The lower bound of non-outlier values.}
+#' }
 #' 
-#' @references Code taken from Howard Seltman's (\email{hseltman AT cmu.edu})
-#'     personal website. \url{http://www.stat.cmu.edu/~hseltman/AboutMe.html}. 
-#'     Code may be found at \url{http://www.stat.cmu.edu/~hseltman/files/qqn.R}.
-#' @references To read more about the delta method of bound calculations, please
-#'     see \url{https://genome.sph.umich.edu/wiki/Code_Sample:_Generating_QQ_Plots_in_R}
-#' @note All documentation and code taken from Brian Junker and Howard Seltman.
-"qqn"
-
+"outlier_bounds"
 outlier_bounds <- function(vect, k = 1.5) {
   if ( !all(is.numeric(vect)) ) {
     stop("vect contains non-numeric values")
