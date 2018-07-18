@@ -8,7 +8,7 @@ cmu202 is an R package designed to compile and collect all R functionality to co
 
 # Features
 
-The cmu202 package is a fully-featured R suite designed to transition students with no programming experience to using R and RStudio in the context of a second university-level course in statistics. 
+The cmu202 package is a fully-featured R suite designed to transition students with no programming experience to using R and RStudio in the context of a second university-level course in statistics.
 
 ## Vignettes
 
@@ -27,17 +27,17 @@ To successfully use the cmu202 package, one must install the following R librari
 To install the package, run the following code in an R terminal:
 
 ```r
-.rs.restartR()
-devtools::install_github("frank113/cmu202", build_vignettes = TRUE, version = "0.3.1.2")
+library(devtools)
+devtools::install_github("frank113/cmu202", build_vignettes = TRUE, version = "0.3.1.3")
 .rs.restartR()
 library(cmu202)
 ```
 
-Note that the `.rs.restartR()` command is critical to the installation of the package, as the restarting of the R session will ensure that the `.rdb` (internal compressed R files) can be properly loaded. 
+Note that the `.rs.restartR()` command is critical to the installation of the package, as the restarting of the R session will ensure that the `.rdb` (internal compressed R files) can be properly loaded.
 
 ## Build from Source
 
-If the above method fails, you may also install the version from a source or binary package. 
+If the above method fails, you may also install the version from a source or binary package.
 
 ### Packaged Versions
 
@@ -74,9 +74,9 @@ Older source distributions are available at the following links: (note that all 
 
 ### Installation after Download
 
-After you have saved the distribution to your personal computer, navigate to the `packages` pane in RStudio and click on the "install" button. 
+After you have saved the distribution to your personal computer, navigate to the `packages` pane in RStudio and click on the "install" button.
 
-Indicate that you wish to install from a "package archive file .tgz, .tar.gz" in the "install from" drop-down. In the "package archive" section, navigate to your recently downloaded distribution. Install the package. 
+Indicate that you wish to install from a "package archive file .tgz, .tar.gz" in the "install from" drop-down. In the "package archive" section, navigate to your recently downloaded distribution. Install the package.
 
 Note that the above may also be duplicated by running the following code in your console (assuming that your distribution is located at `distribution_location`):
 

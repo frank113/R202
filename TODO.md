@@ -1,12 +1,13 @@
-# Post Lab01
+# Vignettes Needed
 
-+ Adding how to upload file
-+ Upload how to submit them
-+ Upload how to knit file
-+ Upload what knitting does
-+ Message about lab01 being graded for completion
-+ Message about being ready for lab02 --> msut know how to knit and upload
-
++ `dplyr` --> Pull (Pull will be made to data$name)
++ `hist()`
++ `boxplot()`
++ variable assignment
++ Data frame structure
++ Subsetting
++ vector assignments
++ chunks redux
 
 # Lab01
 
@@ -37,11 +38,6 @@
 + Vignette for `dplyr::pull` MINIMAL
 + Vignette for `scatterplot`
 + Vignette for Summarize
-
-# Vignettes Needed
-
-+ `dplyr` --> Pull (Pull will be made to data$name)
-
 
 # Short-Term TO-DO
 
