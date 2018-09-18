@@ -1,3 +1,4 @@
+#' @docType package
 #' @keywords internal
 #' @importFrom "utils" "vignette"
 #' @importFrom "stats" "IQR"

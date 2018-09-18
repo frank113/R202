@@ -9,15 +9,15 @@
 This package provides all necessary pacakges and data for 36-202.
 }
 \author{
-\strong{Maintainer}: Francis Kovacs \email{fkovacs@andrew.cmu.edu} [NA, NA]
+\strong{Maintainer}: Francis Kovacs \email{fkovacs@andrew.cmu.edu} [owner, programmer]
 
 Other contributors:
 \itemize{
-  \item Rebecca Nugent \email{rnugent@stat.cmu.edu} [data contributor, NA, thesis advisor]
-  \item Gordon Weinberg \email{gordonw@andrew.cmu.edu} [data contributor, NA]
-  \item Kayla Frisoli \email{kfrisoli@andrew.cmu.edu} [NA]
-  \item Brian Junker \email{brian@stat.cmu.edu} (Wrote the qqn function with Howard Seltman) [NA]
-  \item Howard Seltman \email{howard@stat.cmu.edu} (Wrote the qqn function with Brian Junker.) [NA]
+  \item Rebecca Nugent \email{rnugent@stat.cmu.edu} [data contributor, expert, thesis advisor]
+  \item Gordon Weinberg \email{gordonw@andrew.cmu.edu} [data contributor, teacher]
+  \item Kayla Frisoli \email{kfrisoli@andrew.cmu.edu} [writer of added text]
+  \item Brian Junker \email{brian@stat.cmu.edu} (Wrote the qqn function with Howard Seltman) [author in quotations or text abstracts]
+  \item Howard Seltman \email{howard@stat.cmu.edu} (Wrote the qqn function with Brian Junker.) [author in quotations or text abstracts]
 }
 
 }
