@@ -6,8 +6,8 @@
 \title{Gray Brain Matter and Facebook Friends}
 \format{A dataframe with 40 rows and 2 columns.
 \describe{
-  \item{\code{GMdensity}}{Number of Facebook friends.}
-  \item{\code{FBfriends}}{Measure of grey matter density in brain regions of interest. Normalized to z scores.}
+  \item{\code{GMdensity}}{Measure of grey matter density in brain regions of interest. Normalized to z scores.}
+  \item{\code{FBfriends}}{Number of Facebook friends.}
 }}
 \usage{
 data("facebook_grey")
