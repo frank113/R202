@@ -2,14 +2,13 @@
 % Please edit documentation in R/outlier_bounds.R, R/qqn.R
 \name{qqn}
 \alias{qqn}
-\alias{qqn}
 \title{Quantile-Normal Plot with Limits}
 \usage{
-qqn(x, ylab = deparse(substitute(x)), lty1 = 1, lty2 = 1, swap = FALSE,
-  conf = TRUE, ...)
+qqn(x, ylab = deparse(substitute(x)), lty1 = 1, lty2 = 1,
+  swap = FALSE, conf = TRUE, ...)
 
-qqn(x, ylab = deparse(substitute(x)), lty1 = 1, lty2 = 1, swap = FALSE,
-  conf = TRUE, ...)
+qqn(x, ylab = deparse(substitute(x)), lty1 = 1, lty2 = 1,
+  swap = FALSE, conf = TRUE, ...)
 }
 \arguments{
 \item{x}{A numeric vector of data for which to create the QQ plot.}

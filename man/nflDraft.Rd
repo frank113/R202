@@ -21,6 +21,9 @@
 \usage{
 data("nflDraft")
 }
+\description{
+2000 NFL Draft Data
+}
 \note{
 36-202 Lab Data.
 }

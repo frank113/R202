@@ -330,8 +330,8 @@
 #' @note Obtained from the Spring 2016 edition of 36-202.
 "ethics"
 
-#' Example
-#' @name Example
+#' example
+#' @name example
 #' @docType data
 #' @description A data set generated randomly from a python
 #'   script meant to serve as an example for any type of data --
@@ -373,8 +373,8 @@
 #'     and brain structure.
 #' @format A dataframe with 40 rows and 2 columns.
 #' \describe{
-#'   \item{\code{GMdensity}}{Number of Facebook friends.}
-#'   \item{\code{FBfriends}}{Measure of grey matter density in brain regions of interest. Normalized to z scores.}
+#'   \item{\code{GMdensity}}{Measure of grey matter density in brain regions of interest. Normalized to z scores.}
+#'   \item{\code{FBfriends}}{Number of Facebook friends.}
 #' }
 #' @usage data("facebook_grey")
 #' @references Kanai et al. "Online social network size is reflected in human 
