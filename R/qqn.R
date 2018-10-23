@@ -41,6 +41,8 @@
 #' @references To read more about the delta method of bound calculations, please
 #'     see \url{https://genome.sph.umich.edu/wiki/Code_Sample:_Generating_QQ_Plots_in_R}
 #' @note All documentation and code taken from Brian Junker and Howard Seltman.
+#'
+#' @export
 "qqn"
 
 qqn <- function(x, ylab=deparse(substitute(x)), lty1=1, lty2=1, swap=FALSE,
