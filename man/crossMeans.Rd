@@ -21,7 +21,7 @@ crossMeans(dtf, f1 = "f1", f2 = "f2", y = "y", deci = 1,
 \item{margins}{Set to TRUE to add marginal means. Defaults to \code{FALSE}.}
 }
 \value{
-A named \link{Matrix} with the resulting 2-way table of means.
+A named \link{matrix} with the resulting 2-way table of means.
 }
 \description{
 A function used to calculate a 2 x 2 table of means for use in 

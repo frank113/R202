@@ -14,7 +14,7 @@
 #' @param deci Number of decimal places in the output. Defaults to \code{1}.
 #' @param margins Set to TRUE to add marginal means. Defaults to \code{FALSE}.
 #'
-#' @return A named \link{Matrix} with the resulting 2-way table of means.
+#' @return A named \link{matrix} with the resulting 2-way table of means.
 #' 
 #' @references Code taken from Howard Seltman's (\email{hseltman AT cmu.edu})
 #'     personal website. \url{http://www.stat.cmu.edu/~hseltman/AboutMe.html}. 
