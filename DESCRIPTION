@@ -1,6 +1,6 @@
 Package: cmu202
 Title: Necessary Packages and Data for 36-202 at Carnegie Mellon University
-Version: 0.3.1.4
+Version: 0.3.2
 date: 2018-09-18
 Authors@R: c(
   person(given="Francis", family="Kovacs", 
