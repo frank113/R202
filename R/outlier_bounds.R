@@ -7,7 +7,7 @@
 #' @description A function used to calculate the bounds containing observations
 #'     not classified as outliers. In short, any observations above the upper 
 #'     limit or below the lower limit will be classified as outliers. 
-#' 
+#'
 #' @param vect A numeric vector of data for which to calculate bounds. 
 #' @param k A \code{number} the value of k to use when calculating outliers. Defaults
 #'     to 1.5.
@@ -17,7 +17,9 @@
 #'   \item{\code{lower}}{The lower bound of non-outlier values.}
 #' }
 #' 
+#' @export
 "outlier_bounds"
+
 outlier_bounds <- function(vect, k = 1.5) {
   if ( !all(is.numeric(vect)) ) {
     stop("vect contains non-numeric values")
