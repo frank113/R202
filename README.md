@@ -28,7 +28,7 @@ To install the package, run the following code in an R terminal:
 
 ```r
 library(devtools)
-devtools::install_github("frank113/cmu202", build_vignettes = TRUE, version = "0.3.1.4")
+devtools::install_github("frank113/cmu202", build_vignettes = TRUE, version = "0.3.2")
 .rs.restartR()
 library(cmu202)
 ```
@@ -45,10 +45,11 @@ To install from a pre-made distribution of the package, please follow the direct
 
 #### Windows
 
-Note that windows will use the **binary** release of the package. To download the most recent binary version of the package, find the `.tgz` file at [this link](https://github.com/frank113/cmu202/blob/2ef987c0414672101a856ed887e3a4b6378009cb/cmu202_0.3.1.4.tgz).
+Note that windows will use the **binary** release of the package. To download the most recent binary version of the package, find the `.tgz` file at [this link](https://github.com/frank113/cmu202/blob/7db1a799e58c93fd7ca8709f633639c11b73520b/cmu202_0.3.2.tgz).
 
 Older binary links are available at the following links: (note that all versions <= 0.2.2.1 have the name `R202`)
 
++ [0.3.2](https://github.com/frank113/cmu202/blob/7db1a799e58c93fd7ca8709f633639c11b73520b/cmu202_0.3.2.tgz)
 + [0.3.1.4](https://github.com/frank113/cmu202/blob/2ef987c0414672101a856ed887e3a4b6378009cb/cmu202_0.3.1.4.tgz)
 + [0.3.1.3](https://github.com/frank113/cmu202/blob/090a471f065b4430f6530795cdffa4f254a655e2/cmu202_0.3.1.3.tgz)
 + [0.3.1.2](https://github.com/frank113/cmu202/blob/8cde21416db1511cbdfb6c99446ad0c62961a1b9/cmu202_0.3.1.2.tgz)
@@ -62,10 +63,11 @@ Older binary links are available at the following links: (note that all versions
 
 #### Mac / Linux
 
-To install the `cmu202` package without devtools on a Mac or Linux operating system, please use the **source** release of the package. To download the most recent source version of the package, please download the `.tar.gz` file at [this link](https://github.com/frank113/cmu202/blob/2ef987c0414672101a856ed887e3a4b6378009cb/cmu202_0.3.1.4.tar.gz).
+To install the `cmu202` package without devtools on a Mac or Linux operating system, please use the **source** release of the package. To download the most recent source version of the package, please download the `.tar.gz` file at [this link](https://github.com/frank113/cmu202/blob/7db1a799e58c93fd7ca8709f633639c11b73520b/cmu202_0.3.2.tar.gz).
 
 Older source distributions are available at the following links: (note that all versions <= 0.2.2.1 have the name `R202`)
 
++ [0.3.2](https://github.com/frank113/cmu202/blob/7db1a799e58c93fd7ca8709f633639c11b73520b/cmu202_0.3.2.tar.gz)
 + [0.3.1.4](https://github.com/frank113/cmu202/blob/2ef987c0414672101a856ed887e3a4b6378009cb/cmu202_0.3.1.4.tar.gz)
 + [0.3.1.3](https://github.com/frank113/cmu202/blob/090a471f065b4430f6530795cdffa4f254a655e2/cmu202_0.3.1.3.tar.gz)
 + [0.3.1.2](https://github.com/frank113/cmu202/blob/8cde21416db1511cbdfb6c99446ad0c62961a1b9/cmu202_0.3.1.2.tar.gz)
@@ -147,5 +149,5 @@ I would like to thank the following individuals:
 + Professor Rebecca Nugent
 + Professor Gordon Weinberg
 
-I would also like to cite Kayla Frisoli, the author of many existing vignettes.
+I would also like to cite Howard Seltman, author of some functionality and Kayla Frisoli, author of some vignettes.
 
