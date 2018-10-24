@@ -17,7 +17,7 @@ Other contributors:
   \item Gordon Weinberg \email{gordonw@andrew.cmu.edu} [data contributor, teacher]
   \item Kayla Frisoli \email{kfrisoli@andrew.cmu.edu} [writer of added text]
   \item Brian Junker \email{brian@stat.cmu.edu} (Wrote the qqn function with Howard Seltman) [author in quotations or text abstracts]
-  \item Howard Seltman \email{howard@stat.cmu.edu} (Wrote the qqn function with Brian Junker.) [author in quotations or text abstracts]
+  \item Howard Seltman \email{howard@stat.cmu.edu} (Wrote the qqn function with Brian Junker. Wrote the crossMeans function.) [author in quotations or text abstracts]
 }
 
 }
