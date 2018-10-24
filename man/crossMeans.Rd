@@ -24,7 +24,7 @@ crossMeans(dtf, f1 = "f1", f2 = "f2", y = "y", deci = 1,
 A named \link{matrix} with the resulting 2-way table of means.
 }
 \description{
-A function used to calculate a 2 x 2 table of means for use in 
+A function used to calculate a 2 way table of means for use in 
     ANOVA.
 }
 \note{

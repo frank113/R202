@@ -4,7 +4,7 @@
 #' 
 #' @name crossMeans
 #' 
-#' @description A function used to calculate a 2 x 2 table of means for use in 
+#' @description A function used to calculate a 2 way table of means for use in 
 #'     ANOVA.
 #' 
 #' @param dtf A data frame.
@@ -50,33 +50,33 @@ crossMeans <- function(dtf, f1="f1", f2="f2", y="y", deci=1, margins=FALSE) {
   }
   
   if (!is.factor(dtf[, f1])) {
-    dtf[, f1] <- factor(dtf[, f1])
+    dtf[, f1] <- factor(dtf[[f1]])
   }
   
   if (!is.factor(dtf[, f2])) {
-    dtf[, f2] <- factor(dtf[, f2])
+    dtf[, f2] <- factor(dtf[[f2]])
   }
   
   # compute 2-way means matrix
-  agg <- stats::aggregate(list(meanY=dtf[, y]), 
-                   list(f1=dtf[, f1], f2=dtf[, f2]), 
-                   mean)
-  nLev1 <- length(levels(dtf[, f1]))
+  agg <- stats::aggregate(list(meanY=dtf[[y]]), 
+                          list(f1=dtf[[f1]], f2=dtf[[f2]]), 
+                          mean)
+  nLev1 <- length(levels(dtf[[f1]]))
   tbl <- matrix(agg$meanY, nrow=nLev1)
-  dimnames(tbl) <- list(levels(dtf[, f1]), levels(dtf[, f2]))
+  dimnames(tbl) <- list(levels(dtf[[f1]]), levels(dtf[[f2]]))
   
   # add margins
-  m1 <- stats::aggregate(dtf[, y], 
-                  list(f1=dtf[, f1]), 
-                  mean)$x
-  m2 <- stats::aggregate(dtf[, y], 
-                  list(f2=dtf[, f2]), 
-                  mean)$x
+  m1 <- stats::aggregate(dtf[[y]], 
+                         list(f1=dtf[[f1]]), 
+                         mean)$x
+  m2 <- stats::aggregate(dtf[[y]], 
+                         list(f2=dtf[[f2]]), 
+                         mean)$x
   
   # add in margins
   if (margins) {
     tbl <- cbind(tbl, margin=m1)
-    tbl <- rbind(tbl, margin=c(m2, mean(dtf[, y])))
+    tbl <- rbind(tbl, margin=c(m2, mean(dtf[[y]])))
   }
   
   return(round(tbl, deci))
