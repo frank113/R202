@@ -6,6 +6,7 @@ This file represents a complete log of all binary and source packaging of the pa
 
 Older binary links are available at the following links: (note that all versions <= 0.2.2.1 have the name `R202`)
 
++ [0.3.2.3](https://github.com/frank113/cmu202/blob/df17c9065b8ec413154cec20ad3f63decbacb530/cmu202_0.3.2.3.tgz)
 + [0.3.2.2](https://github.com/frank113/cmu202/blob/41a6bbf120a3297c1c7fd60742d458edff903a54/cmu202_0.3.2.2.tgz)
 + [0.3.2.1](https://github.com/frank113/cmu202/blob/951d894e7902d9b19929df347d4ea502daebd983/cmu202_0.3.2.1.tgz)
 + [0.3.2](https://github.com/frank113/cmu202/blob/7db1a799e58c93fd7ca8709f633639c11b73520b/cmu202_0.3.2.tgz)
@@ -24,6 +25,7 @@ Older binary links are available at the following links: (note that all versions
 
 Older source distributions are available at the following links: (note that all versions <= 0.2.2.1 have the name `R202`)
 
++ [0.3.2.3](https://github.com/frank113/cmu202/blob/df17c9065b8ec413154cec20ad3f63decbacb530/cmu202_0.3.2.3.tar.gz)
 + [0.3.2.2](https://github.com/frank113/cmu202/blob/41a6bbf120a3297c1c7fd60742d458edff903a54/cmu202_0.3.2.2.tar.gz)
 + [0.3.2.1](https://github.com/frank113/cmu202/blob/951d894e7902d9b19929df347d4ea502daebd983/cmu202_0.3.2.1.tar.gz)
 + [0.3.2](https://github.com/frank113/cmu202/blob/7db1a799e58c93fd7ca8709f633639c11b73520b/cmu202_0.3.2.tar.gz)
