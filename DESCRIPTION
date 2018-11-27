@@ -1,6 +1,6 @@
 Package: cmu202
 Title: Necessary Packages and Data for 36-202 at Carnegie Mellon University
-Version: 0.3.2.2
+Version: 0.3.2.3
 date: 2018-10-24
 Authors@R: c(
   person(given="Francis", family="Kovacs", 
@@ -46,7 +46,7 @@ Depends: R (>= 3.5.0)
 License: GPL-2
 Encoding: UTF-8
 LazyData: false
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 Suggests: covr,
   htmltools,
   rmarkdown,

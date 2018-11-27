@@ -4,7 +4,7 @@
 #' 
 #' @name crossMeans
 #' 
-#' @description A function used to calculate a 2 way table of means for use in 
+#' @description A function used to calculate a 2 x 2 table of means for use in 
 #'     ANOVA.
 #' 
 #' @param dtf A data frame.
@@ -20,6 +20,8 @@
 #'     personal website. \url{http://www.stat.cmu.edu/~hseltman/AboutMe.html}. 
 #'
 #' @note Minor style modifications made by Frank Kovacs (\email{fkovacs AT andrew.cmu.edu}).
+#' @note We use the \code{drop = FALSE} in the \code{aggregate} function in the 
+#'     code to account for missing values.
 #' @export
 "crossMeans"
 
@@ -60,7 +62,7 @@ crossMeans <- function(dtf, f1="f1", f2="f2", y="y", deci=1, margins=FALSE) {
   # compute 2-way means matrix
   agg <- stats::aggregate(list(meanY=dtf[[y]]), 
                           list(f1=dtf[[f1]], f2=dtf[[f2]]), 
-                          mean)
+                          mean, drop=FALSE)
   nLev1 <- length(levels(dtf[[f1]]))
   tbl <- matrix(agg$meanY, nrow=nLev1)
   dimnames(tbl) <- list(levels(dtf[[f1]]), levels(dtf[[f2]]))

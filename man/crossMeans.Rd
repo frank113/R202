@@ -24,11 +24,14 @@ crossMeans(dtf, f1 = "f1", f2 = "f2", y = "y", deci = 1,
 A named \link{matrix} with the resulting 2-way table of means.
 }
 \description{
-A function used to calculate a 2 way table of means for use in 
+A function used to calculate a 2 x 2 table of means for use in 
     ANOVA.
 }
 \note{
 Minor style modifications made by Frank Kovacs (\email{fkovacs AT andrew.cmu.edu}).
+
+We use the \code{drop = FALSE} in the \code{aggregate} function in the 
+    code to account for missing values.
 }
 \references{
 Code taken from Howard Seltman's (\email{hseltman AT cmu.edu})
