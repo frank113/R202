@@ -28,7 +28,7 @@ To install the package, run the following code in an R terminal:
 
 ```r
 library(devtools)
-devtools::install_github("frank113/cmu202", build_vignettes = TRUE, version = "0.3.2.3")
+devtools::install_github("frank113/cmu202", build_vignettes = TRUE, version = "0.3.2.4")
 .rs.restartR()
 library(cmu202)
 ```
@@ -45,11 +45,11 @@ To install from a pre-made distribution of the package, please follow the direct
 
 #### Windows
 
-Note that windows will use the **binary** release of the package. To download the most recent binary version of the package, find the `.tgz` file at [this link](https://github.com/frank113/cmu202/blob/df17c9065b8ec413154cec20ad3f63decbacb530/cmu202_0.3.2.3.tgz).
+Note that windows will use the **binary** release of the package. To download the most recent binary version of the package, find the `.tgz` file at [this link](https://github.com/frank113/cmu202/blob/b1cb92501748518a82aaa8e79f357cb494038d99/cmu202_0.3.2.4.tgz).
 
 #### Mac / Linux
 
-To install the `cmu202` package without devtools on a Mac or Linux operating system, please use the **source** release of the package. To download the most recent source version of the package, please download the `.tar.gz` file at [this link](https://github.com/frank113/cmu202/blob/df17c9065b8ec413154cec20ad3f63decbacb530/cmu202_0.3.2.3.tar.gz).
+To install the `cmu202` package without devtools on a Mac or Linux operating system, please use the **source** release of the package. To download the most recent source version of the package, please download the `.tar.gz` file at [this link](https://github.com/frank113/cmu202/blob/b1cb92501748518a82aaa8e79f357cb494038d99/cmu202_0.3.2.4.tar.gz).
 
 ### Installation after Download
 

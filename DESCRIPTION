@@ -1,25 +1,25 @@
 Package: cmu202
 Title: Necessary Packages and Data for 36-202 at Carnegie Mellon University
-Version: 0.3.2.3
-date: 2018-10-24
+Version: 0.3.2.4
+date: 2019-1-29
 Authors@R: c(
-  person(given="Francis", family="Kovacs", 
-    role=c("aut", "cre", "own", "prg"), email="fkovacs@andrew.cmu.edu"), 
-  person(given="Rebecca", family="Nugent", 
-    role=c("dtc", "exp", "ths"), email="rnugent@stat.cmu.edu"), 
-  person(given="Gordon", family="Weinberg", 
-    role=c("dtc", "tch"), email="gordonw@andrew.cmu.edu"), 
-  person(given="Kayla", family="Frisoli", 
-    role=c("wat"), email="kfrisoli@andrew.cmu.edu"), 
-  person(given="Brian", family="Junker", 
-    role=c("aqt"), email="brian@stat.cmu.edu", 
-    comment="Wrote the qqn function with Howard Seltman"), 
-  person(given="Howard", family="Seltman", 
-    role=c("aqt"), email="howard@stat.cmu.edu", 
+  person(given="Francis", family="Kovacs",
+    role=c("aut", "cre", "own", "prg"), email="fkovacs@andrew.cmu.edu"),
+  person(given="Rebecca", family="Nugent",
+    role=c("dtc", "exp", "ths"), email="rnugent@stat.cmu.edu"),
+  person(given="Gordon", family="Weinberg",
+    role=c("dtc", "tch"), email="gordonw@andrew.cmu.edu"),
+  person(given="Kayla", family="Frisoli",
+    role=c("wat"), email="kfrisoli@andrew.cmu.edu"),
+  person(given="Brian", family="Junker",
+    role=c("aqt"), email="brian@stat.cmu.edu",
+    comment="Wrote the qqn function with Howard Seltman"),
+  person(given="Howard", family="Seltman",
+    role=c("aqt"), email="howard@stat.cmu.edu",
     comment="Wrote the qqn function with Brian Junker. Wrote the crossMeans function.")
   )
 Maintainer: Francis R. Kovacs <fkovacs@andrew.cmu.edu>
-Description: This package provides all necessary pacakges and data for 36-202. 
+Description: This package provides all necessary pacakges and data for 36-202.
 Imports:
   car (>= 3.0-0),
   dplyr (>= 0.7.6),
