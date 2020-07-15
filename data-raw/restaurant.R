@@ -10,5 +10,5 @@ restaurant <- dplyr::mutate(restaurant,
 
 # Save the data
 
-readr::write_csv(restaurant, "data-raw/restaurant.csv")
-devtools::use_data(restaurant, overwrite = TRUE)
+## readr::write_csv(restaurant, "data-raw/restaurant.csv")
+usethis::use_data(restaurant, overwrite = TRUE)

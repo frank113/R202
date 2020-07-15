@@ -8,5 +8,5 @@ flu <- dplyr::rename(flu, flu_shot = Flu.Shot)
 
 # Save the data
 
-readr::read_csv(flu, "data-raw/flu.csv")
-devtools::use_data(flu, overwrite = TRUE)
+## readr::read_csv(flu, "data-raw/flu.csv")
+usethis::use_data(flu, overwrite = TRUE)

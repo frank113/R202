@@ -7,4 +7,4 @@ example <- readr::read_csv("data-raw/Example.csv")
 example$Rating <- as.factor(example$Rating)
 
 # Save the data
-devtools::use_data(example, overwrite = TRUE)
+usethis::use_data(example, overwrite = TRUE)

@@ -8,5 +8,5 @@ ethics <- dplyr::mutate(ethics, treatment = as.factor(treatment))
 
 # Save the data
 
-readr::write_csv(ethics, "data-raw/ethics.csv")
-devtools::use_data(ethics, overwrite = TRUE)
+## readr::write_csv(ethics, "data-raw/ethics.csv")
+usethis::use_data(ethics, overwrite = TRUE)

@@ -1,15 +1,15 @@
 # Load in the data
 
-airlines <- data.frame(rjson::fromJSON(file = "data-raw/airlines.json"))
+airlines <- data.frame( rjson::fromJSON(file = "data-raw/airlines.json") )
 
-airlines <- subset(airlines, select = 
+airlines <- subset(airlines, select =
                      c("ArrDelay", "DayOfWeek", "LateAircraft"))
 
 ##### Code in 8-18 taken from Frisoli et al. in preparing it for loading #####
 
 # Converting categorical variables to factors with meaningful levels
 weekday_names <- c("Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun")
-airlines <- airlines %>% 
+airlines <- airlines %>%
   dplyr::mutate(DayOfWeek = factor(DayOfWeek,
                             levels = 1:7,
                             labels = weekday_names),
@@ -19,5 +19,6 @@ airlines <- airlines %>%
 
 # Save it
 
-readr::write_csv(airlines, "data-raw/airlines.csv")
-devtools::use_data(airlines, overwrite = TRUE)
+## readr::write_csv(airlines, "data-raw/airlines.csv")
+usethis::use_data(airlines, overwrite = TRUE)
+

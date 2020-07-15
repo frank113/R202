@@ -10,5 +10,5 @@ depression <- depression %>%
 
 # Save the data
 
-readr::write_csv(depression, "data-raw/depression.csv")
-devtools::use_data(depression, overwrite = TRUE)
+## readr::write_csv(depression, "data-raw/depression.csv")
+usethis::use_data(depression, overwrite = TRUE)

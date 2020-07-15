@@ -12,5 +12,5 @@ detergent <- detergent %>%
 
 # Save the data
 
-readr::write_csv(detergent, "data-raw/detergent.csv")
-devtools::use_data(detergent, overwrite = TRUE)
+## readr::write_csv(detergent, "data-raw/detergent.csv")
+usethis::use_data(detergent, overwrite = TRUE)

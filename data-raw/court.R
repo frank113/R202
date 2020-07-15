@@ -15,5 +15,5 @@ courts <- courts %>%
 
 # Save the data
 
-readr::write_csv(courts, "data-raw/courts.csv")
-devtools::use_data(courts, overwrite = TRUE)
+## readr::write_csv(courts, "data-raw/courts.csv")
+usethis::use_data(courts, overwrite = TRUE)
