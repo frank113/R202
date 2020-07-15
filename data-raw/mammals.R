@@ -1,6 +1,6 @@
 # Load the data
 
-mammals <- readr::read_csv("http://stat.cmu.edu/202/data/mammals.csv")
+mammals <- read.csv("data-raw/mammals.csv")
 
 # Save the data
 

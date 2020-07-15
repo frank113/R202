@@ -1,25 +1,25 @@
 Package: cmu202
 Title: Necessary Packages and Data for 36-202 at Carnegie Mellon University
-Version: 0.3.1.4
-date: 2018-07-18
+Version: 0.3.2.4
+date: 2019-1-29
 Authors@R: c(
-  person(given="Francis", family="Kovacs", 
-    role=c("aut", "cre", "own", "prg"), email="fkovacs@andrew.cmu.edu"), 
-  person(given="Rebecca", family="Nugent", 
-    role=c("dtc", "exp", "ths"), email="rnugent@stat.cmu.edu"), 
-  person(given="Gordon", family="Weinberg", 
-    role=c("dtc", "tch"), email="gordonw@andrew.cmu.edu"), 
-  person(given="Kayla", family="Frisoli", 
-    role=c("wat"), email="kfrisoli@andrew.cmu.edu"), 
-  person(given="Brian", family="Junker", 
-    role=c("aqt"), email="brian@stat.cmu.edu", 
-    comment="Wrote the qqn function with Howard Seltman"), 
-  person(given="Howard", family="Seltman", 
-    role=c("aqt"), email="howard@stat.cmu.edu", 
-    comment="Wrote the qqn function with Brian Junker.")
+  person(given="Francis", family="Kovacs",
+    role=c("aut", "cre", "own", "prg"), email="fkovacs@andrew.cmu.edu"),
+  person(given="Rebecca", family="Nugent",
+    role=c("dtc", "exp", "ths"), email="rnugent@stat.cmu.edu"),
+  person(given="Gordon", family="Weinberg",
+    role=c("dtc", "tch"), email="gordonw@andrew.cmu.edu"),
+  person(given="Kayla", family="Frisoli",
+    role=c("wat"), email="kfrisoli@andrew.cmu.edu"),
+  person(given="Brian", family="Junker",
+    role=c("aqt"), email="brian@stat.cmu.edu",
+    comment="Wrote the qqn function with Howard Seltman"),
+  person(given="Howard", family="Seltman",
+    role=c("aqt"), email="howard@stat.cmu.edu",
+    comment="Wrote the qqn function with Brian Junker. Wrote the crossMeans function.")
   )
 Maintainer: Francis R. Kovacs <fkovacs@andrew.cmu.edu>
-Description: This package provides all necessary pacakges and data for 36-202. 
+Description: This package provides all necessary pacakges and data for 36-202.
 Imports:
   car (>= 3.0-0),
   dplyr (>= 0.7.6),
@@ -30,6 +30,7 @@ Imports:
   gtable (>= 0.2.0),
   kableExtra (>= 0.9.0),
   knitr (>= 1.20),
+  leaps (>= 3.0),
   magrittr (>= 1.5.0),
   MASS,
   multcomp (>= 1.4-8),
@@ -45,7 +46,7 @@ Depends: R (>= 3.5.0)
 License: GPL-2
 Encoding: UTF-8
 LazyData: false
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 Suggests: covr,
   htmltools,
   rmarkdown,
