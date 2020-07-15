@@ -10,5 +10,5 @@ disease <- dplyr::mutate(disease,
 
 # Save the data
 
-readr::write_csv(disease, "data-raw/disease.csv")
-devtools::use_data(disease, overwrite = TRUE)
+## readr::write_csv(disease, "data-raw/disease.csv")
+usethis::use_data(disease, overwrite = TRUE)

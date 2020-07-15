@@ -19,5 +19,6 @@ algebra$ConditionLabels <- factor(algebra$ConditionLabels, levels=c("0-4", "5-10
 
 # Save the data
 
-readr::write_csv(algebra, "data-raw/algebra.csv")
-devtools::use_data(algebra, overwrite = TRUE)
+write.csv(algebra, "data-raw/algebra.csv", row.names = FALSE)
+usethis::use_data(algebra, overwrite = TRUE)
+

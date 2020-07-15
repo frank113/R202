@@ -10,5 +10,5 @@ nyc <- nyc %>% mutate(Gender = factor(Gender,
                       Health = factor(Health))
 
 # Save it
-readr::write_csv(nyc, "data-raw/nyc.csv")
-devtools::use_data(nyc, overwrite = TRUE)
+## readr::write_csv(nyc, "data-raw/nyc.csv")
+usethis::use_data(nyc, overwrite = TRUE)

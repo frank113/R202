@@ -16,5 +16,5 @@ social <- social %>%
 
 
 # Save it
-readr::write_csv(social, "data-raw/social.csv")
-devtools::use_data(social, overwrite = TRUE)
+## readr::write_csv(social, "data-raw/social.csv")
+usethis::use_data(social, overwrite = TRUE)

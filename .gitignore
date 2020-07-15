@@ -29,6 +29,7 @@ vignettes/codeblock_files/code_chunk_images.pptx
 
 installation.Rmd
 
-R/zzz.R
-vignettes/piazza.Rmd
+## Rcheck files
+..Rcheck/
+
 

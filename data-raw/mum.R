@@ -9,5 +9,5 @@ mum <- dplyr::mutate(mum, Visibility = as.factor(Visibility),
 
 # Save the data
 
-readr::write_csv(mum, "data-raw/mum.csv")
-devtools::use_data(mum, overwrite = TRUE)
+## readr::write_csv(mum, "data-raw/mum.csv")
+usethis::use_data(mum, overwrite = TRUE)

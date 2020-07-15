@@ -4,5 +4,5 @@ colvard <- readxl::read_excel("data-raw/COLVARD.xlsx")
 
 # Write the data
 
-readr::write_csv(colvard, "data-raw/colvard.csv")
+write.csv(colvard, "data-raw/colvard.csv", row.names = FALSE)
 devtools::use_data(colvard, overwrite = TRUE)

@@ -15,5 +15,5 @@ nutrition <- nutrition %>%
 
 # Save the data
 
-readr::write_csv(nutrition, "data-raw/nutrition.csv")
-devtools::use_data(nutrition, overwrite = TRUE)
+## readr::write_csv(nutrition, "data-raw/nutrition.csv")
+usethis::use_data(nutrition, overwrite = TRUE)
